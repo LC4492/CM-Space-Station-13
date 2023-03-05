@@ -25313,9 +25313,9 @@
 /area/almayer/command/computerlab)
 "cbo" = (
 /turf/open/floor/almayer{
-	icon_state = "test_floor4"
+	icon_state = "plate"
 	},
-/area/almayer/evacuation/pod4)
+/area/almayer/hull/lower_hull)
 "cbr" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -33015,10 +33015,6 @@
 	icon_state = "abed"
 	},
 /obj/structure/window/reinforced{
-	dir = 4;
-	pixel_y = 4
-	},
-/obj/structure/window/reinforced{
 	dir = 8;
 	layer = 3.3;
 	pixel_y = 4
@@ -33689,11 +33685,6 @@
 "eUC" = (
 /obj/structure/bed{
 	icon_state = "abed"
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	layer = 3.3;
-	pixel_y = 4
 	},
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -42128,10 +42119,6 @@
 /obj/structure/window/reinforced{
 	dir = 8;
 	layer = 3.3;
-	pixel_y = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
 	pixel_y = 4
 	},
 /obj/structure/bed{
@@ -52833,11 +52820,6 @@
 	icon_state = "abed";
 	pixel_y = 12;
 	layer = 3.5
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	layer = 3.3;
-	pixel_y = 4
 	},
 /obj/structure/window/reinforced{
 	dir = 4;
