@@ -58,4 +58,4 @@
 #define U_UMLAUT_RARE (1<<2)
 
 // Misc
-#define MAX_LANGUAGES 3
+#define MAX_LANGUAGES 4
