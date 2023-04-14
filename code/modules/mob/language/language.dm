@@ -10,7 +10,7 @@
 	var/speech_verb = "says"  // 'says', 'hisses', 'farts'.
 	var/ask_verb = "asks" // Used when sentence ends in a ?
 	var/exclaim_verb = "exclaims" // Used when sentence ends in a !
-	var/signlang_verb = list()    // list of emotes that might be displayed if this language has NONVERBAL or SIGNLANG flags
+	var/signlang_verb = list("signs", "gestures")  // list of emotes that might be displayed if this language has NONVERBAL or SIGNLANG flags
 	var/color = "body"  // CSS style to use for strings in this language.
 	var/key = "x" // Character used to speak in language eg. :o for Unathi.
 	var/flags = 0 // Various language flags.

@@ -81,6 +81,13 @@
 	sentence_chance = 50
 	space_chance = 50
 
+/datum/language/sign_language
+	name = LANGUAGE_SIGN
+	desc = "A sign language commonly used for those who are deaf or mute."
+	signlang_verb = list("signs", "gestures")
+	key = "s"
+	flags = SIGNLANG | NONVERBAL
+
 /datum/language/sainja //Yautja tongue
 	name = LANGUAGE_YAUTJA
 	desc = "The deep, rumbling, guttural sounds of the Yautja predators. It is difficult to speak for those without facial mandibles."

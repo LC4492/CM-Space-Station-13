@@ -23,27 +23,32 @@
 /datum/character_trait/language/russian
 	language_name = LANGUAGE_RUSSIAN
 	applyable = TRUE
-	cost = 1
+	cost = 2
 
 /datum/character_trait/language/japanese
 	language_name = LANGUAGE_JAPANESE
 	applyable = TRUE
-	cost = 1
+	cost = 3
 
 /datum/character_trait/language/chinese
 	language_name = LANGUAGE_CHINESE
 	applyable = TRUE
-	cost = 1
+	cost = 3
 
 /datum/character_trait/language/german
 	language_name = LANGUAGE_GERMAN
 	applyable = TRUE
-	cost = 1
+	cost = 2
 
 /datum/character_trait/language/spanish
 	language_name = LANGUAGE_SPANISH
 	applyable = TRUE
 	cost = 1
+
+/datum/character_trait/language/sign_language
+    language_name = LANGUAGE_SIGN
+    applyable = TRUE
+    cost = 1
 
 /datum/character_trait/language/primitive
 	language_name = LANGUAGE_MONKEY
