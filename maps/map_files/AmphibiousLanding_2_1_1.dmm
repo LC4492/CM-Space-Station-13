@@ -307,24 +307,19 @@
 /obj/item/ammo_magazine/shotgun/slugs,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"aG" = (
-/obj/structure/platform/kutjevo/rock{
-	climb_delay = 20;
-	dir = 4;
-	projectile_coverage = 0
+"aH" = (
+/obj/structure/machinery/door_control{
+	id = "Black_Queen2";
+	name = "\improper Pillbox Black Queen Side Shutters";
+	pixel_y = 7;
+	req_access = list(201);
+	pixel_x = 24
 	},
-/obj/structure/platform/kutjevo/rock{
-	projectile_coverage = 0
+/turf/open/floor/prison{
+	dir = 5;
+	icon_state = "darkyellow2"
 	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo/rock,
-/turf/open/floor/almayer_hull{
-	dir = 8;
-	icon_state = "outerhull_dir";
-	name = "Reinforced Structure";
-	tag = "icon-outerhull_dir (WEST)"
-	},
-/area/event/dynamic/lit/unpowered)
+/area/event/metal/dynamic/lit)
 "aI" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/ocean,
@@ -420,11 +415,31 @@
 	},
 /turf/open/gm/river/ocean,
 /area/event/underground_no_CAS)
+"aS" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/toy/deck/uno{
+	name = "deck of ODIN cards"
+	},
+/turf/open/floor/prison,
+/area/event/metal/dynamic/lit)
 "aT" = (
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"aU" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "aW" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/platform/kutjevo{
@@ -830,6 +845,11 @@
 /obj/structure/prop/dam/truck/damaged,
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"bM" = (
+/turf/closed/wall/almayer{
+	name = "Pillar"
+	},
+/area/event/metal/dynamic/lit)
 "bN" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -853,16 +873,6 @@
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor/carpet,
 /area/event/deep_underground/dynamic)
-"bP" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/structure/platform/kutjevo,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "bQ" = (
 /obj/structure/closet/crate/secure/surgery,
 /turf/open/floor/corsat{
@@ -1004,41 +1014,24 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
-"cb" = (
+"cc" = (
+/obj/structure/platform_decoration/kutjevo,
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -1114,42 +1107,14 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/unpowered)
-"cq" = (
-/obj/effect/mist{
-	can_block_movement = 1;
-	density = 1;
-	opacity = 1
-	},
-/turf/open/gm/dirtgrassborder{
-	icon_state = "desert2"
-	},
-/area/event/dynamic/lit/unpowered)
 "cr" = (
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
 "ct" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
 "cu" = (
@@ -1269,18 +1234,14 @@
 	},
 /area/event/dynamic/lit/unpowered)
 "cE" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med/lifeboat{
+	name = "Medical Cabinet";
+	pixel_x = 27
 	},
-/turf/open/floor/almayer_hull,
+/turf/open/floor/prison{
+	dir = 5;
+	icon_state = "darkyellow2"
+	},
 /area/event/metal/dynamic/lit)
 "cF" = (
 /obj/structure/surface/rack,
@@ -1327,15 +1288,6 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
-"cL" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/almayer_hull{
-	dir = 9;
-	icon_state = "outerhull_dir";
-	name = "Reinforced Structure";
-	tag = "icon-outerhull_dir (NORTHWEST)"
-	},
-/area/event/dynamic/lit/unpowered)
 "cM" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/corsat{
@@ -1396,6 +1348,40 @@
 	opacity = 1
 	},
 /turf/open/gm,
+/area/event/dynamic/lit/unpowered)
+"cV" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 1;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/kutjevo{
+	density = 0;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
 /area/event/dynamic/lit/unpowered)
 "cW" = (
 /turf/open/floor/corsat{
@@ -1825,15 +1811,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
-"dB" = (
-/obj/structure/surface/table/gamblingtable,
-/obj/item/toy/deck,
-/obj/structure/platform/kutjevo,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "dD" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -1874,6 +1851,48 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"dF" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "dG" = (
 /obj/structure/platform/kutjevo/rock{
 	climb_delay = 20;
@@ -1924,8 +1943,9 @@
 	},
 /area/event/deep_underground/dynamic)
 "dM" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/structure/platform/kutjevo,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
@@ -1939,6 +1959,14 @@
 /obj/item/clothing/under/marine/veteran/UPP/officer,
 /turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
+"dO" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "dP" = (
 /obj/structure/platform/kutjevo/rock{
 	climb_delay = 20;
@@ -1962,6 +1990,45 @@
 "dR" = (
 /turf/open/gm/dirtgrassborder2{
 	icon_state = "grassdirt2_corner"
+	},
+/area/event/dynamic/lit/unpowered)
+"dS" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
 "dT" = (
@@ -2162,6 +2229,48 @@
 	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
+"eu" = (
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "ev" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/head/helmet/marine/veteran/UPP,
@@ -2189,17 +2298,6 @@
 	name = "Pre-Fabricated wall"
 	},
 /area/event/metal/dynamic/lit)
-"ex" = (
-/obj/structure/platform/kutjevo/rock{
-	projectile_coverage = 0
-	},
-/obj/effect/mist{
-	can_block_movement = 1;
-	density = 1;
-	opacity = 1
-	},
-/turf/open/gm,
-/area/event/dynamic/lit/unpowered)
 "ey" = (
 /obj/structure/machinery/cm_vending/sorted/medical/marinemed/antag,
 /turf/open/floor/corsat{
@@ -2487,6 +2585,46 @@
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
+/area/event/dynamic/lit/unpowered)
+"fb" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
 "fc" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
@@ -2784,16 +2922,6 @@
 	dir = 8
 	},
 /area/event/dynamic/lit/unpowered)
-"fA" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "fB" = (
 /obj/structure/barricade/metal/wired{
 	brute_multiplier = 0.5;
@@ -3064,20 +3192,52 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic/lit)
+"gg" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "gj" = (
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/wood,
 /area/event/metal/dynamic)
-"gk" = (
-/obj/structure/machinery/door/airlock/almayer/generic{
-	dir = 2;
-	name = "Pillbox Black Rook";
-	req_one_access_txt = "201"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/event/metal/dynamic/lit)
 "gl" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -3432,6 +3592,15 @@
 	},
 /turf/open/floor/almayer,
 /area/event/metal/dynamic/lit)
+"gP" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "gQ" = (
 /turf/open/floor/plating{
 	icon_state = "platebot"
@@ -3529,6 +3698,31 @@
 	icon_state = "cult"
 	},
 /area/event/metal/dynamic/lit)
+"hc" = (
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "hd" = (
 /turf/open/gm/coast{
 	dir = 4;
@@ -3595,6 +3789,17 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
+"hp" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform_decoration/kutjevo/rock{
+	dir = 1
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "hq" = (
 /turf/open/floor/almayer{
 	icon_state = "sterile_green";
@@ -3640,24 +3845,6 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
-"hu" = (
-/obj/structure/machinery/m56d_hmg/auto{
-	dir = 1;
-	name = "\improper T37 Medium Machinegun"
-	},
-/obj/structure/barricade/metal/wired{
-	brute_multiplier = 0.5;
-	burn_multiplier = 0.1;
-	dir = 1;
-	explosive_multiplier = 0.75;
-	upgraded = 1;
-	upgrade = explosive;
-	is_wired = 1
-	},
-/turf/open/floor{
-	icon_state = "cult"
-	},
-/area/event/metal/dynamic/lit)
 "hv" = (
 /turf/closed/wall/wood,
 /area/event/metal/dynamic/lit)
@@ -3752,18 +3939,6 @@
 /obj/item/ammo_magazine/pistol/c99,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"hD" = (
-/obj/structure/surface/rack,
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/turf/open/floor{
-	icon_state = "cult"
-	},
-/area/event/metal/dynamic/lit)
 "hF" = (
 /turf/open/floor/prison{
 	dir = 5;
@@ -3799,6 +3974,22 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"hM" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 8;
+	projectile_coverage = 0
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "hN" = (
 /obj/structure/machinery/light,
 /turf/open/floor/corsat{
@@ -3943,17 +4134,14 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/event/metal/dynamic/lit)
 "ic" = (
-/obj/structure/barricade/metal/wired{
-	brute_multiplier = 0.5;
-	burn_multiplier = 0.1;
-	dir = 1;
-	explosive_multiplier = 0.75;
-	upgraded = 1;
-	upgrade = explosive;
-	is_wired = 1
+/obj/structure/surface/rack,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/structure/sign/poster/clf{
+	pixel_y = 32
 	},
-/turf/open/floor{
-	icon_state = "cult"
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellowfull2"
 	},
 /area/event/metal/dynamic/lit)
 "id" = (
@@ -4281,38 +4469,6 @@
 	icon_state = "desert1"
 	},
 /area/event/dynamic/lit/unpowered)
-"iS" = (
-/obj/structure/bed{
-	buckling_y = 13;
-	layer = 3.5;
-	pixel_y = 13
-	},
-/obj/structure/bed{
-	can_buckle = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	layer = 3.3;
-	pixel_y = 4
-	},
-/obj/item/bedsheet/rainbow{
-	layer = 3.4
-	},
-/obj/item/bedsheet/rainbow{
-	pixel_y = 12
-	},
-/obj/item/prop/tableflag{
-	anchored = 1;
-	name = "Union of Progressive People's Flag";
-	pixel_y = 32
-	},
-/turf/open/floor/wood,
-/area/event/metal/dynamic/lit)
 "iU" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/reagent_container/food/drinks/bottle/wine{
@@ -4355,13 +4511,6 @@
 	dir = 1
 	},
 /turf/open/floor/interior/wood/alt,
-/area/event/metal/dynamic/lit)
-"iW" = (
-/obj/item/ammo_box/magazine/type71,
-/obj/structure/surface/rack,
-/turf/open/floor{
-	icon_state = "cult"
-	},
 /area/event/metal/dynamic/lit)
 "iX" = (
 /obj/structure/closet/secure_closet/freezer/fridge/groceries,
@@ -4746,15 +4895,6 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic)
-"jF" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med/lifeboat{
-	name = "Medical Cabinet";
-	pixel_x = -27
-	},
-/turf/open/floor{
-	icon_state = "cult"
-	},
-/area/event/metal/dynamic/lit)
 "jG" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor{
 	dir = 1;
@@ -4764,16 +4904,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
-"jH" = (
-/obj/structure/bed/chair/wood/wings{
-	dir = 4
-	},
-/obj/structure/platform/kutjevo,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "jI" = (
 /obj/structure/platform/kutjevo{
 	dir = 4;
@@ -5090,12 +5220,9 @@
 	},
 /area/event/metal/dynamic/lit)
 "kg" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med/lifeboat{
-	name = "Medical Cabinet";
-	pixel_x = 27
-	},
-/turf/open/floor{
-	icon_state = "cult"
+/turf/open/floor/prison{
+	icon_state = "darkyellow2";
+	dir = 6
 	},
 /area/event/metal/dynamic/lit)
 "kh" = (
@@ -5145,6 +5272,16 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
+"kp" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/obj/item/prop/colony/folded_bedroll,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "kr" = (
 /obj/item/storage/fancy/cigar/matchbook/brown{
 	pixel_x = 6
@@ -5363,6 +5500,62 @@
 	},
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"kM" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
+"kN" = (
+/obj/structure/machinery/door_control{
+	id = "Black_Bishop";
+	name = "\improper Pillbox Black Bishop Side Shutters";
+	pixel_y = 7;
+	req_access = list(201);
+	pixel_x = -24
+	},
+/turf/open/floor/prison{
+	dir = 9;
+	icon_state = "darkyellow2"
+	},
+/area/event/metal/dynamic/lit)
 "kO" = (
 /obj/structure/platform{
 	dir = 1;
@@ -5388,32 +5581,29 @@
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
 "kR" = (
-/obj/structure/bed{
-	buckling_y = 13;
-	layer = 3.5;
-	pixel_y = 13
-	},
-/obj/structure/bed{
-	can_buckle = 0
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/structure/window/reinforced{
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
 	dir = 8;
-	layer = 3.3;
-	pixel_y = 4
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
 	},
-/obj/item/bedsheet/rainbow{
-	layer = 3.4
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
 	},
-/obj/item/bedsheet/rainbow{
-	pixel_y = 12
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
 	},
-/turf/open/floor/wood,
-/area/event/metal/dynamic/lit)
+/area/event/dynamic/lit/unpowered)
 "kS" = (
 /obj/structure/machinery/computer/crew/upp,
 /obj/structure/window/reinforced/toughened{
@@ -6165,6 +6355,48 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"mb" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "md" = (
 /turf/closed/shuttle/ert{
 	icon_state = "rightengine_2";
@@ -6222,18 +6454,18 @@
 	},
 /area/event/deep_underground/dynamic)
 "mk" = (
-/obj/structure/platform/kutjevo/rock{
-	climb_delay = 20;
-	dir = 4;
-	projectile_coverage = 0
+/obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
+	name = "Pillbox Black Bishop"
 	},
-/turf/open/floor/almayer_hull{
-	dir = 8;
-	icon_state = "outerhull_dir";
-	name = "Reinforced Structure";
-	tag = "icon-outerhull_dir (WEST)"
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "Black_Bishop";
+	name = "Pillbox Black Bishop";
+	dir = 8
 	},
-/area/event/dynamic/lit/unpowered)
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/metal/dynamic/lit)
 "ml" = (
 /obj/structure/fence,
 /turf/open/gm/dirtgrassborder{
@@ -6393,45 +6625,6 @@
 /obj/structure/prop/cash_register,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"mD" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "mE" = (
 /obj/item/weapon/gun/pistol/vp78,
 /obj/item/ammo_magazine/pistol/vp78,
@@ -6584,6 +6777,31 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"mN" = (
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "mO" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/autoname{
 	dir = 1;
@@ -6973,69 +7191,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
-"nz" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
-"nA" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "nB" = (
 /obj/structure/machinery/medical_pod/autodoc{
 	dir = 1
@@ -7193,22 +7348,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"nQ" = (
-/obj/structure/platform/kutjevo/rock{
-	climb_delay = 20;
-	dir = 4;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo/rock{
-	projectile_coverage = 0
-	},
-/turf/open/floor/almayer_hull{
-	dir = 8;
-	icon_state = "outerhull_dir";
-	name = "Reinforced Structure";
-	tag = "icon-outerhull_dir (WEST)"
-	},
-/area/event/dynamic/lit/unpowered)
 "nR" = (
 /obj/effect/vehicle_spawner/van/decrepit{
 	dir = 8
@@ -7310,31 +7449,6 @@
 	icon_state = "grassdirt2_corner2"
 	},
 /area/event/dynamic/lit)
-"oa" = (
-/obj/structure/stairs/perspective/kutjevo,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "ob" = (
 /obj/structure/machinery/body_scanconsole,
 /turf/open/floor/corsat{
@@ -7646,6 +7760,16 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
+"oD" = (
+/obj/structure/transmitter/touchtone{
+	phone_category = "UPP";
+	phone_id = "Supply Depot White Rook"
+	},
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor{
+	icon_state = "cult"
+	},
+/area/event/metal/dynamic/lit)
 "oE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/overwatch/upp{
@@ -7681,12 +7805,6 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
-	},
-/area/event/metal/dynamic/lit)
-"oI" = (
-/obj/structure/machinery/optable,
-/turf/open/floor/corsat{
-	icon_state = "greenwhite"
 	},
 /area/event/metal/dynamic/lit)
 "oJ" = (
@@ -7732,51 +7850,6 @@
 	icon_state = "barber"
 	},
 /area/event/metal/dynamic/lit)
-"oO" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	density = 0;
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "oQ" = (
 /obj/structure/barricade/sandbags{
 	brute_multiplier = 0;
@@ -8158,14 +8231,6 @@
 	icon_state = "purple"
 	},
 /area/event/deep_underground/dynamic)
-"px" = (
-/obj/structure/surface/table/almayer{
-	indestructible = 1
-	},
-/turf/open/floor/corsat{
-	icon_state = "greenwhite"
-	},
-/area/event/metal/dynamic/lit)
 "py" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -8233,9 +8298,25 @@
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
 "pH" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/effect/landmark/objective_landmark/close,
-/obj/structure/platform/kutjevo,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/bed/bedroll,
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
@@ -8466,6 +8547,14 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"qa" = (
+/obj/item/prop/colony/folded_bedroll,
+/obj/structure/platform_decoration/kutjevo,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "qb" = (
 /turf/open/floor/corsat{
 	dir = 4;
@@ -9283,6 +9372,24 @@
 	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
+"rq" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"rr" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/obj/item/prop/colony/folded_bedroll,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "rs" = (
 /obj/structure/barricade/handrail/sandstone/b{
 	dir = 4;
@@ -9399,6 +9506,14 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"rA" = (
+/obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
+	name = "Pillbox Black Bishop"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/metal/dynamic/lit)
 "rB" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 1
@@ -9406,6 +9521,19 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_side"
+	},
+/area/event/metal/dynamic/lit)
+"rD" = (
+/obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
+	name = "Pillbox Black Queen"
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "Black_Queen1";
+	name = "Pillbox Black Queen";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
 "rE" = (
@@ -9609,6 +9737,47 @@
 /obj/item/weapon/gun/shotgun/merc,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"rU" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "rV" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/lifeboat{
 	name = "Medical Cabinet";
@@ -9686,6 +9855,11 @@
 /obj/item/explosive/plastic/breaching_charge,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"se" = (
+/obj/structure/surface/table/gamblingtable,
+/obj/item/toy/deck,
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "sf" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/condiment/hotsauce/tabasco,
@@ -9802,12 +9976,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"sx" = (
-/obj/structure/machinery/iv_drip,
-/turf/open/floor/corsat{
-	icon_state = "greenwhite"
-	},
-/area/event/metal/dynamic/lit)
 "sy" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/crew/upp,
@@ -9816,15 +9984,6 @@
 	tag = "icon-sterile"
 	},
 /area/event/deep_underground/dynamic)
-"sz" = (
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/surface/rack,
-/turf/open/floor{
-	icon_state = "cult"
-	},
-/area/event/metal/dynamic/lit)
 "sA" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/flashlight/lamp,
@@ -9894,6 +10053,13 @@
 	icon_state = "cult"
 	},
 /area/event/metal/dynamic/lit)
+"sK" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 4;
+	layer = 2.3
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "sL" = (
 /obj/item/stool{
 	pixel_y = 20
@@ -10031,6 +10197,14 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"sX" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/event/metal/dynamic/lit)
 "ta" = (
 /obj/structure/pipes/unary/freezer,
 /obj/structure/machinery/light{
@@ -10141,6 +10315,45 @@
 "tg" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm,
+/area/event/dynamic/lit/unpowered)
+"th" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
 /area/event/dynamic/lit/unpowered)
 "ti" = (
 /obj/structure/machinery/space_heater/radiator{
@@ -10595,6 +10808,11 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"ui" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/prison,
+/area/event/metal/dynamic/lit)
 "uk" = (
 /obj/structure/platform{
 	dir = 8
@@ -11291,21 +11509,6 @@
 	density = 0
 	},
 /turf/open/asphalt/cement,
-/area/event/dynamic/lit/unpowered)
-"vc" = (
-/obj/structure/stairs/perspective{
-	color = "#b29082";
-	dir = 1;
-	icon_state = "p_stair_full"
-	},
-/obj/structure/platform/kutjevo{
-	density = 0;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
 /area/event/dynamic/lit/unpowered)
 "vd" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -12883,12 +13086,6 @@
 /obj/item/ammo_magazine/minigun,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"xy" = (
-/turf/open/floor/corsat{
-	dir = 5;
-	icon_state = "greenwhite"
-	},
-/area/event/metal/dynamic/lit)
 "xz" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/stack/sheet/mineral/silver/small_stack,
@@ -13142,14 +13339,6 @@
 	icon_state = "darkgreen"
 	},
 /area/event/deep_underground/dynamic)
-"xT" = (
-/obj/structure/surface/rack,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "darkyellowfull2"
-	},
-/area/event/metal/dynamic/lit)
 "xU" = (
 /obj/structure/machinery/cm_vending/sorted/medical/marinemed/antag,
 /turf/open/floor/corsat{
@@ -13365,6 +13554,14 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"yr" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "ys" = (
 /obj/structure/bed/sofa/pews/flipped,
 /obj/structure/barricade/sandbags{
@@ -13500,12 +13697,6 @@
 /obj/structure/mineral_door/wood,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"yC" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/device/flashlight/lamp,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/wood,
-/area/event/metal/dynamic/lit)
 "yD" = (
 /obj/structure/closet/cabinet,
 /obj/effect/landmark/objective_landmark/medium,
@@ -13537,6 +13728,31 @@
 /obj/structure/blocker/invisible_wall,
 /turf/closed/wall/r_wall/bunker/floodgate,
 /area/event/deep_underground/dynamic)
+"yJ" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/bed/bedroll,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "yL" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/reagent_container/food/drinks/bottle/beer/craft/tazhushka,
@@ -13688,6 +13904,49 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"yT" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
+"yU" = (
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "yV" = (
 /obj/structure/sink{
 	dir = 8;
@@ -13827,48 +14086,12 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic)
-"zj" = (
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
+"zk" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
+/turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
 "zl" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood/antag,
@@ -14142,6 +14365,23 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"zM" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "zN" = (
 /obj/structure/sign/safety/medical{
 	pixel_x = 32
@@ -14181,6 +14421,17 @@
 /obj/structure/prop/rock/black_ground,
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/underground_no_CAS/dynamic/unpowered)
+"zR" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform_decoration/kutjevo/rock,
+/turf/open/gm/dirtgrassborder{
+	icon_state = "desert2"
+	},
+/area/event/dynamic/lit/unpowered)
 "zS" = (
 /obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_knight{
 	anchored = 1;
@@ -14207,18 +14458,6 @@
 /obj/item/stack/sheet/mineral/gold/small_stack,
 /obj/item/stack/sheet/mineral/gold/small_stack,
 /turf/open/floor,
-/area/event/metal/dynamic/lit)
-"zY" = (
-/obj/structure/surface/table/almayer{
-	indestructible = 1
-	},
-/obj/item/roller,
-/obj/item/roller,
-/obj/item/roller,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "greenwhite"
-	},
 /area/event/metal/dynamic/lit)
 "zZ" = (
 /turf/open/floor/almayer{
@@ -14247,6 +14486,15 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"Ad" = (
+/obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
+	name = "Pillbox Black Bishop";
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/metal/dynamic/lit)
 "Ae" = (
 /turf/closed/wall/r_wall/bunker{
 	damage_cap = 25000;
@@ -14740,6 +14988,12 @@
 	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
+"Bd" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 8
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "Be" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/ammo_magazine/smg/m39,
@@ -14961,6 +15215,45 @@
 /obj/item/attachable/lasersight,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"By" = (
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Bz" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_container/food/snacks/grown/grapes,
@@ -15011,6 +15304,13 @@
 	stack_amount = 50;
 	starting_maxhealth = 500
 	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"BC" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo,
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -15276,6 +15576,48 @@
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"Cc" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Cd" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/flashlight/lamp{
@@ -15344,16 +15686,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
-"Cj" = (
-/obj/structure/bed/chair/wood/wings{
-	dir = 8
-	},
-/obj/structure/platform/kutjevo,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Ck" = (
 /obj/structure/kitchenspike,
 /obj/effect/decal/cleanable/blood,
@@ -15474,15 +15806,6 @@
 /obj/structure/closet/cabinet,
 /obj/item/weapon/classic_baton,
 /turf/open/floor/wood,
-/area/event/metal/dynamic/lit)
-"Cy" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "greenwhite"
-	},
 /area/event/metal/dynamic/lit)
 "Cz" = (
 /obj/structure/platform/kutjevo{
@@ -15688,31 +16011,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
-"CV" = (
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "CX" = (
 /obj/item/clothing/accessory/armband/science{
 	name = "purple squad"
@@ -16109,18 +16407,47 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
-"DL" = (
-/obj/structure/transmitter/touchtone{
-	phone_category = "UPP";
-	phone_id = "UPP Pillbox Black Bishop"
+"DM" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
 	},
-/obj/structure/surface/table/almayer{
-	indestructible = 1
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
 	},
-/turf/open/floor{
-	icon_state = "cult"
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
 	},
-/area/event/metal/dynamic/lit)
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "DN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -16394,9 +16721,6 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
-"Ep" = (
-/turf/open/gm/grass,
-/area/event/underground_no_CAS)
 "Eq" = (
 /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot,
 /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot,
@@ -16491,6 +16815,31 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"EB" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/bed/bedroll,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "EC" = (
 /obj/effect/attach_point/weapon/dropship1/right_fore,
 /turf/open/gm/river/ocean,
@@ -16524,34 +16873,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
-"EI" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/machinery/m56d_hmg/auto{
-	dir = 8;
-	name = "\improper T37 Medium Machinegun"
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "EJ" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ashtray/glass,
@@ -16720,6 +17041,15 @@
 /obj/item/ammo_magazine/shotgun/buckshot,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Fb" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Fc" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -16734,6 +17064,31 @@
 /obj/item/device/whistle,
 /turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
+"Fe" = (
+/obj/item/prop/colony/folded_bedroll,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Fg" = (
 /obj/structure/surface/table/almayer,
 /obj/item/prop/almayer/handheld1,
@@ -16772,6 +17127,16 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"Fo" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med/lifeboat{
+	name = "Medical Cabinet";
+	pixel_x = -27
+	},
+/turf/open/floor/prison{
+	dir = 9;
+	icon_state = "darkyellow2"
+	},
+/area/event/metal/dynamic/lit)
 "Fp" = (
 /obj/structure/machinery/colony_floodlight{
 	name = "Light Pole"
@@ -16798,6 +17163,9 @@
 "Fs" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -16946,16 +17314,6 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
-"FC" = (
-/obj/effect/mist{
-	can_block_movement = 1;
-	density = 1;
-	opacity = 1
-	},
-/turf/open/gm/dirtgrassborder{
-	icon_state = "desert0"
-	},
-/area/event/dynamic/lit/unpowered)
 "FD" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -17413,6 +17771,7 @@
 	pixel_x = -25;
 	density = 0
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -17454,6 +17813,40 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
+"GH" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 1;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	density = 0;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "GJ" = (
 /obj/structure/bed/chair/wood/wings,
 /obj/structure/machinery/light{
@@ -17985,32 +18378,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"HM" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/surface/table/gamblingtable,
-/obj/item/toy/deck,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "HN" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -18153,6 +18520,45 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
+"Id" = (
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "If" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/reagent_container/food/snacks/grown/pumpkin,
@@ -18204,6 +18610,46 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
+"Ik" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "Il" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -18228,6 +18674,23 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic)
+"Ip" = (
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "Iq" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/clothing/gloves/marine/veteran/insulated/van_bandolier,
@@ -18301,6 +18764,33 @@
 	icon_state = "purple"
 	},
 /area/event/deep_underground/dynamic)
+"Iy" = (
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Iz" = (
 /obj/structure/machinery/light/small{
 	dir = 4;
@@ -18340,6 +18830,20 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
+"IF" = (
+/obj/structure/toilet{
+	desc = "The UP-229, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.";
+	dir = 8;
+	pixel_y = 8
+	},
+/obj/item/paper_bin/uscm{
+	pixel_x = -10;
+	pixel_y = -2
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/event/metal/dynamic/lit)
 "IG" = (
 /turf/open/floor/corsat,
 /area/event/metal/dynamic/lit)
@@ -18416,6 +18920,73 @@
 	icon_state = "greenwhite"
 	},
 /area/event/underground_no_CAS/dynamic/lit)
+"IR" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"IS" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/item/prop/colony/folded_bedroll,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "IT" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/reagent_container/food/condiment/hotsauce/cholula,
@@ -18772,25 +19343,27 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
-"JQ" = (
-/obj/structure/stairs/perspective/kutjevo,
+"JR" = (
 /obj/structure/barricade/sandbags{
 	brute_multiplier = 0;
 	build_stage = 5;
 	burn_multiplier = 0;
-	dir = 8;
+	dir = 1;
 	health = 500;
 	maxhealth = 500;
 	name = "trench lining";
-	pixel_y = 1;
+	pixel_y = 10;
 	projectile_coverage = 100;
 	stack_amount = 50;
 	starting_maxhealth = 500
 	},
 /obj/structure/platform/kutjevo{
-	dir = 8;
+	dir = 1;
 	layer = 2.96;
 	projectile_coverage = 0
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/interior/wood{
@@ -18858,6 +19431,49 @@
 	icon_state = "darkgreencorner"
 	},
 /area/event/deep_underground/dynamic)
+"JV" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "JW" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -18921,33 +19537,6 @@
 	starting_maxhealth = 500
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
-"JY" = (
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/machinery/m56d_hmg/auto{
-	dir = 4
-	},
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -19428,6 +20017,48 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"Lf" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 6;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Lg" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/smg/ppsh,
@@ -19445,6 +20076,27 @@
 	icon_state = "upp9"
 	},
 /area/event/deep_underground/dynamic)
+"Li" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Lj" = (
 /obj/structure/machinery/medical_pod/sleeper,
 /turf/open/floor/almayer{
@@ -20021,6 +20673,21 @@
 	},
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"Mi" = (
+/obj/structure/platform/kutjevo/rock,
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/almayer_hull{
+	dir = 8;
+	icon_state = "outerhull_dir";
+	name = "Reinforced Structure";
+	tag = "icon-outerhull_dir (WEST)"
+	},
+/area/event/dynamic/lit/unpowered)
 "Mj" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -20211,6 +20878,15 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic)
+"MB" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "MC" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 2;
@@ -20296,27 +20972,12 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
-"MN" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
+"MM" = (
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "darkyellow2"
 	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
+/area/event/metal/dynamic/lit)
 "MO" = (
 /turf/open/floor/corsat{
 	dir = 4;
@@ -20335,6 +20996,38 @@
 /obj/item/reagent_container/food/snacks/grown/carrot,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"MQ" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.5;
+	burn_multiplier = 0.1;
+	dir = 1;
+	explosive_multiplier = 0.1
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	dir = 8;
+	explosive_multiplier = 0.1
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	dir = 4;
+	explosive_multiplier = 0.1
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	explosive_multiplier = 0.1
+	},
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/turf/open/gm/dirt2,
+/area/event/dynamic/lit/unpowered)
 "MR" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 8;
@@ -20924,6 +21617,19 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"NZ" = (
+/obj/structure/machinery/door_control{
+	id = "Black_Queen1";
+	name = "\improper Pillbox Black Queen Side Shutters";
+	pixel_y = 7;
+	req_access = list(201);
+	pixel_x = -24
+	},
+/turf/open/floor/prison{
+	dir = 9;
+	icon_state = "darkyellow2"
+	},
+/area/event/metal/dynamic/lit)
 "Ob" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/launcher/rocket/anti_tank,
@@ -20958,6 +21664,15 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"Oe" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Og" = (
 /obj/structure/prop/rock/brown_degree,
 /turf/open/gm/grass,
@@ -20974,6 +21689,23 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"Oi" = (
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/almayer_hull{
+	dir = 8;
+	icon_state = "outerhull_dir";
+	name = "Reinforced Structure";
+	tag = "icon-outerhull_dir (WEST)"
+	},
+/area/event/dynamic/lit/unpowered)
 "Oj" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/light{
@@ -21000,6 +21732,40 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
+"Ol" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 1;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	density = 0;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Om" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/underground_no_CAS/dynamic/unpowered)
@@ -21357,6 +22123,40 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"OV" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 1;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/kutjevo{
+	density = 0;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "OW" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/reagent_container/food/drinks/bottle{
@@ -21582,6 +22382,12 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
+"Ph" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/event/metal/dynamic/lit)
 "Pj" = (
 /obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_rook{
 	anchored = 1;
@@ -22060,6 +22866,15 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"PX" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform_decoration/kutjevo/rock,
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "PY" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/tool/weldingtool,
@@ -22265,6 +23080,22 @@
 /obj/structure/machinery/washing_machine,
 /obj/structure/machinery/light/small,
 /turf/open/floor,
+/area/event/metal/dynamic/lit)
+"Qq" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/almayer_hull{
+	name = "Reinforced Structure"
+	},
 /area/event/metal/dynamic/lit)
 "Qs" = (
 /obj/structure/platform{
@@ -22685,6 +23516,22 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"QZ" = (
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/almayer_hull{
+	dir = 8;
+	icon_state = "outerhull_dir";
+	name = "Reinforced Structure";
+	tag = "icon-outerhull_dir (WEST)"
+	},
+/area/event/dynamic/lit/unpowered)
 "Ra" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/reagent_container/spray/cleaner{
@@ -22814,31 +23661,6 @@
 /obj/structure/bed/roller,
 /turf/open/floor/almayer,
 /area/event/metal/dynamic/lit)
-"Rq" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/bed/chair/wood/wings,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Rr" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_box/magazine/shotgun/buckshot,
@@ -22862,6 +23684,13 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"Rv" = (
+/obj/structure/platform_decoration/kutjevo,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Rw" = (
 /turf/open/floor/corsat{
 	dir = 1;
@@ -23062,6 +23891,12 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"RS" = (
+/obj/structure/bed/bedroll,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "RU" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/tool/kitchen/utensil/knife{
@@ -23095,13 +23930,6 @@
 	},
 /turf/closed/wall/rock/brown,
 /area/event/underground_no_CAS)
-"RZ" = (
-/obj/structure/platform/kutjevo,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Sb" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -23251,16 +24079,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
-"St" = (
-/obj/structure/bed/chair{
-	dir = 8
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Su" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/barricade/sandbags{
@@ -23446,6 +24264,23 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
+"SH" = (
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/almayer_hull{
+	dir = 8;
+	icon_state = "outerhull_dir";
+	name = "Reinforced Structure";
+	tag = "icon-outerhull_dir (WEST)"
+	},
+/area/event/dynamic/lit/unpowered)
 "SI" = (
 /obj/structure/platform/kutjevo{
 	dir = 8;
@@ -23588,6 +24423,45 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"SU" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "SV" = (
 /obj/structure/sign/safety/medical{
 	pixel_x = -17
@@ -23608,6 +24482,19 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
+	},
+/area/event/metal/dynamic/lit)
+"SX" = (
+/obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
+	name = "Pillbox Black Queen"
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "Black_Queen2";
+	name = "Pillbox Black Queen";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
 "SY" = (
@@ -23637,16 +24524,6 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
-"SZ" = (
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Ta" = (
 /obj/structure/surface/rack,
 /obj/item/explosive/grenade/incendiary/molotov,
@@ -23675,6 +24552,59 @@
 	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
+"Td" = (
+/obj/structure/machinery/m56d_hmg/auto{
+	dir = 1;
+	name = "\improper T37 Medium Machinegun"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"Tf" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/bed/bedroll,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Th" = (
 /obj/structure/platform/kutjevo{
 	density = 0;
@@ -23705,12 +24635,11 @@
 	},
 /area/event/deep_underground/dynamic)
 "Tj" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/barricade/sandbags{
 	brute_multiplier = 0;
 	build_stage = 5;
 	burn_multiplier = 0;
-	dir = 8;
+	dir = 4;
 	health = 500;
 	maxhealth = 500;
 	name = "trench lining";
@@ -23719,26 +24648,12 @@
 	stack_amount = 50;
 	starting_maxhealth = 500
 	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
 /obj/structure/platform/kutjevo{
+	dir = 4;
 	layer = 2.96;
 	projectile_coverage = 0
 	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -23989,23 +24904,8 @@
 /area/event/metal/dynamic/lit)
 "TE" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
 	},
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
@@ -24267,13 +25167,6 @@
 /obj/item/bedsheet/brown,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"Uc" = (
-/obj/structure/surface/rack,
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "darkyellowfull2"
-	},
-/area/event/metal/dynamic/lit)
 "Ud" = (
 /obj/structure/machinery/cryo_cell,
 /obj/structure/pipes/standard/cap/hidden,
@@ -24345,6 +25238,14 @@
 	icon_state = "darkgreen"
 	},
 /area/event/deep_underground/dynamic)
+"Um" = (
+/obj/structure/machinery/hydro_floodlight{
+	name = "Countryroad Light Pole"
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 8
+	},
+/area/event/dynamic/lit/unpowered)
 "Un" = (
 /turf/open/floor/corsat{
 	dir = 1;
@@ -24572,6 +25473,15 @@
 "UG" = (
 /turf/open/gm/dirtgrassborder2{
 	icon_state = "grassdirt2_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
+"UH" = (
+/obj/structure/platform_decoration/kutjevo{
+	dir = 1
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
 "UI" = (
@@ -24936,33 +25846,6 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
-"Vj" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/bed/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "Vk" = (
 /obj/item/explosive/plastic{
 	anchored = 1;
@@ -25119,6 +26002,31 @@
 	starting_maxhealth = 500
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"Vw" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/item/prop/colony/folded_bedroll,
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -25573,6 +26481,20 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"Wi" = (
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	icon_state = "p_stair_ew_full_cap";
+	layer = 3.5;
+	pixel_y = 5
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Wj" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/pickaxe/drill{
@@ -25669,24 +26591,6 @@
 	pixel_y = 2
 	},
 /turf/open/gm/river/desert/deep,
-/area/event/dynamic/lit/unpowered)
-"Wu" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
 /area/event/dynamic/lit/unpowered)
 "Wv" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
@@ -25858,6 +26762,17 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"WM" = (
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/turf/open/floor/almayer_hull{
+	dir = 8;
+	icon_state = "outerhull_dir";
+	name = "Reinforced Structure";
+	tag = "icon-outerhull_dir (WEST)"
+	},
+/area/event/dynamic/lit/unpowered)
 "WN" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 4
@@ -25880,6 +26795,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/event/deep_underground/dynamic)
+"WR" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "WS" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
@@ -25981,9 +26903,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
-"Xc" = (
-/turf/open/space/basic,
-/area/event/underground_no_CAS)
 "Xd" = (
 /obj/item/reagent_container/food/drinks/bottle/beer/craft/tazhushka{
 	anchored = 1;
@@ -26098,6 +27017,12 @@
 	icon_state = "darkgreen"
 	},
 /area/event/deep_underground/dynamic)
+"Xn" = (
+/obj/item/prop/colony/folded_bedroll,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Xo" = (
 /obj/structure/window/framed/bunker/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -26106,6 +27031,49 @@
 	},
 /turf/open/floor/plating,
 /area/event/deep_underground/dynamic)
+"Xq" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "Xr" = (
 /obj/item/reagent_container/food/snacks/meat{
 	anchored = 1;
@@ -26176,6 +27144,28 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"XC" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 29
+	},
+/obj/structure/surface/rack{
+	pixel_x = -25;
+	density = 0
+	},
+/obj/item/tool/soap{
+	pixel_x = -25
+	},
+/obj/structure/sign/poster/clf{
+	pixel_y = 32
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/event/metal/dynamic/lit)
 "XD" = (
 /turf/open/floor/corsat{
 	dir = 5;
@@ -26189,14 +27179,6 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic/lit)
-"XF" = (
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/turf/open/floor/interior/wood{
-	breakable_tile = 0
-	},
-/area/event/dynamic/lit/unpowered)
 "XG" = (
 /obj/structure/platform{
 	dir = 1
@@ -26352,6 +27334,22 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"XU" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/obj/structure/platform/kutjevo/rock{
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo/rock{
+	climb_delay = 20;
+	dir = 4;
+	projectile_coverage = 0
+	},
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "XV" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/ashtray/plastic,
@@ -26401,6 +27399,43 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
+"Yb" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Yc" = (
 /turf/open/floor/corsat{
 	icon_state = "red"
@@ -26591,6 +27626,14 @@
 	},
 /turf/open/gm/river/desert/deep,
 /area/event/dynamic/lit/unpowered)
+"YD" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/ashtray/plastic{
+	pixel_x = 15;
+	pixel_y = 3
+	},
+/turf/open/floor/prison,
+/area/event/metal/dynamic/lit)
 "YE" = (
 /obj/structure/barricade/handrail/sandstone/b{
 	indestructible = 1;
@@ -26965,6 +28008,73 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"Zp" = (
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/item/prop/colony/folded_bedroll,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
+"Zs" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood{
+	breakable_tile = 0
+	},
+/area/event/dynamic/lit/unpowered)
 "Zu" = (
 /turf/closed/wall/r_wall/bunker/floodgate,
 /area/event/deep_underground/dynamic)
@@ -26979,7 +28089,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat{
-	icon_state = "squares"
+	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
 "Zz" = (
@@ -28680,15 +29790,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -28902,15 +30012,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -29124,15 +30234,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -29346,15 +30456,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -29568,15 +30678,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -29790,15 +30900,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -30012,15 +31122,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -30234,15 +31344,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -30456,15 +31566,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -30473,7 +31583,7 @@ WZ
 WZ
 TZ
 TZ
-Lo
+oD
 FN
 FN
 xa
@@ -30678,15 +31788,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -30900,15 +32010,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -31122,15 +32232,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -31344,15 +32454,15 @@ WZ
 WZ
 WZ
 WZ
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -31428,7 +32538,7 @@ Ym
 DX
 JB
 Mj
-xB
+BC
 wP
 kd
 JB
@@ -34024,9 +35134,9 @@ gD
 hh
 Xb
 gW
-Sj
-tf
-JQ
+gW
+TZ
+kR
 Su
 Su
 Su
@@ -34246,9 +35356,9 @@ Mn
 Mn
 Mn
 Mn
-DQ
-TZ
-Vv
+Mn
+tf
+hc
 GT
 GT
 GT
@@ -34258,7 +35368,7 @@ GT
 sr
 OX
 GT
-Pr
+dO
 NT
 CP
 zf
@@ -34465,10 +35575,10 @@ fB
 hF
 QD
 Mn
-Mn
+bM
 Mn
 DQ
-xT
+ZS
 TZ
 JB
 JB
@@ -34693,7 +35803,7 @@ ng
 TZ
 TZ
 TZ
-TZ
+GB
 JB
 hJ
 Sp
@@ -35581,7 +36691,7 @@ ng
 TZ
 TZ
 TZ
-TZ
+GB
 JB
 JB
 wl
@@ -35797,10 +36907,10 @@ fB
 Xb
 Sj
 Mn
-Mn
+bM
 Mn
 na
-Uc
+gW
 TZ
 JB
 JB
@@ -36022,9 +37132,9 @@ Mn
 Mn
 Mn
 Mn
-na
-TZ
-Cs
+Mn
+tf
+mN
 Su
 Su
 Su
@@ -36034,7 +37144,7 @@ Su
 sB
 xn
 Su
-Pr
+rq
 NT
 JB
 Sp
@@ -36244,9 +37354,9 @@ VB
 IP
 pc
 ZS
-QD
-tf
-oa
+ZS
+TZ
+Vv
 GT
 GT
 GT
@@ -36255,9 +37365,9 @@ GT
 GT
 GT
 GT
-GT
-xB
-NT
+MB
+BC
+dS
 JB
 JB
 CP
@@ -36477,9 +37587,9 @@ aY
 aY
 aY
 aY
-aY
 BB
 NT
+aY
 aY
 aY
 jr
@@ -36699,9 +37809,9 @@ zf
 zf
 zf
 zf
-zf
 Sf
 xN
+zf
 zf
 zf
 zf
@@ -36899,7 +38009,7 @@ zf
 zf
 zf
 iE
-iE
+hp
 GK
 Db
 dP
@@ -36921,9 +38031,9 @@ zf
 zf
 zf
 zf
-zf
 Sf
 xN
+zf
 zf
 zf
 zf
@@ -37122,7 +38232,7 @@ zf
 zf
 zf
 iE
-iE
+hp
 aP
 aP
 aP
@@ -37143,9 +38253,9 @@ UU
 UU
 UU
 UU
+Mj
+TV
 UU
-BB
-NT
 UU
 UU
 EQ
@@ -37351,7 +38461,7 @@ iE
 iE
 cC
 BB
-Pr
+RS
 NT
 sH
 JB
@@ -37363,13 +38473,13 @@ zf
 Av
 JB
 JB
+wl
+JB
+Mj
+TV
 JB
 JB
 JB
-BB
-NT
-JB
-Sq
 CP
 zf
 zf
@@ -37569,11 +38679,11 @@ zf
 zf
 Tw
 zf
-zf
 iE
-cC
+PX
+XU
 BB
-Pr
+RS
 NT
 sH
 aY
@@ -37582,16 +38692,16 @@ jr
 zf
 zf
 zf
-Av
+aB
 JB
 JB
 JB
 JB
+Mj
+TV
 JB
-BB
-NT
 JB
-Sp
+Sq
 CP
 zf
 zf
@@ -37791,10 +38901,10 @@ zf
 Ev
 zf
 zf
-zf
 iE
 cC
-BB
+Zs
+gP
 Pr
 YP
 Ii
@@ -37805,13 +38915,13 @@ zf
 zf
 zf
 Av
-wl
 JB
 JB
+IR
+Cs
+rr
+TV
 JB
-Sp
-BB
-NT
 wl
 JB
 CP
@@ -38013,10 +39123,10 @@ zf
 zf
 zf
 ET
-zf
 iE
 cC
 BB
+Xn
 Pr
 NT
 sH
@@ -38026,14 +39136,14 @@ EQ
 zf
 zf
 zf
-aB
+Av
 JB
 JB
+pH
+Rv
+Vv
+By
 JB
-JB
-JB
-BB
-NT
 JB
 JB
 CP
@@ -38235,10 +39345,10 @@ zf
 zf
 zf
 zf
-zf
 iE
 cC
-BB
+Lf
+MB
 Pr
 NT
 sH
@@ -38250,12 +39360,12 @@ zf
 zf
 Av
 JB
+mb
+rr
+TV
 JB
 JB
 JB
-JB
-BB
-NT
 JB
 JB
 CP
@@ -38457,10 +39567,10 @@ zf
 zf
 zf
 zf
-zf
 iE
-cC
-BB
+hp
+hM
+Tf
 Pr
 NT
 sH
@@ -38472,14 +39582,14 @@ zf
 zf
 Av
 JB
+wt
+xB
+TV
 JB
 JB
 JB
 JB
-BB
-NT
 JB
-wl
 CP
 zf
 zf
@@ -38682,8 +39792,8 @@ zf
 zf
 iE
 cC
-BB
-Pr
+Tf
+Xn
 NT
 sH
 JB
@@ -38694,12 +39804,12 @@ zf
 zf
 Av
 hJ
+Iy
+xB
+zM
 JB
 JB
 JB
-JB
-BB
-NT
 JB
 JB
 CP
@@ -38916,12 +40026,12 @@ zf
 zf
 Av
 JB
+NP
+Oe
+TV
 JB
-wl
 JB
 JB
-BB
-NT
 JB
 JB
 CP
@@ -38947,11 +40057,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+hv
+hv
+hv
+hv
+hv
 WZ
 WZ
 WZ
@@ -38960,7 +40070,7 @@ ug
 aT
 aT
 aT
-aT
+CI
 Op
 zf
 zf
@@ -39139,12 +40249,12 @@ zf
 Av
 JB
 JB
-zj
-EI
-yw
-xB
-NT
-hJ
+Mj
+UH
+Cs
+Id
+JB
+wl
 JB
 CP
 zf
@@ -39166,15 +40276,15 @@ Sp
 JB
 qI
 wm
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+aY
+My
+JB
+hv
+TD
+aZ
+TD
+hv
+JB
 WZ
 WZ
 Yo
@@ -39349,7 +40459,7 @@ zf
 iE
 cU
 OF
-OF
+nI
 OF
 Ii
 zf
@@ -39361,11 +40471,11 @@ zf
 Av
 JB
 JB
-Mj
-XF
-xB
-GT
-mD
+NP
+Vv
+Oe
+TV
+JB
 JB
 JB
 CP
@@ -39377,7 +40487,7 @@ Sq
 hJ
 JB
 JB
-Qo
+qI
 Yd
 JB
 JB
@@ -39390,14 +40500,14 @@ qI
 qs
 zf
 Av
-WZ
-WZ
-WZ
-WZ
-WZ
 JB
-WZ
-WZ
+hv
+VG
+mi
+mi
+hv
+JB
+JB
 WZ
 Yo
 Yo
@@ -39583,13 +40693,13 @@ zf
 Av
 JB
 JB
+JB
+JB
 Mj
-Pr
-NT
+TV
 JB
 JB
 JB
-Sq
 CP
 zf
 zf
@@ -39613,11 +40723,11 @@ fc
 zf
 Av
 hJ
-WZ
-WZ
-WZ
-JB
-JB
+hv
+gR
+hv
+CK
+hv
 JB
 Ah
 aY
@@ -39805,13 +40915,13 @@ zf
 Av
 JB
 JB
+JB
+JB
 Mj
-Pr
-fA
-hv
-hv
-hv
-hv
+TV
+JB
+JB
+JB
 CP
 zf
 zf
@@ -39838,16 +40948,16 @@ aY
 aY
 aY
 aY
-aY
+zf
 aY
 aY
 jr
 zf
 zf
 jL
+aT
 CI
-CI
-CI
+aT
 rg
 xP
 Gy
@@ -40014,8 +41124,8 @@ ET
 zf
 iE
 cC
-dd
-Pr
+IS
+RS
 NT
 sH
 JB
@@ -40027,14 +41137,14 @@ zf
 Av
 JB
 JB
-Mj
-Pr
+JB
+JB
 pH
-hv
+UH
 kR
-mi
-hv
-CP
+OV
+aY
+jr
 zf
 zf
 zf
@@ -40233,11 +41343,11 @@ zf
 zf
 zf
 zf
-zf
 iE
-cC
+PX
+XU
 BB
-Pr
+RS
 NT
 sH
 JB
@@ -40246,17 +41356,17 @@ CP
 zf
 zf
 zf
-Av
+aB
 JB
 JB
-Mj
-Pr
-RZ
-hv
-kR
-mi
-gR
-CP
+JB
+JB
+pH
+xB
+xB
+bi
+zf
+zf
 zf
 zf
 zf
@@ -40455,10 +41565,10 @@ zf
 zf
 zf
 zf
-Ev
-iE
+bH
 cC
-BB
+DM
+gP
 Pr
 NT
 sH
@@ -40468,17 +41578,17 @@ CP
 zf
 zf
 zf
-aB
+Av
+JB
+JB
 JB
 JB
 Mj
-Pr
-xN
-CK
-mi
-oX
-hv
-CP
+Rv
+Vv
+cV
+UU
+EQ
 zf
 zf
 zf
@@ -40677,10 +41787,10 @@ zf
 zf
 zf
 zf
-zf
 iE
 cC
 BB
+Pr
 Pr
 NT
 sH
@@ -40692,14 +41802,14 @@ zf
 zf
 Av
 JB
-Sp
+JB
+JB
+JB
 Mj
-Pr
-bP
-hv
-yC
-Bq
-gR
+TV
+JB
+JB
+JB
 CP
 zf
 zf
@@ -40899,10 +42009,10 @@ zf
 zf
 Tw
 zf
-zf
 iE
 cC
-BB
+rU
+MB
 Pr
 YP
 Ii
@@ -40915,13 +42025,13 @@ zf
 Av
 JB
 JB
-Mj
-Pr
+IR
+Cs
 dM
-hv
-kR
-mi
-hv
+TV
+JB
+JB
+JB
 CP
 zf
 zf
@@ -40950,8 +42060,8 @@ CP
 zf
 Av
 wl
-JB
-JB
+Sp
+Sq
 hJ
 JB
 JB
@@ -41121,10 +42231,10 @@ zf
 zf
 zf
 zf
-zf
 iE
-cC
-BB
+hp
+hM
+Vw
 Pr
 NT
 sH
@@ -41138,12 +42248,12 @@ Av
 JB
 JB
 Mj
-Pr
-St
-hv
-hv
-hv
-hv
+Rv
+Vv
+JX
+JB
+JB
+JB
 CP
 zf
 zf
@@ -41161,8 +42271,8 @@ Av
 JB
 JB
 Sp
-JB
-SQ
+Ik
+zk
 Ut
 EQ
 zf
@@ -41171,8 +42281,8 @@ hJ
 CP
 zf
 Av
-Sq
-Sp
+JB
+JB
 JB
 JB
 JB
@@ -41346,7 +42456,7 @@ iE
 iE
 iE
 cC
-BB
+Tf
 Pr
 NT
 sH
@@ -41357,11 +42467,11 @@ zf
 zf
 zf
 Av
-wl
 JB
-Mj
-Pr
-NT
+Uf
+dM
+TV
+JB
 JB
 JB
 JB
@@ -41374,8 +42484,8 @@ Av
 JB
 JB
 JB
-JB
-CV
+JV
+zk
 Yd
 CP
 zf
@@ -41383,8 +42493,8 @@ Av
 JB
 JB
 JB
-JB
 UX
+yU
 Ut
 CP
 zf
@@ -41394,10 +42504,10 @@ CP
 zf
 Av
 JB
-JB
-JB
-JB
-JB
+hv
+hv
+hv
+hv
 wl
 Gr
 Gr
@@ -41561,7 +42671,7 @@ zf
 zf
 zf
 iE
-iE
+PX
 cx
 cx
 cx
@@ -41580,15 +42690,15 @@ zf
 zf
 Av
 JB
-JB
-BB
-Pr
+Td
 xB
-Su
-Su
-Su
-cb
-jr
+cc
+JB
+JB
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -41596,8 +42706,8 @@ Av
 JB
 JB
 JB
-JB
 Qo
+yU
 Yd
 CP
 zf
@@ -41605,7 +42715,7 @@ Gn
 wl
 JB
 hJ
-JB
+Xq
 ct
 Ut
 CP
@@ -41616,10 +42726,10 @@ CP
 zf
 Av
 hJ
-JB
-JB
-JB
-JB
+hv
+TD
+mi
+hv
 JB
 Gr
 Gr
@@ -41782,7 +42892,7 @@ zf
 zf
 Ev
 iE
-iE
+PX
 Jc
 dV
 dV
@@ -41792,7 +42902,21 @@ dV
 dV
 So
 pJ
-aG
+dV
+Mi
+JB
+JB
+CP
+zf
+zf
+zf
+Av
+JB
+Iy
+xB
+TV
+JB
+JB
 JB
 JB
 JB
@@ -41803,23 +42927,9 @@ zf
 Av
 JB
 JB
-dd
-Pr
-Pr
-Pr
-Pr
-Pr
-vc
-zf
-zf
-zf
-zf
-Av
 JB
-JB
-JB
-JB
-qI
+fb
+ct
 Yd
 CP
 zf
@@ -41839,9 +42949,9 @@ zf
 Av
 JB
 hv
-hv
-hv
-hv
+TD
+mi
+gR
 JB
 Gr
 Gr
@@ -42015,7 +43125,7 @@ qM
 Ln
 oc
 qM
-JB
+qM
 JB
 JB
 CP
@@ -42024,15 +43134,15 @@ zf
 zf
 Av
 JB
-hJ
-dd
-Pr
-xB
-GT
-GT
-GT
-uR
-EQ
+NP
+kp
+TV
+JB
+JB
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -42061,8 +43171,8 @@ zf
 MR
 aY
 hv
-VG
-du
+TD
+oX
 hv
 JB
 Gr
@@ -42235,7 +43345,7 @@ TZ
 TZ
 TZ
 TZ
-IK
+rD
 Tr
 TZ
 TZ
@@ -42247,12 +43357,12 @@ zf
 Av
 JB
 JB
-dd
-Pr
-NT
+pH
+UH
+Cs
+Id
 JB
-JB
-JB
+hJ
 JB
 CP
 zf
@@ -42284,7 +43394,7 @@ zf
 zf
 CK
 mi
-Yp
+mi
 gR
 JB
 Gr
@@ -42458,7 +43568,7 @@ gW
 He
 OO
 hh
-Xb
+NZ
 He
 Sj
 Gj
@@ -42469,14 +43579,14 @@ zf
 Av
 JB
 JB
-td
-XF
-NT
-JB
-JB
-JB
-hJ
-CP
+NP
+Vv
+kp
+TV
+aY
+aY
+aY
+jr
 zf
 zf
 zf
@@ -42502,8 +43612,8 @@ sD
 UU
 EQ
 zf
-sD
-UU
+zf
+sK
 hv
 TD
 oX
@@ -42691,14 +43801,14 @@ zf
 Av
 JB
 JB
-dd
-Pr
-NT
 JB
 JB
-JB
-Sq
-CP
+pH
+bi
+zf
+zf
+zf
+zf
 zf
 zf
 zf
@@ -42715,8 +43825,8 @@ Av
 Sq
 JB
 JB
-JB
-ct
+kM
+WR
 hG
 CP
 zf
@@ -42724,11 +43834,11 @@ Av
 Sq
 CP
 zf
-Av
-JB
+zf
+se
 hv
 TD
-mi
+Bh
 gR
 JB
 Gr
@@ -42910,17 +44020,17 @@ CP
 zf
 zf
 zf
-Av
+aB
+JB
+hJ
 JB
 JB
-dd
-Pr
-xB
-Su
-Su
-Su
-RE
-jr
+pH
+TV
+UU
+UU
+Um
+EQ
 zf
 zf
 zf
@@ -42937,8 +44047,8 @@ Av
 hJ
 JB
 wl
-JB
 UX
+yU
 hG
 CP
 zf
@@ -42946,11 +44056,11 @@ Av
 JB
 CP
 zf
-Av
-JB
+zf
+Bd
 hv
-TD
-mi
+VG
+du
 hv
 JB
 WZ
@@ -43132,17 +44242,17 @@ CP
 zf
 zf
 zf
-aB
+Av
 JB
 JB
-dd
-Pr
-Pr
-Pr
-Pr
-Pr
-vc
-zf
+JB
+JB
+Mc
+JX
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -43150,8 +44260,8 @@ Av
 Sp
 JB
 JB
-JB
-CV
+JV
+zk
 Yd
 CP
 zf
@@ -43159,7 +44269,7 @@ MR
 aY
 aY
 My
-JB
+yT
 TE
 hi
 jr
@@ -43168,8 +44278,8 @@ Av
 hJ
 CP
 zf
-Av
-JB
+sD
+UU
 hv
 hv
 hv
@@ -43357,14 +44467,14 @@ zf
 MR
 aY
 aY
-NP
-GT
-Rq
-HM
-Vj
-GT
-uR
-zf
+aY
+aY
+aY
+aY
+aY
+aY
+aY
+jr
 zf
 zf
 zf
@@ -43372,8 +44482,8 @@ Av
 JB
 JB
 wl
-JB
 Qo
+yU
 Yd
 jr
 zf
@@ -43594,8 +44704,8 @@ Av
 JB
 JB
 JB
-JB
-qI
+fb
+ct
 gL
 zf
 sD
@@ -44245,14 +45355,14 @@ zf
 sD
 UU
 UU
-Ed
-Su
-Su
-Su
-Su
-Su
-oO
-zf
+UU
+UU
+UU
+UU
+UU
+UU
+UU
+EQ
 zf
 zf
 zf
@@ -44464,17 +45574,17 @@ CP
 zf
 zf
 zf
-aB
+Av
 JB
 JB
-dd
-Pr
-Pr
-Pr
-Pr
-Pr
-vc
-zf
+JB
+JB
+Cc
+Id
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -44686,17 +45796,17 @@ CP
 zf
 zf
 zf
-Av
+aB
 JB
 JB
-dd
-Pr
-xB
-GT
-GT
-GT
-uR
-EQ
+JB
+JB
+Fe
+TV
+JB
+JB
+Sq
+CP
 zf
 zf
 zf
@@ -44720,7 +45830,7 @@ Ms
 ea
 vT
 ec
-qT
+ec
 ec
 ec
 ec
@@ -44911,14 +46021,14 @@ zf
 Av
 JB
 JB
-dd
-Pr
-NT
 JB
 JB
-JB
-JB
-CP
+yJ
+TV
+aY
+aY
+aY
+jr
 zf
 zf
 zf
@@ -45122,7 +46232,7 @@ ZS
 ZU
 rV
 IP
-hF
+aH
 Kk
 QD
 Gj
@@ -45133,14 +46243,14 @@ zf
 Av
 JB
 JB
-td
-XF
-NT
-JB
-wl
 JB
 JB
-CP
+yJ
+Th
+zf
+zf
+zf
+zf
 zf
 zf
 zf
@@ -45343,7 +46453,7 @@ TZ
 TZ
 TZ
 TZ
-IK
+SX
 Tr
 TZ
 TZ
@@ -45355,14 +46465,14 @@ zf
 Av
 JB
 JB
-dd
-Pr
-NT
 JB
 JB
-JB
-Sq
-CP
+pH
+TV
+UU
+UU
+UU
+EQ
 zf
 zf
 zf
@@ -45567,7 +46677,7 @@ fl
 Ar
 vW
 fl
-JB
+fl
 JB
 JB
 CP
@@ -45577,14 +46687,14 @@ zf
 Av
 Sp
 JB
-dd
-Pr
-xB
-Su
-Su
-Su
-RE
-jr
+eu
+Cs
+dM
+TV
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -45778,7 +46888,7 @@ zf
 zf
 zf
 iE
-iE
+hp
 UP
 dP
 dP
@@ -45788,8 +46898,8 @@ dP
 dP
 ER
 Wg
+dP
 nr
-JB
 JB
 JB
 CP
@@ -45799,14 +46909,14 @@ zf
 Av
 JB
 JB
-dd
-Pr
-Pr
-Pr
-Pr
-Pr
-xN
-zf
+Mj
+Rv
+Vv
+JX
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -46001,7 +47111,7 @@ zf
 zf
 zf
 iE
-iE
+hp
 cR
 cR
 cR
@@ -46020,15 +47130,15 @@ zf
 zf
 Av
 JB
+gg
+dM
+TV
 JB
-Mj
-Pr
-xB
-GT
-GT
-nA
-nz
-EQ
+JB
+JB
+JB
+JB
+CP
 zf
 zf
 zf
@@ -46230,7 +47340,7 @@ iE
 iE
 iE
 cC
-dd
+EB
 Pr
 NT
 sH
@@ -46242,10 +47352,10 @@ zf
 zf
 Av
 JB
+qV
+xB
+TV
 JB
-Mj
-Pr
-gt
 JB
 JB
 JB
@@ -46449,9 +47559,9 @@ zf
 zf
 Tw
 zf
-zf
 iE
-cC
+PX
+XU
 BB
 Pr
 NT
@@ -46464,14 +47574,14 @@ zf
 zf
 Av
 JB
+Td
+xB
+TV
 JB
-Mj
-Pr
-SZ
-hv
-hv
-hv
-hv
+JB
+JB
+JB
+JB
 CP
 zf
 zf
@@ -46671,10 +47781,10 @@ zf
 zf
 zf
 ET
-zf
-FC
+iE
 cC
-BB
+Zs
+gP
 Pr
 YP
 Ii
@@ -46684,16 +47794,16 @@ zf
 zf
 zf
 zf
-aB
+Av
+JB
+xC
+Oe
+TV
 JB
 JB
-Mj
-Pr
-xN
-CK
-mi
-aZ
-hv
+JB
+JB
+JB
 CP
 zf
 zf
@@ -46893,10 +48003,10 @@ Ev
 iQ
 zf
 zf
-zf
-FC
+iE
 cC
 BB
+Pr
 Pr
 NT
 sH
@@ -46908,14 +48018,14 @@ zf
 zf
 Av
 JB
-wl
+JB
 Mj
-Pr
-SZ
-hv
-kR
-mi
-gR
+UH
+Cs
+SU
+JB
+JB
+JB
 CP
 zf
 zf
@@ -47115,11 +48225,11 @@ zf
 zf
 zf
 iQ
-zf
 iE
 cC
-BB
-Pr
+Lf
+MB
+RS
 NT
 sH
 JB
@@ -47131,13 +48241,13 @@ zf
 Av
 JB
 JB
-Mj
-Pr
-jH
-hv
-kR
-mi
-gR
+xC
+Vv
+Oe
+TV
+JB
+JB
+JB
 CP
 zf
 zf
@@ -47337,11 +48447,11 @@ zf
 zf
 zf
 zf
-zf
 iE
-cC
+hp
+hM
 BB
-Pr
+RS
 NT
 sH
 JB
@@ -47350,16 +48460,16 @@ CP
 zf
 zf
 zf
-Av
+aB
+JB
+JB
 JB
 JB
 Mj
-Pr
-dB
-hv
-iS
-mi
-hv
+TV
+JB
+JB
+Sq
 CP
 zf
 zf
@@ -47563,7 +48673,7 @@ zf
 iE
 cC
 BB
-Pr
+Xn
 NT
 sH
 JB
@@ -47574,15 +48684,15 @@ zf
 zf
 Av
 JB
+wl
+JB
 JB
 Mj
-Pr
-Cj
-hv
-hv
-hv
-hv
-CP
+UH
+kR
+GH
+aY
+jr
 zf
 zf
 zf
@@ -47797,14 +48907,14 @@ zf
 Av
 JB
 JB
+JB
+JB
 Mj
-Pr
-Wu
-JB
-JB
-JB
-Sq
-CP
+xB
+xB
+bi
+zf
+zf
 zf
 zf
 zf
@@ -48017,16 +49127,16 @@ zf
 zf
 zf
 Av
-Sp
 JB
-Mj
-XF
-xB
-yw
+JB
+JB
+JB
+pH
+qa
 Tj
-JB
-JB
-CP
+Ol
+UU
+EQ
 zf
 zf
 zf
@@ -48051,7 +49161,7 @@ WZ
 WZ
 WZ
 WZ
-WZ
+JB
 JB
 CP
 zf
@@ -48229,7 +49339,7 @@ ET
 iE
 dI
 OF
-OF
+nI
 OF
 Ii
 zf
@@ -48241,11 +49351,11 @@ zf
 Av
 JB
 JB
-NP
-JY
-Vv
-xB
-MN
+JB
+JB
+pH
+TV
+JB
 JB
 JB
 CP
@@ -48461,13 +49571,13 @@ zf
 zf
 zf
 Av
+Sp
 JB
+Uf
+Cs
+dM
+TV
 JB
-JB
-JB
-JB
-dd
-MN
 JB
 JB
 CP
@@ -48684,12 +49794,12 @@ zf
 zf
 Av
 JB
-hJ
 JB
+Mj
+Rv
+Vv
+JX
 JB
-JB
-dd
-NT
 JB
 JB
 CP
@@ -48895,7 +50005,7 @@ zf
 iE
 cC
 dd
-Pr
+RS
 NT
 sH
 JB
@@ -48906,14 +50016,14 @@ zf
 zf
 Av
 JB
+bk
+dM
+TV
 JB
 JB
-JB
-JB
-dd
-NT
 JB
 wl
+JB
 CP
 zf
 zf
@@ -48937,7 +50047,7 @@ WZ
 WZ
 WZ
 WZ
-WZ
+JB
 JB
 JB
 JB
@@ -49113,11 +50223,11 @@ zf
 iQ
 zf
 zf
-zf
 iE
-cC
-BB
-Pr
+PX
+XU
+Vw
+RS
 NT
 sH
 hJ
@@ -49128,12 +50238,12 @@ zf
 zf
 Av
 JB
-wl
+wt
+xB
+TV
 JB
 JB
 JB
-dd
-NT
 JB
 JB
 CP
@@ -49335,11 +50445,11 @@ zf
 zf
 zf
 zf
-zf
 iE
 cC
-BB
-Pr
+Zs
+gP
+RS
 NT
 sH
 JB
@@ -49350,12 +50460,12 @@ zf
 zf
 Av
 JB
+JR
+xB
+TV
 JB
 JB
 JB
-JB
-dd
-NT
 JB
 hJ
 CP
@@ -49557,10 +50667,10 @@ zf
 zf
 zf
 Ev
-zf
-FC
+iE
 cC
 BB
+Pr
 Pr
 NT
 sH
@@ -49570,14 +50680,14 @@ jr
 zf
 zf
 zf
-aB
+Av
+JB
+nd
+Oe
+TV
 JB
 JB
-hJ
 JB
-JB
-dd
-NT
 JB
 JB
 CP
@@ -49779,10 +50889,10 @@ zf
 zf
 Me
 Ev
-zf
 iE
 cC
-BB
+dF
+MB
 Pr
 YP
 Ii
@@ -49795,11 +50905,11 @@ zf
 Av
 JB
 JB
+pH
+UH
+kR
+th
 JB
-JB
-JB
-dd
-NT
 hJ
 JB
 CP
@@ -50001,10 +51111,10 @@ zf
 zf
 zf
 zf
-zf
 iE
-cC
-BB
+hp
+hM
+Tf
 Pr
 NT
 sH
@@ -50014,14 +51124,14 @@ EQ
 zf
 zf
 zf
-Av
+aB
 JB
 JB
+NP
+Zp
+Oe
+Li
 JB
-Sp
-JB
-dd
-NT
 JB
 Sq
 CP
@@ -50220,13 +51330,13 @@ zf
 zf
 iQ
 zf
-zf
-zf
-Tw
-zf
+iE
+iE
+MQ
+iE
 iE
 cC
-BB
+Tf
 Pr
 NT
 sH
@@ -50240,10 +51350,10 @@ Av
 JB
 JB
 JB
-JB
-JB
+Sp
 dd
 NT
+JB
 JB
 JB
 CP
@@ -50440,19 +51550,19 @@ Me
 zf
 zf
 zf
-zf
-zf
-zf
 Ev
-zf
-zf
 iE
-cC
-BB
+zR
+aU
+cx
+cx
+cx
+dw
+KB
 Pr
-NT
-sH
-Sp
+Pp
+AB
+JB
 JB
 CP
 zf
@@ -50463,9 +51573,9 @@ aY
 aY
 aY
 aY
-aY
 dd
 NT
+aY
 aY
 aY
 jr
@@ -50662,18 +51772,18 @@ zf
 zf
 zf
 zf
-zf
-zf
 iE
-iE
-iE
-iE
-iE
-ex
-BB
-Pr
-NT
-sH
+PX
+Ip
+dV
+dV
+dV
+dV
+dV
+SH
+Wi
+dV
+Oi
 JB
 JB
 CP
@@ -50685,9 +51795,9 @@ zf
 zf
 zf
 zf
-zf
 Sf
 xN
+zf
 zf
 zf
 zf
@@ -50884,18 +51994,18 @@ Tw
 zf
 iQ
 zf
-Ev
-zf
-cq
 iE
-cx
-cx
-cx
-dw
-eZ
-GT
-uR
-sH
+ca
+cf
+fj
+qM
+qM
+qM
+qM
+WM
+QZ
+qM
+qM
 JB
 JB
 CP
@@ -50907,9 +52017,9 @@ zf
 zf
 zf
 zf
-zf
 Sf
 xN
+zf
 zf
 zf
 zf
@@ -51106,22 +52216,21 @@ zf
 zf
 zf
 zf
-zf
-zf
 iE
 ca
-cL
-dV
-dV
-dV
-dV
+cf
+cZ
+qm
+TZ
+TZ
+TZ
+qm
 mk
-mk
-nQ
-JB
-JB
+GB
+TZ
+TZ
+qm
 Ay
-UU
 UU
 UU
 UU
@@ -51132,6 +52241,7 @@ UU
 UU
 dd
 NT
+UU
 UU
 UU
 EQ
@@ -51328,32 +52438,32 @@ Ij
 XH
 zf
 zf
-zf
-ET
 iE
 ca
 cf
-fj
-qM
-qM
-qM
-qM
-qM
-qM
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-dd
-NT
+cZ
+Qq
+fB
+Fo
+He
+MM
+hh
+kN
+gW
+gW
+TZ
+bW
+Su
+bW
+bW
+bW
+bW
+bW
+bW
+bW
+gP
+Fb
+Yb
 JB
 JB
 CP
@@ -51550,31 +52660,31 @@ OF
 vh
 zf
 zf
-zf
-ET
 iE
 ca
 cf
 cZ
-qm
-TZ
-TZ
-TZ
-qm
-TZ
-TZ
-TZ
-qm
-bW
-bW
-bW
-bW
-bW
-bW
-bW
-bW
-bW
-xB
+Qq
+Ml
+RO
+Mn
+Mn
+Mn
+Mn
+Mn
+Mn
+Ad
+qy
+GT
+GT
+GT
+GT
+GT
+sr
+OX
+GT
+GT
+MB
 NT
 JB
 Sp
@@ -51772,31 +52882,31 @@ tN
 PI
 zf
 zf
-zf
-zf
 iE
 ca
 cf
 cZ
-cE
-ic
-jF
-iG
-FN
-FN
-FN
-FN
-gk
-qy
-GT
-GT
-GT
-GT
-sr
-OX
-GT
-GT
-Pr
+Qq
+fB
+hF
+QD
+Mn
+bM
+Mn
+DQ
+ZS
+TZ
+JB
+JB
+JB
+JB
+hJ
+CP
+zf
+Av
+JB
+JB
+dd
 NT
 JB
 JB
@@ -51994,25 +53104,25 @@ zf
 ET
 zf
 zf
-zf
-zf
 iE
 ca
 cf
 cZ
-cE
-hu
-FN
-FN
-FN
-FN
-xa
-sz
+qm
 TZ
+ft
+hF
+Mn
+Mn
+Mn
+ng
+TZ
+TZ
+TZ
+qm
 JB
+Sp
 JB
-JB
-hJ
 CP
 zf
 Av
@@ -52216,30 +53326,30 @@ zf
 zf
 zf
 Ev
-zf
-zf
 iE
 ca
 cf
 cZ
-cE
+Aj
+TZ
+TZ
 ic
-FN
-FN
-FN
+zq
+aS
+Ph
+ng
 TZ
+QO
+Tv
 TZ
-TZ
-TZ
-JB
-JB
-Sp
-JB
-CP
+aY
+aY
+aY
+jr
 zf
-Av
-JB
-JB
+MR
+aY
+aY
 dd
 NT
 wl
@@ -52277,7 +53387,7 @@ zf
 zf
 Av
 Mj
-xB
+Fb
 yw
 UE
 Va
@@ -52438,31 +53548,31 @@ zf
 zf
 zf
 Ev
-zf
-zf
 iE
 ca
 cf
 cZ
+Aj
+Aj
 TZ
-hD
-FN
-FN
-iW
-TZ
-zY
-Tv
-TZ
-aY
-aY
-aY
-aY
-jr
+YX
+zq
+YD
+Mn
+ng
+Ad
+wr
+Et
+Ad
 zf
-MR
-aY
-aY
-dd
+zf
+zf
+zf
+zf
+zf
+zf
+zf
+EX
 NT
 JB
 JB
@@ -52510,7 +53620,7 @@ CP
 zf
 Av
 Mj
-xB
+BC
 Vv
 Vv
 Vv
@@ -52660,31 +53770,31 @@ zf
 ET
 Dg
 Me
-iQ
-zf
 iE
 ca
 cf
 cZ
-qm
-DL
-FN
-FN
-FN
-gk
-wr
-Et
-gk
+Aj
+TZ
+TZ
+iZ
+Mn
+ui
+Ph
+ng
+TZ
+fP
+dn
+TZ
+UU
+UU
+UU
+EQ
 zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-EX
+sD
+UU
+UU
+dd
 NT
 JB
 hJ
@@ -52731,7 +53841,7 @@ Md
 yw
 Ww
 eY
-xB
+gP
 gt
 JB
 JB
@@ -52882,30 +53992,30 @@ zf
 zf
 ET
 zf
-zf
-zf
 iE
 ca
 cf
 cZ
+qm
 TZ
-hD
-FN
-FN
-Lo
-Yo
-wr
-sx
+ft
+Xb
+Mn
+CB
+Mn
+ng
 TZ
-UU
-UU
-UU
-UU
-EQ
+TZ
+TZ
+qm
+JB
+JB
+JB
+CP
 zf
-sD
-UU
-UU
+Av
+JB
+JB
 dd
 NT
 Sp
@@ -53104,24 +54214,24 @@ zf
 zf
 ET
 zf
-Ev
-zf
 iE
 ca
 cf
 cZ
-cE
-ic
-FN
-FN
-Lo
-Yo
-Cy
-oI
+Qq
+fB
+Xb
+Sj
+Mn
+bM
+Mn
+na
+gW
 TZ
 JB
 JB
 JB
+hJ
 JB
 CP
 zf
@@ -53326,31 +54436,31 @@ Ev
 ET
 zf
 zf
-zf
-iQ
 iE
 ca
 cf
 cZ
-cE
-hu
-FN
-FN
-wH
-Yo
-wr
-px
-TZ
-JB
-JB
-hJ
-JB
-CP
-zf
-Av
-JB
-JB
-dd
+Qq
+Ml
+RO
+Mn
+Mn
+Mn
+Mn
+Mn
+Mn
+Ad
+qJ
+Su
+Su
+Su
+Su
+Su
+sB
+xn
+Su
+Su
+gP
 NT
 JB
 JB
@@ -53548,32 +54658,32 @@ zf
 zf
 zf
 zf
-zf
-zf
 iE
 ca
 cf
 cZ
+Qq
+fB
 cE
-ic
+Kk
 kg
-kK
-FN
-gk
-xy
-Pq
-gk
-qJ
-Su
-Su
-Su
-Su
-sB
-xn
-Su
-Su
-Pr
-NT
+IP
+hF
+ZU
+ZS
+TZ
+GT
+GT
+GT
+GT
+GT
+GT
+GT
+GT
+GT
+GT
+GT
+uR
 JB
 JB
 CP
@@ -53770,8 +54880,6 @@ zf
 zf
 ET
 zf
-zf
-ET
 iE
 ca
 cf
@@ -53780,22 +54888,24 @@ qm
 TZ
 TZ
 TZ
-qm
+TZ
+rA
 TZ
 TZ
 TZ
 qm
-GT
-GT
-GT
-GT
-GT
-GT
-GT
-GT
-GT
-GT
-uR
+JB
+JB
+JB
+JB
+JB
+JB
+JB
+JB
+JB
+JB
+JB
+JB
 JB
 JB
 CP
@@ -53992,18 +55102,18 @@ zf
 Me
 zf
 zf
-zf
+iE
 WZ
 WZ
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+TZ
+XC
+sX
+IF
+TZ
 WZ
 WZ
 WZ
@@ -54051,7 +55161,7 @@ zf
 zf
 zf
 zf
-WZ
+Av
 WZ
 WZ
 WZ
@@ -54221,11 +55331,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+TZ
+TZ
+TZ
+TZ
+TZ
 WZ
 WZ
 WZ
@@ -54265,14 +55375,14 @@ UU
 UU
 WZ
 WZ
+UU
+UU
+UU
+UU
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+UU
+UU
 WZ
 WZ
 WZ
@@ -54488,8 +55598,8 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
+JB
+JB
 WZ
 WZ
 WZ
@@ -54543,7 +55653,7 @@ Ym
 Ym
 DX
 JW
-Fs
+yr
 ss
 pu
 SS
@@ -54688,16 +55798,16 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
 Gr
 QP
 QP
 Gr
-JB
-JB
-hJ
-JB
-JB
-JB
+QP
+QP
+Gr
 JB
 JB
 CP
@@ -54911,8 +56021,8 @@ WZ
 WZ
 WZ
 WZ
-JB
-JB
+WZ
+WZ
 wl
 JB
 JB
@@ -54930,15 +56040,15 @@ Av
 JB
 JB
 JB
+WZ
+WZ
+WZ
+WZ
+WZ
 JB
 JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -55133,7 +56243,7 @@ WZ
 WZ
 WZ
 WZ
-JB
+WZ
 JB
 JB
 Ah
@@ -55160,8 +56270,8 @@ aY
 aY
 My
 JB
-JB
-JB
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -55383,7 +56493,7 @@ EE
 Av
 JB
 JB
-JB
+WZ
 WZ
 WZ
 WZ
@@ -55605,7 +56715,7 @@ Hi
 Av
 JB
 JB
-JB
+WZ
 WZ
 WZ
 WZ
@@ -55827,7 +56937,7 @@ zf
 Av
 JB
 JB
-JB
+WZ
 WZ
 WZ
 WZ
@@ -56511,7 +57621,7 @@ WZ
 PD
 PD
 PD
-Ep
+PD
 WZ
 RY
 WZ
@@ -56733,7 +57843,7 @@ WZ
 PD
 hf
 PD
-Ep
+PD
 WZ
 RY
 WZ
@@ -56939,15 +58049,6 @@ JB
 JB
 JB
 JB
-JB
-WZ
-WZ
-WZ
-PD
-PD
-PD
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -56955,7 +58056,16 @@ WZ
 PD
 PD
 PD
-Ep
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+PD
+PD
+PD
+PD
 WZ
 RY
 WZ
@@ -57161,7 +58271,7 @@ JB
 JB
 JB
 JB
-JB
+WZ
 WZ
 WZ
 WZ
@@ -57177,7 +58287,7 @@ WZ
 PD
 PD
 PD
-Ep
+PD
 WZ
 RY
 WZ
@@ -57399,7 +58509,7 @@ PD
 PD
 PD
 PD
-Ep
+PD
 WZ
 WZ
 WZ
@@ -58045,7 +59155,7 @@ JB
 WZ
 WZ
 WZ
-WZ
+JB
 JB
 JB
 JB
@@ -58257,10 +59367,10 @@ JB
 JB
 JB
 JB
-JB
-JB
-JB
-JB
+WZ
+WZ
+WZ
+WZ
 JB
 JB
 WZ
@@ -58710,8 +59820,8 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
+PD
+PD
 PD
 PD
 PD
@@ -58921,7 +60031,7 @@ PD
 PD
 PD
 PD
-WZ
+PD
 WZ
 WZ
 WZ
@@ -59143,8 +60253,8 @@ PD
 PD
 PD
 PD
-WZ
-WZ
+PD
+PD
 WZ
 WZ
 PD
@@ -59806,7 +60916,7 @@ WZ
 WZ
 WZ
 WZ
-PD
+WZ
 PD
 PD
 PD
