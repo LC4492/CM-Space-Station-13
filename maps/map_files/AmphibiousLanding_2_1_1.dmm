@@ -2375,14 +2375,6 @@
 	icon_state = "squares"
 	},
 /area/event/underground_no_CAS/dynamic/lit)
-"dX" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/structure/surface/table/woodentable/poor,
-/obj/structure/prop/cash_register,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "dY" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/effect/landmark/objective_landmark/medium,
@@ -2677,23 +2669,6 @@
 /obj/structure/desertdam/decals/road_edge,
 /turf/open/floor,
 /area/event/dynamic/lit/unpowered)
-"eG" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/m4a3,
-/obj/item/weapon/gun/pistol/m4a3{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/obj/item/ammo_magazine/pistol,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "eH" = (
 /obj/structure/flora/jungle/thickbush{
 	indestructable = 1;
@@ -2841,12 +2816,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/event/metal/dynamic/lit)
-"eU" = (
-/obj/structure/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "eV" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -3372,12 +3341,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"fW" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "fX" = (
 /obj/structure/prop/turbine,
 /turf/open/gm/river/desert/deep{
@@ -4097,13 +4060,6 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
-"hj" = (
-/obj/item/weapon/gun/pistol/vp78,
-/obj/item/ammo_magazine/pistol/vp78,
-/obj/item/ammo_magazine/pistol/vp78,
-/obj/structure/surface/rack,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "hk" = (
 /obj/structure/machinery/door_control{
 	id = "Park_G";
@@ -4532,12 +4488,6 @@
 /obj/item/stack/rods/plasteel,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"ih" = (
-/obj/effect/decal/cleanable/cobweb{
-	dir = 1
-	},
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "ij" = (
 /obj/structure/barricade/handrail{
 	dir = 1
@@ -4695,6 +4645,12 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"iB" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "iC" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/weapon/gun/shotgun/combat,
@@ -4762,25 +4718,6 @@
 	icon_state = "yellowcorner"
 	},
 /area/event/deep_underground/dynamic)
-"iL" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/m1911{
-	pixel_x = 1
-	},
-/obj/item/weapon/gun/pistol/m1911{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/obj/item/ammo_magazine/pistol/m1911,
-/obj/item/ammo_magazine/pistol/m1911,
-/obj/item/ammo_magazine/pistol/m1911,
-/obj/item/ammo_magazine/pistol/m1911,
-/obj/item/ammo_magazine/pistol/m1911,
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "iN" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/barricade/handrail/strata{
@@ -4880,6 +4817,15 @@
 	},
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"iW" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal9"
+	},
+/obj/structure/desertdam/decals/road_stop{
+	icon_state = "stop_decal5"
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "iX" = (
 /obj/structure/closet/secure_closet/freezer/fridge/groceries,
 /turf/open/floor/almayer{
@@ -4932,6 +4878,12 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"je" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "jf" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/under/marine/veteran/UPP,
@@ -5016,29 +4968,10 @@
 	},
 /area/event/deep_underground/dynamic)
 "jm" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/weapon/gun/pistol/c99,
-/obj/item/weapon/gun/pistol/c99,
-/obj/item/weapon/gun/pistol/c99,
-/obj/item/weapon/gun/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
+/obj/structure/machinery/light/small{
+	dir = 1;
+	flickering = 1
+	},
 /turf/open/floor,
 /area/event/metal/dynamic)
 "jo" = (
@@ -6613,6 +6546,13 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
+"lI" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	flickering = 1
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "lK" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -6922,13 +6862,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
-"ml" = (
-/obj/structure/fence,
-/turf/open/gm/dirtgrassborder{
-	dir = 4;
-	icon_state = "grassdirt_corner"
-	},
-/area/event/dynamic/lit/unpowered)
 "mm" = (
 /obj/item/device/flashlight,
 /turf/open/auto_turf/sand_white/layer1,
@@ -7702,13 +7635,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
-"nz" = (
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/weapon/gun/pistol/heavy,
-/obj/structure/surface/rack,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "nA" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
@@ -8846,6 +8772,42 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"pE" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "pF" = (
 /turf/open/floor/corsat{
 	dir = 8;
@@ -9510,11 +9472,6 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"qD" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "qG" = (
 /obj/structure/surface/rack,
 /obj/item/tool/shovel{
@@ -10925,22 +10882,6 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
-"tb" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/obj/item/ammo_magazine/smg/m39/ap,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "tc" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal5"
@@ -11080,6 +11021,32 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"tm" = (
+/obj/item/weapon/gun/pistol/c99,
+/obj/item/weapon/gun/pistol/c99,
+/obj/item/weapon/gun/pistol/c99,
+/obj/item/weapon/gun/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/structure/surface/rack,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "tn" = (
 /obj/structure/machinery/cryopod,
 /obj/structure/machinery/light{
@@ -13236,22 +13203,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
-"wA" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/obj/item/ammo_magazine/smg/uzi,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "wB" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/rocket/anti_tank,
@@ -13795,10 +13746,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"xm" = (
-/obj/structure/bed/chair/wood/wings,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "xn" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/barricade/sandbags{
@@ -14292,6 +14239,7 @@
 /obj/item/ammo_magazine/pistol/auto9,
 /obj/item/ammo_magazine/pistol/auto9,
 /obj/item/ammo_magazine/pistol/auto9,
+/obj/structure/machinery/light/small,
 /turf/open/floor,
 /area/event/metal/dynamic)
 "yl" = (
@@ -14405,7 +14353,22 @@
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
 "yu" = (
-/obj/effect/decal/cleanable/cobweb2,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/structure/surface/rack,
+/obj/effect/decal/cleanable/cobweb{
+	dir = 4
+	},
 /turf/open/floor,
 /area/event/metal/dynamic)
 "yv" = (
@@ -14843,6 +14806,23 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"yZ" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/m1911{
+	pixel_x = 1
+	},
+/obj/item/weapon/gun/pistol/m1911{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/ammo_magazine/pistol/m1911,
+/obj/item/ammo_magazine/pistol/m1911,
+/obj/item/ammo_magazine/pistol/m1911,
+/obj/item/ammo_magazine/pistol/m1911,
+/obj/item/ammo_magazine/pistol/m1911,
+/obj/structure/machinery/light,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "za" = (
 /obj/structure/platform{
 	dir = 4
@@ -14905,6 +14885,126 @@
 /obj/structure/mineral_door/wood,
 /turf/open/floor,
 /area/event/underground_no_CAS)
+"zh" = (
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/item/ammo_magazine/smg/m39/ap,
+/obj/structure/surface/rack,
+/turf/open/floor,
+/area/event/metal/dynamic)
+"zi" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = -3;
+	pixel_x = -5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = -3;
+	pixel_x = -5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = -3;
+	pixel_x = -5
+	},
+/obj/item/weapon/gun/revolver/nagant/shrapnel{
+	pixel_y = -3;
+	pixel_x = -5
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/revolver/upp/shrapnel{
+	pixel_x = 4
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "zj" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/barricade/handrail/strata{
@@ -15261,6 +15361,16 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
+"zY" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal9"
+	},
+/obj/structure/desertdam/decals/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "zZ" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -15834,6 +15944,7 @@
 /obj/item/ammo_magazine/smg/mac15,
 /obj/item/ammo_magazine/smg/mac15,
 /obj/item/ammo_magazine/smg/mac15,
+/obj/structure/machinery/light/small,
 /turf/open/floor,
 /area/event/metal/dynamic)
 "Bg" = (
@@ -16117,13 +16228,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"BD" = (
-/obj/structure/fence,
-/turf/open/gm/dirtgrassborder{
-	dir = 8;
-	icon_state = "grassdirt_corner"
-	},
-/area/event/dynamic/lit/unpowered)
 "BE" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/wood,
@@ -16327,13 +16431,6 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
-"BT" = (
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/surface/rack,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "BU" = (
 /obj/structure/window{
 	dir = 8
@@ -16711,9 +16808,6 @@
 	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
-"CH" = (
-/turf/open/space/basic,
-/area/event/underground_no_CAS)
 "CI" = (
 /turf/open/floor/corsat{
 	icon_state = "squares"
@@ -17487,6 +17581,17 @@
 /obj/item/ammo_magazine/smg/fp9000,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"Eg" = (
+/obj/structure/sign/safety/storage{
+	pixel_x = 8;
+	pixel_y = 38
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Eh" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -17722,6 +17827,29 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"Ez" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/pistol/highpower{
+	pixel_y = -2;
+	pixel_x = -4
+	},
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/highpower,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "EA" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/belt/medical/lifesaver/upp/full,
@@ -18351,6 +18479,16 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
+"FM" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal12"
+	},
+/obj/structure/desertdam/decals/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "FN" = (
 /turf/open/floor/corsat{
 	dir = 10;
@@ -19015,6 +19153,15 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"Hj" = (
+/obj/item/weapon/gun/pistol/vp78,
+/obj/item/ammo_magazine/pistol/vp78,
+/obj/item/ammo_magazine/pistol/vp78,
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/pistol/vp78,
+/obj/item/ammo_magazine/pistol/vp78,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Hl" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_box/magazine/su6,
@@ -19093,6 +19240,78 @@
 	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
+"Hu" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/skorpion{
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/pistol/skorpion{
+	pixel_y = 1;
+	pixel_x = -5
+	},
+/obj/item/weapon/gun/pistol/skorpion{
+	pixel_y = 1;
+	pixel_x = -5
+	},
+/obj/item/weapon/gun/pistol/skorpion{
+	pixel_y = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/obj/item/ammo_magazine/pistol/skorpion{
+	pixel_x = 8
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Hv" = (
 /obj/structure/bookcase{
 	icon_state = "book-5"
@@ -19379,6 +19598,9 @@
 /obj/item/ammo_magazine/pistol,
 /obj/item/ammo_magazine/pistol,
 /obj/item/ammo_magazine/pistol,
+/obj/effect/decal/cleanable/cobweb{
+	dir = 1
+	},
 /turf/open/floor,
 /area/event/metal/dynamic)
 "HW" = (
@@ -20002,6 +20224,12 @@
 /obj/item/clothing/under/color/grey,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Ja" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Jb" = (
 /obj/item/stool{
 	pixel_x = 6;
@@ -20309,6 +20537,11 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
+"JP" = (
+/obj/structure/surface/rack,
+/obj/structure/machinery/light,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "JQ" = (
 /obj/item/storage/pill_bottle/russianRed{
 	anchored = 1;
@@ -20866,7 +21099,11 @@
 "KK" = (
 /obj/structure/sign/safety/storage{
 	pixel_x = 8;
-	pixel_y = -32
+	pixel_y = -38
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_x = 8;
+	pixel_y = -24
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
@@ -21230,6 +21467,15 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
+"Lx" = (
+/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/heavy,
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/weapon/gun/pistol/heavy,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Ly" = (
 /obj/structure/surface/rack,
 /obj/item/attachable/attached_gun/shotgun,
@@ -21377,6 +21623,25 @@
 	icon_state = "red"
 	},
 /area/event/metal/dynamic/lit)
+"LS" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/mod88,
+/obj/item/weapon/gun/pistol/mod88{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/obj/item/ammo_magazine/pistol/mod88,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "LT" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/objective{
@@ -22379,6 +22644,10 @@
 /obj/structure/machinery/light,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"NE" = (
+/obj/structure/machinery/light,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "NF" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/glasses/hud/health,
@@ -22683,22 +22952,6 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
-"NV" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/c99,
-/obj/item/weapon/gun/pistol/c99{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/obj/item/ammo_magazine/pistol/c99,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "NW" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_box/magazine/shotgun,
@@ -23788,6 +24041,7 @@
 /obj/item/ammo_magazine/smg/mp27,
 /obj/item/ammo_magazine/smg/mp27,
 /obj/item/ammo_magazine/smg/mp27,
+/obj/structure/machinery/light,
 /turf/open/floor,
 /area/event/metal/dynamic)
 "Px" = (
@@ -23820,10 +24074,6 @@
 	icon_state = "red"
 	},
 /area/event/deep_underground/dynamic)
-"PB" = (
-/obj/structure/closet/coffin/woodencrate,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "PC" = (
 /turf/open/gm/grass{
 	dir = 4;
@@ -24120,6 +24370,15 @@
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/closed/wall/r_wall/bunker,
+/area/event/dynamic/lit/unpowered)
+"Qd" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal10"
+	},
+/obj/structure/desertdam/decals/road_stop{
+	icon_state = "stop_decal5"
+	},
+/turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
 "Qe" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
@@ -24476,6 +24735,30 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
+"QG" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/b92fs{
+	pixel_y = 4
+	},
+/obj/item/weapon/gun/pistol/b92fs{
+	pixel_y = -1;
+	pixel_x = -3
+	},
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/structure/machinery/light,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "QH" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/ammo_magazine/rifle/m16,
@@ -24918,7 +25201,7 @@
 "RA" = (
 /obj/structure/machinery/light,
 /obj/structure/machinery/vending/cigarette/colony{
-	prices = list(/obj/item/storage/fancy/cigarettes/kpack = 0, /obj/item/storage/fancy/cigarettes/arcturian_ace = 0, /obj/item/storage/fancy/cigarettes/emeraldgreen = 0, /obj/item/storage/fancy/cigarettes/wypacket = 0, /obj/item/storage/fancy/cigarettes/lady_finger = 0, /obj/item/storage/fancy/cigarettes/blackpack = 0, /obj/item/storage/fancy/cigar/tarbacks = 0, /obj/item/storage/box/matches = 0, /obj/item/tool/lighter/random = 0, /obj/item/tool/lighter/zippo = 0)
+	prices = list(/obj/item/storage/fancy/cigarettes/kpack=0,/obj/item/storage/fancy/cigarettes/arcturian_ace=0,/obj/item/storage/fancy/cigarettes/emeraldgreen=0,/obj/item/storage/fancy/cigarettes/wypacket=0,/obj/item/storage/fancy/cigarettes/lady_finger=0,/obj/item/storage/fancy/cigarettes/blackpack=0,/obj/item/storage/fancy/cigar/tarbacks=0,/obj/item/storage/box/matches=0,/obj/item/tool/lighter/random=0,/obj/item/tool/lighter/zippo=0)
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
@@ -24984,6 +25267,7 @@
 /area/event/dynamic/lit/unpowered)
 "RF" = (
 /obj/structure/surface/rack,
+/obj/item/device/binoculars/civ,
 /obj/item/device/binoculars/civ,
 /obj/item/device/binoculars/civ,
 /obj/item/device/binoculars/civ,
@@ -25141,6 +25425,14 @@
 /obj/item/document_objective/technical_manual,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"RV" = (
+/obj/structure/desertdam/decals/road_edge,
+/obj/structure/desertdam/decals/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "RW" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -25282,6 +25574,22 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"Sn" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/c99,
+/obj/item/weapon/gun/pistol/c99{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/obj/item/ammo_magazine/pistol/c99,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "So" = (
 /obj/structure/platform/kutjevo/rock{
 	climb_delay = 20;
@@ -26646,6 +26954,23 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Uw" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/pistol/m4a3,
+/obj/item/weapon/gun/pistol/m4a3{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/pistol,
+/turf/open/floor,
+/area/event/metal/dynamic)
 "Ux" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/almayer{
@@ -26818,9 +27143,13 @@
 	},
 /area/event/metal/dynamic/lit)
 "UJ" = (
+/obj/structure/sign/safety/restrictedarea{
+	pixel_x = 8;
+	pixel_y = 24
+	},
 /obj/structure/sign/safety/storage{
 	pixel_x = 8;
-	pixel_y = 32
+	pixel_y = 38
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
@@ -27283,11 +27612,6 @@
 	},
 /turf/open/gm/dirtgrassborder2,
 /area/event/dynamic/lit/unpowered)
-"Vs" = (
-/obj/structure/surface/rack,
-/obj/item/device/flashlight,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "Vt" = (
 /obj/structure/platform{
 	dir = 8;
@@ -27879,10 +28203,6 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
-"Wm" = (
-/obj/structure/surface/table/woodentable/poor,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "Wn" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/reagent_container/food/snacks/grown/potato,
@@ -27912,25 +28232,6 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic/lit)
-"Wq" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/mod88,
-/obj/item/weapon/gun/pistol/mod88{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/obj/item/ammo_magazine/pistol/mod88,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "Wr" = (
 /obj/structure/sign/safety/medical{
 	pixel_x = 8;
@@ -27972,10 +28273,6 @@
 	},
 /turf/open/gm/river/desert/deep,
 /area/event/dynamic/lit/unpowered)
-"Wu" = (
-/obj/structure/surface/rack,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "Wv" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/platform/kutjevo{
@@ -29202,9 +29499,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"YQ" = (
-/turf/open/space/basic,
-/area/event/metal/dynamic)
 "YR" = (
 /turf/open/floor/corsat{
 	dir = 10;
@@ -29695,19 +29989,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"ZO" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/obj/item/ammo_magazine/pistol/b92fs,
-/turf/open/floor,
-/area/event/underground_no_CAS)
 "ZP" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -35804,8 +36085,8 @@ Rp
 Wa
 Wa
 ko
-Ym
-ME
+iW
+lD
 Ym
 Ym
 DX
@@ -36026,8 +36307,8 @@ Wa
 Wa
 Wa
 ko
+VI
 Ym
-ME
 Ym
 Ym
 DX
@@ -36248,8 +36529,8 @@ Wa
 Rp
 Wa
 ko
-Ym
-ME
+Qd
+Yh
 Ym
 Ym
 DX
@@ -37785,8 +38066,8 @@ JB
 JB
 JB
 JB
-Gr
-Gr
+JB
+QP
 JB
 ME
 Ym
@@ -38008,7 +38289,7 @@ aY
 aY
 aY
 aY
-BD
+Gr
 JB
 ME
 Ym
@@ -38896,7 +39177,7 @@ UU
 UU
 UU
 UU
-ml
+Gr
 JB
 ME
 Ym
@@ -39117,8 +39398,8 @@ JB
 JB
 JB
 JB
-Gr
-Gr
+JB
+QP
 JB
 ME
 Ym
@@ -46271,10 +46552,10 @@ oF
 gG
 Ve
 JB
-xP
-Gy
-Gy
-QK
+zY
+RV
+RV
+FM
 JB
 JB
 Ve
@@ -49360,7 +49641,7 @@ JA
 nT
 mi
 xi
-Ve
+zC
 JB
 ME
 Ym
@@ -51794,13 +52075,13 @@ Ym
 DX
 JB
 kV
-gN
-gN
+tm
+pE
 gN
 DS
+je
 gN
-gN
-gN
+je
 kV
 kV
 JB
@@ -51955,10 +52236,10 @@ zf
 zf
 MR
 Gr
-PD
-PD
-PD
-PD
+TM
+TM
+TM
+ZB
 hf
 nq
 lb
@@ -52021,9 +52302,9 @@ gN
 Cb
 PH
 gN
-WV
+zi
 gN
-WV
+yZ
 kV
 JB
 ME
@@ -52239,13 +52520,13 @@ DX
 Sp
 kV
 gN
-gN
+GV
 gN
 PH
 gN
-WV
+Lx
 gN
-WV
+Ez
 Kv
 JB
 ME
@@ -52465,9 +52746,9 @@ kV
 kV
 kV
 gN
-WV
+Hj
 gN
-WV
+QG
 kV
 JB
 ME
@@ -52621,11 +52902,11 @@ zf
 zf
 sD
 Gr
-Kf
-PD
-PD
-PD
-PD
+Fl
+Fl
+Fl
+Fl
+HH
 nq
 lq
 TL
@@ -52682,7 +52963,7 @@ Ym
 DX
 JB
 kV
-YQ
+gN
 jE
 HV
 kV
@@ -52843,7 +53124,7 @@ zf
 zf
 Av
 QP
-PD
+Kf
 PD
 WZ
 PD
@@ -52908,7 +53189,7 @@ jm
 mo
 yk
 kV
-gN
+iB
 gN
 gN
 gN
@@ -53130,10 +53411,10 @@ gN
 Wb
 yH
 kV
-gN
-WV
-WV
-WV
+Eg
+Uw
+LS
+Sn
 kV
 Pk
 ME
@@ -53355,7 +53636,7 @@ YU
 gN
 gN
 gN
-gN
+NE
 kV
 OK
 ME
@@ -53792,11 +54073,11 @@ Ym
 DX
 JB
 kV
-gN
+jm
 Ef
 Bf
 kV
-gN
+iB
 gN
 gN
 gN
@@ -54459,13 +54740,13 @@ DX
 JB
 kV
 gN
-gN
+lI
 gN
 DS
 gN
 KN
 gN
-WV
+Hu
 Kv
 JB
 ME
@@ -54687,7 +54968,7 @@ PH
 gN
 Jo
 gN
-WV
+JP
 kV
 JB
 ME
@@ -54903,12 +55184,12 @@ pq
 JB
 kV
 yu
-gN
+zh
 gN
 PH
+Ja
 gN
-gN
-gN
+Ja
 kV
 kV
 Jv
@@ -59551,14 +59832,14 @@ WZ
 RY
 WZ
 WZ
-Vs
-Wm
-Wu
-Dw
-qD
-Dw
-BT
-CC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -59773,14 +60054,14 @@ WZ
 RY
 WZ
 WZ
-Dw
-Dw
-Dw
-xm
-qD
-Dw
-nz
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -59995,14 +60276,14 @@ WZ
 WZ
 WZ
 WZ
-Dw
-Dw
-dX
-Dw
-qD
-Dw
-hj
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -60217,14 +60498,14 @@ WZ
 WZ
 WZ
 WZ
-CC
-zg
-CC
-CC
-CC
-eU
-Dw
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -60439,14 +60720,14 @@ WZ
 WZ
 WZ
 WZ
-CH
-Dw
-CH
-CH
-CC
-Wq
-NV
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -60661,14 +60942,14 @@ WZ
 WZ
 WZ
 WZ
-CH
-Dw
-Dw
-Dw
-CC
-Dw
-Dw
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -60883,14 +61164,14 @@ WZ
 WZ
 WZ
 WZ
-PB
-CH
-CH
-CH
-CC
-eG
-iL
-ZO
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -61105,14 +61386,14 @@ WZ
 WZ
 WZ
 WZ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -61327,14 +61608,14 @@ WZ
 WZ
 WZ
 WZ
-Wu
-fu
-ed
-Dw
-qD
-Dw
-CH
-ih
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -61549,14 +61830,14 @@ WZ
 WZ
 WZ
 WZ
-Dw
-Dw
-Dw
-xm
-qD
-Dw
-CH
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -61771,14 +62052,14 @@ WZ
 WZ
 WZ
 WZ
-Dw
-Dw
-fW
-Dw
-qD
-Dw
-CH
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -61993,14 +62274,14 @@ WZ
 WZ
 WZ
 WZ
-CC
-zg
-CC
-CC
-CC
-eU
-Dw
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -62215,14 +62496,14 @@ WZ
 WZ
 WZ
 WZ
-CH
-Dw
-wA
-tb
-CC
-CH
-CH
-CH
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -62437,14 +62718,14 @@ WZ
 WZ
 WZ
 WZ
-CH
-Dw
-Dw
-Dw
-CC
-Dw
-Dw
-Dw
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -62659,14 +62940,14 @@ WZ
 WZ
 WZ
 WZ
-CH
-CH
-CH
-CH
-CC
-CH
-CH
-CC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
