@@ -15560,6 +15560,12 @@
 /obj/structure/machinery/computer/arcade,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"zA" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "zB" = (
 /turf/open/floor/corsat{
 	icon_state = "arrow_south"
@@ -35589,7 +35595,7 @@ JB
 JB
 JB
 JB
-JB
+zA
 JB
 JB
 JB
@@ -35831,7 +35837,7 @@ JB
 JB
 JB
 hJ
-JB
+zA
 JB
 JB
 JB
