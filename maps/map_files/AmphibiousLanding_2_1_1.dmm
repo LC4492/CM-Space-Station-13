@@ -346,7 +346,7 @@
 	},
 /area/event/dynamic/lit/unpowered)
 "aC" = (
-/obj/structure/filingcabinet,
+/obj/structure/safe,
 /turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
 "aD" = (
@@ -738,6 +738,44 @@
 /turf/open/gm/dirtgrassborder2{
 	dir = 1;
 	icon_state = "grassdirt2_corner"
+	},
+/area/event/dynamic/lit/unpowered)
+"bp" = (
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/obj/structure/sign/safety/commline_connection{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a communications tower.";
+	name = "Telecommunication Tower traffic signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/turf/open/gm/dirtgrassborder{
+	icon_state = "grassdirt_corner2"
 	},
 /area/event/dynamic/lit/unpowered)
 "br" = (
@@ -1943,13 +1981,6 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
-"dt" = (
-/obj/structure/machinery/cm_vending/sorted/medical/marinemed/antag,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "sterile_green_side"
-	},
-/area/event/metal/dynamic/lit)
 "du" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/effect/landmark/objective_landmark/close,
@@ -4012,7 +4043,7 @@
 /area/event/metal/dynamic/lit)
 "gE" = (
 /obj/structure/machinery/light{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/almayer{
 	icon_state = "sterile_green_corner"
@@ -5169,28 +5200,6 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
-"iF" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "iG" = (
 /turf/closed/wall/almayer{
 	name = "Pillar"
@@ -5747,6 +5756,45 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"jD" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 9;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 9;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 9;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/commline_connection{
+	pixel_x = 7;
+	pixel_y = 4;
+	desc = "A traffic signal denoting the nearby presence of a communications tower.";
+	name = "Telecommunication Tower traffic signal"
+	},
+/obj/structure/sign/safety/south{
+	pixel_x = 7;
+	pixel_y = 19;
+	desc = "A traffic signal denoting the nearby presence of something to the South.";
+	name = "\improper South traffic signal"
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 8;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "jE" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/pistol/m1911{
@@ -6890,6 +6938,13 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"lw" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood/antag,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "lx" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/stairs/perspective{
@@ -7016,6 +7071,45 @@
 	icon_state = "darkgreen"
 	},
 /area/event/deep_underground/dynamic)
+"lH" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "lI" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 4;
@@ -7447,6 +7541,30 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"mu" = (
+/obj/item/storage/box/pillbottles{
+	pixel_x = -4;
+	pixel_y = 15
+	},
+/obj/item/storage/box/pillbottles{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/reagent_container/glass/beaker,
+/obj/item/reagent_container/glass/beaker,
+/obj/item/reagent_container/glass/beaker,
+/obj/item/reagent_container/dropper,
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/tool/hand_labeler{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "sterile_green_side"
+	},
+/area/event/metal/dynamic/lit)
 "mv" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -7573,6 +7691,13 @@
 	icon_state = "grass2"
 	},
 /area/event/dynamic/lit/unpowered)
+"mF" = (
+/obj/structure/machinery/cm_vending/sorted/medical/marinemed/antag,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "mH" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/barricade/sandbags{
@@ -7841,6 +7966,44 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"mY" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/east{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper East traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the East."
+	},
+/obj/structure/sign/safety/outpatient{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a military bunker.";
+	name = "Military bunker traffic signal"
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 1
+	},
+/area/event/dynamic/lit/unpowered)
 "mZ" = (
 /obj/structure/machinery/shower{
 	desc = "The UP-153. Installed by the State-Funded Hygiene Organization.";
@@ -7849,6 +8012,49 @@
 /obj/structure/window,
 /turf/open/floor/plating/plating_catwalk,
 /area/event/underground_no_CAS/dynamic)
+"na" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "nb" = (
 /obj/structure/surface/rack,
 /obj/item/attachable/bipod,
@@ -8982,17 +9188,6 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
-"oD" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/obj/structure/prop/cash_register,
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile";
-	tag = "icon-sterile"
-	},
-/area/event/metal/dynamic/lit)
 "oE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/overwatch/upp{
@@ -9288,6 +9483,14 @@
 "pf" = (
 /turf/open/floor/almayer,
 /area/event/deep_underground/dynamic)
+"pg" = (
+/obj/structure/prop/cash_register,
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "ph" = (
 /obj/structure/machinery/conveyor{
 	id = "lower_garbage"
@@ -14048,6 +14251,44 @@
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"wm" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/turf/open/gm/dirtgrassborder{
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "wn" = (
 /obj/structure/surface/rack,
 /obj/item/mortar_shell/frag,
@@ -16843,6 +17084,15 @@
 	dir = 1
 	},
 /area/event/dynamic/lit/unpowered)
+"Aw" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_corner"
+	},
+/area/event/metal/dynamic/lit)
 "Ax" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/closet/secure_closet/surgical{
@@ -17966,10 +18216,13 @@
 /area/event/dynamic/lit)
 "Cj" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/corsat{
 	icon_state = "squares"
 	},
-/area/event/underground_no_CAS/dynamic/lit)
+/area/event/underground_no_CAS/dynamic)
 "Ck" = (
 /obj/structure/machinery/gibber,
 /obj/structure/machinery/light{
@@ -18029,6 +18282,20 @@
 	dir = 4
 	},
 /area/event/dynamic/lit/unpowered)
+"Cr" = (
+/obj/structure/sign/safety/security{
+	name = "Politsiya semiotic";
+	pixel_x = 14;
+	pixel_y = 28
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_y = 28
+	},
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
 "Cs" = (
 /obj/structure/platform/kutjevo{
 	dir = 8;
@@ -18800,6 +19067,13 @@
 	icon_state = "red"
 	},
 /area/event/deep_underground/dynamic)
+"DJ" = (
+/obj/structure/largecrate/hunter_games_surgery,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_side"
+	},
+/area/event/metal/dynamic/lit)
 "DK" = (
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/almayer{
@@ -19029,46 +19303,6 @@
 /obj/item/ammo_magazine/smg/fp9000,
 /turf/open/floor,
 /area/event/metal/dynamic)
-"Eg" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "Eh" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -19368,6 +19602,49 @@
 	icon_state = "greenwhitecorner"
 	},
 /area/event/deep_underground/dynamic)
+"EP" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "EQ" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 4;
@@ -20004,7 +20281,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/structure/filingcabinet,
+/obj/structure/safe,
 /turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
 "FV" = (
@@ -20339,6 +20616,45 @@
 	icon_state = "freezerfloor"
 	},
 /area/event/metal/dynamic/lit)
+"GL" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/east{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper East traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the East."
+	},
+/obj/structure/sign/safety/medical{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "medical traffic signal";
+	desc = "A traffic signal denoting the nearby presence of a hospital or medical building."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "GM" = (
 /obj/structure/barricade/handrail/type_b{
 	dir = 1;
@@ -21382,7 +21698,9 @@
 	},
 /area/event/dynamic/unpowered)
 "IQ" = (
-/obj/structure/machinery/light,
+/obj/structure/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "sterile_green_corner"
@@ -21619,6 +21937,13 @@
 /obj/item/ammo_magazine/smg/fp9000,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"Js" = (
+/obj/structure/machinery/cm_vending/sorted/medical/antag,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "Jt" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/device/megaphone,
@@ -21640,6 +21965,45 @@
 "Jv" = (
 /obj/structure/flora/jungle/thickbush,
 /turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
+"Jw" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
 /area/event/dynamic/lit/unpowered)
 "Jx" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -22162,9 +22526,11 @@
 	brute_multiplier = 0;
 	build_stage = 5;
 	burn_multiplier = 0;
+	dir = 8;
 	health = 500;
 	maxhealth = 500;
 	name = "trench lining";
+	pixel_y = 1;
 	projectile_coverage = 100;
 	stack_amount = 50;
 	starting_maxhealth = 500
@@ -22173,11 +22539,9 @@
 	brute_multiplier = 0;
 	build_stage = 5;
 	burn_multiplier = 0;
-	dir = 8;
 	health = 500;
 	maxhealth = 500;
 	name = "trench lining";
-	pixel_y = 1;
 	projectile_coverage = 100;
 	stack_amount = 50;
 	starting_maxhealth = 500
@@ -22544,7 +22908,8 @@
 "Ld" = (
 /obj/structure/prop/souto_land/pole{
 	dir = 8;
-	pixel_x = -5
+	pixel_x = -5;
+	layer = 2
 	},
 /turf/open/gm/dirtgrassborder2,
 /area/event/dynamic/lit/unpowered)
@@ -22576,6 +22941,16 @@
 	icon_state = "upp9"
 	},
 /area/event/deep_underground/dynamic)
+"Li" = (
+/obj/structure/sign/kiddieplaque{
+	desc = "A shop sign that signals to you what the shop generally sells";
+	layer = 2.5;
+	name = "Shop Sign";
+	pixel_y = 32
+	},
+/obj/structure/flora/bush/ausbushes/grassybush,
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "Lj" = (
 /obj/structure/machinery/medical_pod/sleeper,
 /turf/open/floor/almayer{
@@ -22713,6 +23088,13 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
+"Lu" = (
+/obj/structure/closet/secure_closet/chemical,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "Lv" = (
 /obj/structure/surface/rack,
 /obj/item/tool/pickaxe{
@@ -23647,6 +24029,16 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"MO" = (
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/structure/machinery/light/small{
+	dir = 8;
+	flickering = 1
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/underground_no_CAS/dynamic)
 "MP" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/reagent_container/food/snacks/grown/carrot,
@@ -24091,17 +24483,6 @@
 /obj/item/tool/kitchen/knife,
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
-"NH" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/structure/prop/cash_register,
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile";
-	tag = "icon-sterile"
-	},
-/area/event/metal/dynamic/lit)
 "NI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -24175,6 +24556,9 @@
 /obj/structure/closet/coffin/woodencrate,
 /obj/structure/barricade/handrail{
 	layer = 4
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 1
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
@@ -25903,6 +26287,42 @@
 /obj/structure/machinery/light/small,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Qq" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/west{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper West traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the West."
+	},
+/obj/structure/sign/safety/landingzone{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the presecense of a landing zone nearby.";
+	name = "\improper landing zone traffic signal"
+	},
+/turf/open/gm/dirtgrassborder,
+/area/event/dynamic/lit/unpowered)
 "Qr" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -26324,49 +26744,6 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
-"QV" = (
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "QW" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -26634,12 +27011,6 @@
 "Rp" = (
 /obj/structure/bed/roller,
 /turf/open/floor/almayer,
-/area/event/metal/dynamic/lit)
-"Rq" = (
-/turf/open/floor/almayer{
-	dir = 6;
-	icon_state = "sterile_green_side"
-	},
 /area/event/metal/dynamic/lit)
 "Rr" = (
 /obj/structure/disposalpipe/segment{
@@ -27120,6 +27491,10 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"Sh" = (
+/obj/structure/surface/table/gamblingtable,
+/turf/open/gm,
+/area/event/dynamic/lit/unpowered)
 "Sj" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/barricade/metal/wired{
@@ -28117,15 +28492,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
-"TJ" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "sterile_green_corner"
-	},
-/area/event/metal/dynamic/lit)
 "TK" = (
 /obj/structure/sign/nosmoking_2{
 	dir = 1;
@@ -28582,13 +28948,6 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
-"Uv" = (
-/obj/structure/machinery/light,
-/turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "sterile_green_corner"
-	},
-/area/event/metal/dynamic/lit)
 "Ux" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/almayer{
@@ -29265,7 +29624,8 @@
 "Vr" = (
 /obj/structure/prop/souto_land/pole{
 	dir = 4;
-	pixel_x = 5
+	pixel_x = 5;
+	layer = 2
 	},
 /turf/open/gm/dirtgrassborder2,
 /area/event/dynamic/lit/unpowered)
@@ -29379,6 +29739,45 @@
 /obj/structure/prop/turbine_extras/border,
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
+"VB" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/landingzone{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the presecense of a landing zone nearby.";
+	name = "\improper landing zone traffic signal"
+	},
+/obj/structure/sign/safety/east{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper East traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the East."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "VC" = (
 /turf/closed/wall/r_wall/bunker/floodgate,
 /area/event/underground_no_CAS/dynamic)
@@ -29482,24 +29881,12 @@
 	},
 /area/event/metal/dynamic/lit)
 "VL" = (
-/obj/item/storage/box/pillbottles{
-	pixel_x = -4;
-	pixel_y = 15
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
+	desc = "Medical chemistry dispenser. Provided by the State-Funded Health Organization(SHO).";
+	name = "\improper Bottled Chemicals";
+	req_one_access = null;
+	req_access = null
 	},
-/obj/item/storage/box/pillbottles{
-	pixel_x = -4;
-	pixel_y = 7
-	},
-/obj/item/reagent_container/glass/beaker,
-/obj/item/reagent_container/glass/beaker,
-/obj/item/reagent_container/glass/beaker,
-/obj/item/reagent_container/dropper,
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/tool/hand_labeler{
-	pixel_x = 7;
-	pixel_y = 11
-	},
-/obj/structure/machinery/light,
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "sterile_green_corner"
@@ -30512,18 +30899,6 @@
 	name = "Pre-Fabricated wall"
 	},
 /area/event/metal/dynamic/lit)
-"Xt" = (
-/obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
-	desc = "Medical chemistry dispenser. Provided by the State-Funded Health Organization(SHO).";
-	name = "\improper Bottled Chemicals";
-	req_one_access = null;
-	req_access = null
-	},
-/turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "sterile_green_side"
-	},
-/area/event/metal/dynamic/lit)
 "Xu" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/storage/backpack/marine/satchel/rto/small{
@@ -30806,6 +31181,17 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
+"XS" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
+/obj/structure/prop/cash_register,
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "XT" = (
 /obj/item/explosive/plastic,
 /obj/item/explosive/plastic,
@@ -30998,13 +31384,6 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/event/metal/dynamic/lit)
-"Yq" = (
-/obj/structure/machinery/cm_vending/sorted/medical/antag,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "sterile_green_side"
-	},
 /area/event/metal/dynamic/lit)
 "Yr" = (
 /obj/structure/bed/chair/comfy/black,
@@ -31204,69 +31583,6 @@
 	icon_state = "stop_decal5"
 	},
 /turf/open/asphalt/cement,
-/area/event/dynamic/lit/unpowered)
-"YA" = (
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/sign/safety/medical{
-	pixel_x = 8;
-	pixel_y = -26
-	},
-/obj/structure/sign/safety/chem_lab{
-	pixel_x = 8;
-	pixel_y = -39
-	},
-/turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
 "YB" = (
 /obj/structure/surface/rack,
@@ -31507,6 +31823,15 @@
 	name = "reinforced bunker wall"
 	},
 /area/event/deep_underground/dynamic)
+"YX" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "sterile_green_corner"
+	},
+/area/event/metal/dynamic/lit)
 "YY" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/structure/machinery/reagentgrinder{
@@ -31530,6 +31855,16 @@
 "Za" = (
 /turf/open/gm/river,
 /area/event/underground_no_CAS)
+"Zc" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/machinery/smartfridge/chemistry,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile";
+	tag = "icon-sterile"
+	},
+/area/event/metal/dynamic/lit)
 "Zd" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -31695,13 +32030,6 @@
 	},
 /turf/closed/wall/hangar{
 	name = "Pre-Fabricated wall"
-	},
-/area/event/metal/dynamic/lit)
-"Zo" = (
-/obj/structure/machinery/cm_vending/sorted/medical/blood/antag,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
 "Zp" = (
@@ -38952,7 +39280,7 @@ WZ
 sb
 JB
 JB
-JB
+nV
 JB
 Fp
 vX
@@ -39194,8 +39522,8 @@ JB
 JB
 JB
 JB
+JB
 Ah
-aY
 aY
 aY
 hv
@@ -39436,9 +39764,9 @@ JB
 vX
 JB
 JB
+JB
 CP
 br
-zf
 zf
 hv
 Wo
@@ -39678,8 +40006,8 @@ JB
 JB
 JB
 Sp
+JB
 CP
-zf
 zf
 zf
 gR
@@ -39920,8 +40248,8 @@ Cs
 Qb
 aY
 My
+JB
 CP
-zf
 zf
 zf
 hv
@@ -40162,9 +40490,9 @@ xB
 VO
 zf
 Av
+vX
 CP
 br
-zf
 zf
 Vn
 iU
@@ -40404,8 +40732,8 @@ CL
 CP
 zf
 Av
+JB
 CP
-zf
 zf
 zf
 lX
@@ -40646,8 +40974,8 @@ CL
 CP
 zf
 Av
+Sp
 CP
-zf
 zf
 zf
 Vn
@@ -40888,9 +41216,9 @@ CL
 CP
 zf
 Av
+JB
 CP
 oT
-zf
 zf
 hv
 Tx
@@ -41130,8 +41458,8 @@ CL
 CP
 zf
 Av
+JB
 CP
-zf
 zf
 zf
 gR
@@ -41364,7 +41692,7 @@ JB
 JB
 Gr
 JB
-JB
+nV
 JB
 JB
 Dm
@@ -41372,8 +41700,8 @@ xB
 SI
 zf
 Av
+nV
 CP
-zf
 zf
 zf
 hv
@@ -41579,7 +41907,7 @@ CP
 zf
 Av
 JB
-JB
+nV
 JB
 JB
 JB
@@ -41614,8 +41942,8 @@ Vv
 Xj
 zf
 Av
-Ay
-EQ
+JB
+CP
 zf
 zf
 hv
@@ -41837,7 +42165,7 @@ vX
 JB
 Sp
 JB
-JB
+Fp
 CP
 zf
 zf
@@ -42079,8 +42407,8 @@ JB
 JB
 JB
 nV
-Fp
-CP
+JB
+Qq
 zf
 zf
 zf
@@ -43061,7 +43389,7 @@ Fp
 JB
 QP
 JB
-JB
+nV
 JB
 JB
 NP
@@ -43510,7 +43838,7 @@ TZ
 TZ
 GB
 JB
-JB
+vX
 wl
 JB
 CP
@@ -44489,7 +44817,7 @@ NT
 aY
 aY
 aY
-jr
+wm
 zf
 zf
 zf
@@ -44505,7 +44833,7 @@ WZ
 WZ
 WZ
 JB
-JB
+nV
 JB
 JB
 JB
@@ -46062,7 +46390,7 @@ vs
 Xk
 Yc
 YW
-Rw
+Cr
 BW
 YW
 YW
@@ -47646,8 +47974,8 @@ JB
 JB
 qI
 Yd
-JB
-JB
+aY
+My
 nV
 JB
 vX
@@ -47886,10 +48214,10 @@ JB
 JB
 JB
 vX
-QV
+kX
 lz
-JB
-JB
+zf
+Av
 JB
 Sp
 JB
@@ -48129,9 +48457,9 @@ aY
 aY
 aY
 aY
-aY
-aY
-aY
+jr
+zf
+MR
 aY
 aY
 aY
@@ -48587,7 +48915,7 @@ BB
 qG
 NT
 sH
-JB
+vX
 JB
 CP
 zf
@@ -48869,12 +49197,12 @@ EQ
 zf
 sD
 UU
-EQ
+GL
 zf
 sD
 UU
 UU
-EQ
+lH
 zf
 zf
 jL
@@ -49098,9 +49426,9 @@ Sp
 JB
 ww
 Kl
-jr
+CP
 zf
-Av
+mY
 Fp
 JB
 JB
@@ -49339,8 +49667,8 @@ JB
 JB
 JB
 qI
-jX
-zf
+Yd
+jr
 zf
 Av
 nV
@@ -49581,8 +49909,8 @@ JB
 JB
 JB
 qI
-Yd
-EQ
+jX
+zf
 zf
 Av
 JB
@@ -49824,7 +50152,7 @@ JB
 Yv
 CV
 Yd
-CP
+EQ
 zf
 Av
 vX
@@ -50063,7 +50391,7 @@ Av
 vX
 JB
 JB
-qI
+Qo
 ie
 Yd
 CP
@@ -50305,7 +50633,7 @@ Av
 JB
 JB
 JB
-Vg
+EP
 XQ
 Yd
 CP
@@ -50791,8 +51119,8 @@ JB
 JB
 JB
 qI
-gL
-CP
+Yd
+jr
 zf
 Av
 JB
@@ -51033,8 +51361,8 @@ JB
 vX
 JB
 qI
-Yd
-CP
+gL
+zf
 zf
 Av
 Sp
@@ -51049,7 +51377,7 @@ sD
 UU
 EQ
 zf
-zf
+XK
 XK
 hv
 TD
@@ -51069,7 +51397,7 @@ WZ
 WZ
 JB
 JB
-Df
+Vr
 Rc
 Jf
 dp
@@ -51276,14 +51604,14 @@ JB
 JB
 qI
 Yd
-CP
+EQ
 zf
 Av
 Fp
 JB
 JB
-Eg
-ct
+JB
+SQ
 hG
 CP
 zf
@@ -51291,7 +51619,7 @@ Av
 Fp
 CP
 zf
-zf
+Sh
 TX
 hv
 TD
@@ -51311,7 +51639,7 @@ WZ
 WZ
 nV
 JB
-Df
+xY
 aA
 eq
 nl
@@ -51524,8 +51852,8 @@ Av
 nV
 JB
 wl
-SQ
-ie
+na
+ct
 hG
 CP
 zf
@@ -51533,7 +51861,7 @@ Av
 JB
 CP
 zf
-zf
+MS
 MS
 hv
 VG
@@ -51553,7 +51881,7 @@ WZ
 WZ
 WZ
 wl
-Df
+Ld
 Ci
 jW
 en
@@ -51766,8 +52094,8 @@ MR
 aY
 My
 JB
-vV
-TE
+UX
+ie
 hi
 jr
 zf
@@ -52008,8 +52336,8 @@ zf
 zf
 Av
 JB
-JB
-iF
+vV
+TE
 gL
 zf
 zf
@@ -52959,7 +53287,7 @@ UU
 UU
 UU
 UU
-EQ
+Jw
 zf
 zf
 zf
@@ -53503,8 +53831,8 @@ JB
 JB
 JB
 wl
-JB
-JB
+VN
+WW
 Fp
 JB
 nV
@@ -53958,8 +54286,8 @@ tT
 PG
 Td
 WM
-Fl
-Fl
+WM
+WM
 WM
 gk
 HO
@@ -54188,7 +54516,7 @@ ew
 ew
 cb
 fk
-fk
+MO
 Wl
 Bd
 PG
@@ -54200,7 +54528,7 @@ WM
 PG
 Lq
 Wl
-Cj
+fk
 Cj
 PK
 mL
@@ -54442,8 +54770,8 @@ zM
 PG
 Td
 WM
-Fl
-Fl
+WM
+WM
 WM
 gk
 OC
@@ -54471,8 +54799,8 @@ JB
 Fp
 JB
 Sp
-JB
-nV
+VN
+WW
 JB
 JB
 Fp
@@ -54637,7 +54965,7 @@ gn
 QD
 dP
 nr
-JB
+vX
 JB
 CP
 zf
@@ -55180,7 +55508,7 @@ WZ
 WZ
 WZ
 JB
-JB
+wl
 xP
 Gy
 Gy
@@ -56637,7 +56965,7 @@ ME
 Ym
 DX
 JB
-JB
+nV
 WZ
 WZ
 JB
@@ -56899,8 +57227,8 @@ JB
 JB
 Fp
 JB
-JB
-JB
+VN
+WW
 Sp
 JB
 JB
@@ -57854,7 +58182,7 @@ WZ
 JB
 JB
 JB
-JB
+wl
 JB
 JB
 nV
@@ -57867,13 +58195,13 @@ DX
 JB
 JB
 JB
-JB
-JB
+VN
+WW
 JB
 Fp
 JB
 JB
-JB
+nV
 JB
 JB
 ME
@@ -58134,7 +58462,7 @@ Ve
 JA
 JB
 JB
-Sp
+JB
 ME
 Ym
 Ym
@@ -58364,19 +58692,19 @@ dJ
 Ym
 Ym
 DX
-wl
+JB
 Sp
 Ve
 Ve
 Dd
 jK
-Xt
 YY
+mu
 VL
 Ve
 Ve
 wl
-JB
+Sp
 ME
 Ym
 Ym
@@ -58529,7 +58857,7 @@ CP
 zf
 zf
 zf
-MR
+jD
 uv
 Hu
 Hu
@@ -58552,7 +58880,7 @@ Ah
 aY
 aY
 aY
-jr
+bp
 zf
 zf
 zf
@@ -58606,16 +58934,16 @@ ME
 Ym
 Ym
 DX
-Fp
+wl
 JB
 Ve
-dv
-tO
+pg
+lK
 vr
-wS
 vr
-Ar
-hq
+vr
+tk
+Lu
 Ve
 JB
 JB
@@ -58848,16 +59176,16 @@ ME
 Ym
 Ym
 DX
-JB
+Fp
 JA
 Ve
-Dq
-Ve
-OJ
-Jk
-oD
-Ve
-Dq
+dv
+tO
+vr
+wS
+vr
+Ar
+hq
 Ve
 JA
 JB
@@ -59092,15 +59420,15 @@ Ym
 DX
 JB
 Ve
-Xl
-xD
-tF
-vr
-vr
-vr
-tF
-xD
-zZ
+Ve
+Dq
+Ve
+OJ
+Jk
+Zc
+Ve
+Dq
+Ve
 Ve
 JB
 ME
@@ -59334,17 +59662,17 @@ Ym
 DX
 JB
 Ve
-ei
-LA
-UI
-Wk
+Xl
+xD
+tF
 vr
-XJ
-jd
-GY
-mA
+vr
+vr
+tF
+xD
+zZ
 Ve
-nV
+JB
 ME
 Ym
 Ym
@@ -59554,7 +59882,7 @@ nO
 mi
 mi
 zC
-JB
+nV
 ME
 Ym
 DX
@@ -59569,24 +59897,24 @@ gN
 gN
 gN
 fM
-vw
+Li
 ME
 Ym
 Ym
 DX
-Pk
-Ve
-Ve
-zC
-zC
-Zn
-Dq
-Ve
-zC
-zC
-Ve
-Ve
 JB
+Ve
+ei
+LA
+UI
+Wk
+vr
+XJ
+jd
+GY
+mA
+Ve
+nV
 ME
 Ym
 Ym
@@ -59811,22 +60139,22 @@ Ca
 QX
 Vy
 kV
-Pk
+JB
 ME
 Ym
 Ym
 DX
-YA
+EM
 Ve
-TJ
-xD
-xD
-zI
-vr
-tF
-xD
-xD
-Uv
+Ve
+zC
+zC
+Zn
+Dq
+Ve
+zC
+zC
+Ve
 Ve
 rK
 ME
@@ -59962,7 +60290,7 @@ NQ
 dV
 CH
 JB
-JB
+vX
 CP
 zf
 zf
@@ -60053,22 +60381,22 @@ gN
 gN
 zi
 kV
-OK
+JB
 ME
 Ym
 Ym
 DX
 Ym
 fr
+Aw
+xD
+xD
+zI
 vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
+tF
+xD
+xD
+YX
 fr
 Ym
 ME
@@ -60295,13 +60623,13 @@ Jr
 Lg
 MG
 kV
-JB
+wl
 ME
 Ym
 Ym
 DX
-EM
-Ve
+Ym
+fr
 gE
 pr
 pr
@@ -60311,8 +60639,8 @@ Nq
 pr
 pr
 IQ
-Ve
-rK
+fr
+Ym
 ME
 Ym
 Ym
@@ -60461,7 +60789,7 @@ NT
 UU
 UU
 UU
-EQ
+Jw
 zf
 zf
 zf
@@ -60542,7 +60870,7 @@ ME
 Ym
 Ym
 DX
-wl
+EM
 Ve
 Ve
 zC
@@ -60554,7 +60882,7 @@ zC
 zC
 Ve
 Ve
-Fp
+rK
 ME
 Ym
 Ym
@@ -60784,7 +61112,7 @@ ME
 Ym
 Ym
 DX
-JB
+wl
 Ve
 qo
 hV
@@ -60796,7 +61124,7 @@ rh
 FA
 AN
 Ve
-JB
+Fp
 ME
 Ym
 Ym
@@ -61021,24 +61349,24 @@ mU
 gN
 ft
 kV
-JB
+Pk
 ME
 Ym
 Ym
 DX
-JB
+Pk
 Ve
 Sw
-pr
-ZO
-vr
-vr
-vr
 ZO
 pr
+vr
+vr
+vr
+pr
+ZO
 Ng
 Ve
-nV
+JB
 ME
 Ym
 Ym
@@ -61263,24 +61591,24 @@ KN
 gN
 ml
 Kv
-JB
+OK
 ME
 Ym
 Ym
 DX
-JB
-JA
+OK
+Ve
+Ve
 Ve
 Dq
 Ve
-NH
-SZ
 SZ
 Ve
 Dq
 Ve
-JA
-JB
+Ve
+Ve
+nV
 ME
 Ym
 Ym
@@ -61511,17 +61839,17 @@ Ym
 Ym
 DX
 JB
-nV
+JA
 Ve
-dv
-Ao
+XS
+vr
 vr
 rB
 vr
-Rq
-hq
+vr
+mF
 Ve
-JB
+JA
 JB
 ME
 Ym
@@ -61753,17 +62081,17 @@ Ym
 Ym
 DX
 JB
-JB
-Ve
-Ve
-TM
-dt
-Zo
-Yq
-RO
-Ve
-Ve
 nV
+Ve
+lw
+lK
+vr
+vr
+vr
+tk
+Js
+Ve
+JB
 JB
 ME
 Ym
@@ -61994,19 +62322,19 @@ ME
 Ym
 Ym
 DX
+JB
+JB
+Ve
+Ve
+TM
+DJ
+GY
+GY
+RO
+Ve
+Ve
 nV
 JB
-JB
-JA
-Ve
-zC
-zC
-zC
-Ve
-JA
-JB
-JB
-wl
 ME
 Ym
 Ym
@@ -62236,19 +62564,19 @@ ME
 Ym
 Ym
 DX
-cv
-It
-Sp
-Fp
+nV
 JB
 JB
-fU
+JA
+Ve
+zC
+zC
+zC
+Ve
+JA
 JB
 JB
-Fp
-JB
-cv
-It
+wl
 ME
 Ym
 Ym
@@ -62391,7 +62719,7 @@ JB
 CP
 zf
 Av
-JB
+vX
 JB
 dd
 NT
@@ -62478,19 +62806,19 @@ ME
 Ym
 Ym
 DX
+cv
+It
+Sp
+Fp
 JB
 JB
+fU
 JB
 JB
+Fp
 JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
-JB
+cv
+It
 ME
 Ym
 Ym
@@ -62638,7 +62966,7 @@ JB
 dd
 NT
 JB
-JB
+vX
 CP
 zf
 zf
@@ -63121,7 +63449,7 @@ GT
 GT
 GT
 uR
-JB
+nV
 JB
 CP
 zf
@@ -63354,12 +63682,12 @@ qm
 JB
 JB
 JB
+nV
+JB
+vX
 JB
 JB
-JB
-JB
-JB
-JB
+wl
 JB
 JB
 JB
@@ -63863,7 +64191,7 @@ UU
 UU
 UU
 UU
-EQ
+VB
 zf
 zf
 zf
@@ -64595,7 +64923,7 @@ zf
 zf
 Av
 JB
-JB
+vX
 JB
 WZ
 WZ
@@ -65547,7 +65875,7 @@ WZ
 WZ
 WZ
 JB
-JB
+vX
 JB
 CP
 zf
@@ -67484,7 +67812,7 @@ WZ
 WZ
 WZ
 WZ
-JB
+vX
 CP
 EE
 zf
