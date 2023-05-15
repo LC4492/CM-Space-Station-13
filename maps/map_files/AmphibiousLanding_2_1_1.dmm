@@ -6,17 +6,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
-"ab" = (
-/obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2;
-	name = "Leftyenant's Quarters";
-	req_access = list(201);
-	req_one_access_txt = "201"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/event/deep_underground/dynamic)
 "ac" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 1
@@ -275,6 +264,15 @@
 	name = "\improper Type 73-B wooden stock"
 	},
 /turf/open/shuttle/elevator/grating,
+/area/event/deep_underground/dynamic)
+"ar" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced/colony{
+	req_access = list(201);
+	name = "\improper Bunker command outpost"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
 /area/event/deep_underground/dynamic)
 "as" = (
 /turf/open/gm/coast{
@@ -546,21 +544,21 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"aU" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "aV" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/gm/grass{
 	icon_state = "grass2"
 	},
 /area/event/dynamic/unpowered)
-"aW" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "aX" = (
 /obj/structure/platform{
 	density = 0;
@@ -635,14 +633,10 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"bh" = (
-/obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2;
-	name = "Lefytenant Quarters";
-	req_access = list(201)
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
+"bg" = (
+/obj/structure/machinery/cm_vending/clothing/synth,
+/turf/open/floor/corsat{
+	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
 "bi" = (
@@ -782,6 +776,12 @@
 /obj/structure/prop/dam/truck,
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"bs" = (
+/obj/structure/window,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "bt" = (
 /obj/effect/mist{
 	can_block_movement = 1;
@@ -970,6 +970,16 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"bJ" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/transmitter/touchtone{
+	phone_category = "UPP";
+	phone_id = "UPP Bunker Black King Overwatch Four"
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "bK" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
@@ -1220,13 +1230,6 @@
 	icon_state = "greenwhite"
 	},
 /area/event/underground_no_CAS/dynamic)
-"ch" = (
-/obj/structure/closet/secure_closet/medical2,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "greenwhite"
-	},
-/area/event/deep_underground/dynamic)
 "cj" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -2071,28 +2074,6 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic)
-"dC" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood,
-/area/event/underground_no_CAS)
 "dD" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -2202,6 +2183,17 @@
 /obj/item/storage/large_holster/ceremonial_sword/full,
 /obj/item/clothing/under/marine/veteran/UPP/officer,
 /turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
+"dO" = (
+/obj/structure/machinery/door/airlock/almayer/command{
+	dir = 8;
+	name = "Kolonel's Bathroom";
+	req_access = list(201);
+	req_one_access_txt = "201"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
 /area/event/deep_underground/dynamic)
 "dP" = (
 /obj/structure/platform/kutjevo/rock{
@@ -2913,28 +2905,6 @@
 /obj/item/bedsheet/red,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"eT" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
-/area/event/underground_no_CAS)
 "eU" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/rifle/type71{
@@ -3219,6 +3189,16 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
+"fc" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/window,
+/obj/item/storage/backpack/marine/satchel/rto/small{
+	name = "\improper UPP Small Radio Telephone Pack"
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "fe" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -3244,14 +3224,6 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"fh" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced/colony{
-	req_access = list(201)
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/event/deep_underground/dynamic)
 "fi" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/faxmachine,
@@ -3291,57 +3263,6 @@
 	icon_state = "sterile_green"
 	},
 /area/event/metal/dynamic/lit)
-"fn" = (
-/obj/structure/barricade/handrail{
-	dir = 4
-	},
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/obj/item/reagent_container/food/snacks/upp,
-/turf/open/shuttle/elevator/grating,
-/area/event/deep_underground/dynamic)
 "fo" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/corsat{
@@ -3482,18 +3403,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"fC" = (
-/obj/item/tool/kitchen/tray{
-	layer = 2.9
-	},
-/obj/item/reagent_container/food/snacks/carpmeat{
-	layer = 3.3
-	},
-/obj/item/reagent_container/food/snacks/carpmeat{
-	layer = 3.3
-	},
-/turf/open/floor/wood/ship,
-/area/event/deep_underground/dynamic)
 "fD" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 4
@@ -3572,6 +3481,43 @@
 	icon_state = "yellowcorner"
 	},
 /area/event/underground_no_CAS/dynamic)
+"fO" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 14
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full,
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 14
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full,
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 14
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/lifesaver/upp/full,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "greenwhite"
+	},
+/area/event/deep_underground/dynamic)
 "fP" = (
 /obj/structure/flora/jungle/vines{
 	icon_state = "light_3"
@@ -3619,7 +3565,7 @@
 /obj/structure/flora/pottedplant{
 	pixel_y = 13
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/event/metal/dynamic/lit)
 "fW" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine{
@@ -3629,6 +3575,14 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
+"fX" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
 "fZ" = (
@@ -3748,6 +3702,21 @@
 	icon_state = "grass2"
 	},
 /area/event/dynamic/unpowered)
+"gh" = (
+/obj/structure/coatrack,
+/obj/item/clothing/head/uppcap/peaked{
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/item/clothing/suit/storage/marine/faction/UPP/kapitan{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/structure/sign/poster/clf{
+	pixel_x = 32
+	},
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "gi" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/shotgun/flechette,
@@ -3801,16 +3770,6 @@
 	icon_state = "plate"
 	},
 /area/event/underground_no_CAS/dynamic)
-"gl" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "gm" = (
 /turf/open/gm/dirtgrassborder2{
 	dir = 1
@@ -4279,12 +4238,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"gW" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/carpet,
-/area/event/metal/dynamic/lit)
 "gX" = (
 /obj/structure/platform/kutjevo/rock{
 	climb_delay = 20;
@@ -4534,18 +4487,6 @@
 	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
-"hx" = (
-/obj/structure/bed{
-	icon_state = "psychbed"
-	},
-/obj/item/bedsheet/hos{
-	name = "silk bedsheet"
-	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/event/deep_underground/dynamic)
 "hy" = (
 /obj/item/tool/warning_cone{
 	pixel_x = 4;
@@ -4790,6 +4731,15 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"hX" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/obj/structure/prop/dam/van/damaged{
+	dir = 4
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "hY" = (
 /obj/structure/surface/rack{
 	density = 0;
@@ -4799,35 +4749,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/event/metal/dynamic/lit)
-"ia" = (
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 4
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 6;
-	icon_state = "platform_deco"
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 9;
-	icon_state = "platform_deco"
-	},
-/turf/open/gm/river/desert/deep{
-	color = "#2d2d2d";
-	default_name = "oil";
-	desc = "our precious";
-	langchat_color = null;
-	name = "oil"
-	},
-/area/event/deep_underground/dynamic)
 "ib" = (
 /obj/structure/machinery/shower{
 	desc = "The UP-153. Installed by the State-Funded Hygiene Organization.";
@@ -5072,13 +4993,6 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
-"iv" = (
-/obj/item/document_objective/technical_manual,
-/turf/open/floor/corsat{
-	dir = 6;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "iw" = (
 /obj/structure/platform/kutjevo{
 	density = 0;
@@ -5124,43 +5038,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS/dynamic/lit)
-"iz" = (
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
-/area/event/underground_no_CAS)
 "iA" = (
 /obj/structure/bedsheetbin,
 /obj/structure/machinery/light/small{
@@ -5411,6 +5288,15 @@
 	},
 /turf/open/gm/river/desert/deep,
 /area/event/dynamic/lit/unpowered)
+"iZ" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 28
+	},
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "ja" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/faxmachine,
@@ -5423,6 +5309,32 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/deep_underground/dynamic)
+"jc" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/machinery/m56d_hmg/auto{
+	dir = 1;
+	name = "\improper T37 Medium Machinegun"
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "jd" = (
 /obj/structure/surface/rack,
 /obj/item/storage/pill_bottle/peridaxon,
@@ -6180,6 +6092,16 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"ke" = (
+/obj/structure/flora/jungle/vines{
+	icon_state = "light_2"
+	},
+/obj/structure/flora/jungle/vines{
+	icon_state = "light_3";
+	icon_tag = "light_3"
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "kf" = (
 /obj/item/attachable/attached_gun/shotgun{
 	anchored = 1;
@@ -6202,6 +6124,42 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/event/deep_underground/dynamic)
+"ki" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/outpatient{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a military bunker.";
+	name = "Military bunker traffic signal"
+	},
+/obj/structure/sign/safety/west{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper West traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the West."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "kj" = (
 /obj/structure/stairs/perspective{
 	color = "#b29082";
@@ -6384,6 +6342,12 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"kF" = (
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "kG" = (
 /obj/structure/machinery/vending/cigarette/free,
 /turf/open/floor/corsat{
@@ -6528,17 +6492,9 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
-"kT" = (
-/obj/structure/toilet{
-	dir = 4
-	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
+"kU" = (
+/obj/structure/machinery/light,
+/turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
 "kV" = (
 /turf/closed/wall/hangar{
@@ -7167,6 +7123,14 @@
 /obj/structure/prop/turbine_extras,
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
+"lQ" = (
+/obj/structure/filingcabinet,
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "lR" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -7299,6 +7263,10 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"mb" = (
+/obj/structure/prop/rock/brown,
+/turf/closed/wall/rock/brown,
+/area/event/underground_no_CAS)
 "mc" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/flashlight/lamp{
@@ -7344,6 +7312,14 @@
 /turf/open/floor/corsat{
 	dir = 5;
 	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
+"mh" = (
+/obj/structure/surface/rack,
+/obj/item/book/manual/engineering_construction,
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
 "mi" = (
@@ -7482,16 +7458,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic)
-"mp" = (
-/obj/structure/sink/kitchen{
-	dir = 4;
-	pixel_x = 15
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/event/deep_underground/dynamic)
 "mq" = (
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor,
@@ -7698,34 +7664,12 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
-"mH" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
+"mG" = (
+/obj/structure/machinery/cm_vending/gear/synth,
+/turf/open/floor/corsat{
+	icon_state = "squares"
 	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/stairs/perspective{
-	color = "#b29082";
-	dir = 8;
-	icon_state = "p_stair_ew_half_cap";
-	pixel_y = 7
-	},
-/turf/open/floor/interior/wood,
-/area/event/underground_no_CAS)
+/area/event/deep_underground/dynamic)
 "mI" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -7920,9 +7864,6 @@
 /obj/item/ammo_magazine/smg/mp5,
 /turf/open/floor,
 /area/event/metal/dynamic)
-"mV" = (
-/turf/open/gm/grass,
-/area/event/underground_no_CAS)
 "mW" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/corsat{
@@ -9356,9 +9297,8 @@
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
 "oS" = (
-/obj/structure/bookcase{
-	icon_state = "book-5"
-	},
+/obj/structure/safe,
+/obj/effect/landmark/objective_landmark/far,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
 "oT" = (
@@ -9768,17 +9708,6 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
-"pz" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/structure/machinery/disposal,
-/obj/structure/disposalpipe/trunk,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "blue"
-	},
-/area/event/deep_underground/dynamic)
 "pA" = (
 /obj/structure/blocker/invisible_wall,
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -9806,6 +9735,15 @@
 	},
 /turf/open/floor/corsat{
 	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
+"pE" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
 "pF" = (
@@ -9864,13 +9802,6 @@
 	icon_state = "gbcorner"
 	},
 /area/event/dynamic/lit/unpowered)
-"pK" = (
-/obj/structure/machinery/cm_vending/sorted/tech/comp_storage/antag,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "pM" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/box/handcuffs{
@@ -9887,6 +9818,15 @@
 /turf/open/floor/corsat{
 	dir = 9;
 	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
+"pN" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
 "pO" = (
@@ -10023,13 +9963,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"pX" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "blue"
-	},
-/area/event/deep_underground/dynamic)
 "pZ" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/rifle/lmg,
@@ -10091,6 +10024,16 @@
 	icon_state = "freezerfloor"
 	},
 /area/event/metal/dynamic/lit)
+"qe" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	flickering = 1
+	},
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "qf" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /obj/structure/sign/kiddieplaque{
@@ -10211,40 +10154,6 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic/lit)
-"qp" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 14
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 7
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full,
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 14
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 7
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full,
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 14
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full{
-	pixel_y = 7
-	},
-/obj/item/storage/belt/medical/lifesaver/upp/full,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "greenwhite"
-	},
-/area/event/deep_underground/dynamic)
 "qq" = (
 /obj/structure/machinery/cm_vending/sorted/medical/antag,
 /turf/open/floor/corsat{
@@ -10779,13 +10688,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS/dynamic/lit)
-"rc" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/prop/almayer/computer/PC{
-	dir = 4
-	},
-/turf/open/floor/carpet,
-/area/event/deep_underground/dynamic)
 "rd" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal9"
@@ -11026,12 +10928,6 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"rx" = (
-/obj/structure/machinery/light/small,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "ry" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/glass/bottle/oxycodone{
@@ -11236,6 +11132,13 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
+"rI" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/document_objective/technical_manual,
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "rJ" = (
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor/wood,
@@ -11354,21 +11257,6 @@
 /obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/underground_no_CAS/dynamic/unpowered)
-"rR" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/transmitter/touchtone{
-	phone_category = "UPP";
-	phone_id = "UPP Bunker Black King Overwatch One";
-	pixel_y = 6
-	},
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "rT" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/shotgun/merc,
@@ -11738,6 +11626,15 @@
 /obj/structure/bed/bedroll,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"sG" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 28
+	},
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
 "sH" = (
 /obj/structure/platform/kutjevo/rock{
 	projectile_coverage = 0
@@ -11777,25 +11674,6 @@
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"sM" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/structure/machinery/cm_vending/sorted/tech/tool_storage/antag,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
-"sN" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/storage/backpack/marine/satchel/rto/small{
-	name = "\improper UPP Small Radio Telephone Pack"
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "sO" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -11803,14 +11681,14 @@
 /turf/open/floor,
 /area/event/metal/dynamic)
 "sP" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 4
-	},
-/obj/structure/window{
+/obj/structure/filingcabinet,
+/obj/effect/landmark/objective_landmark/far,
+/obj/structure/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/corsat{
-	icon_state = "squares"
+	dir = 8;
+	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
 "sQ" = (
@@ -12096,6 +11974,19 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"tf" = (
+/obj/item/tool/kitchen/tray{
+	layer = 2.9
+	},
+/obj/item/reagent_container/food/snacks/carpmeat{
+	layer = 3.3
+	},
+/obj/item/reagent_container/food/snacks/carpmeat{
+	layer = 3.3
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/wood/ship,
+/area/event/deep_underground/dynamic)
 "tg" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/m2c{
@@ -12115,12 +12006,25 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic)
+"th" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/cell_charger,
+/turf/open/floor/corsat{
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "ti" = (
 /obj/structure/machinery/space_heater/radiator{
 	pixel_y = 24
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"tj" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "tk" = (
 /turf/open/floor/almayer{
 	icon_state = "sterile_green_side"
@@ -12159,6 +12063,14 @@
 /turf/open/floor/corsat{
 	dir = 1;
 	icon_state = "darkgreen"
+	},
+/area/event/deep_underground/dynamic)
+"to" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
 "tp" = (
@@ -12327,31 +12239,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
-"tG" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "tH" = (
 /obj/structure/machinery/light,
 /obj/structure/barricade/handrail{
@@ -12459,6 +12346,15 @@
 	icon_state = "plate"
 	},
 /area/event/underground_no_CAS/dynamic)
+"tQ" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/event/deep_underground/dynamic)
 "tR" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -12716,55 +12612,9 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
-"un" = (
-/obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/gm/grass,
-/area/event/underground_no_CAS)
 "uo" = (
 /turf/open/floor/corsat{
 	icon_state = "arrow_east"
-	},
-/area/event/deep_underground/dynamic)
-"up" = (
-/obj/structure/filingcabinet,
-/obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/corsat{
-	dir = 5;
-	icon_state = "blue"
-	},
-/area/event/deep_underground/dynamic)
-"uq" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 10;
-	icon_state = "platform_deco"
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 5;
-	icon_state = "platform_deco"
-	},
-/turf/open/gm/river/desert/deep{
-	color = "#2d2d2d";
-	default_name = "oil";
-	desc = "our precious";
-	langchat_color = null;
-	name = "oil"
-	},
-/area/event/deep_underground/dynamic)
-"ur" = (
-/obj/structure/closet/secure_closet/medical2,
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
 "us" = (
@@ -13022,6 +12872,11 @@
 	dir = 4;
 	icon_state = "white"
 	},
+/area/event/deep_underground/dynamic)
+"uK" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
 "uL" = (
 /turf/closed/shuttle/ert{
@@ -13312,21 +13167,6 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic)
-"uT" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/transmitter/touchtone{
-	phone_category = "UPP";
-	phone_id = "UPP Bunker Black King Overwatch Two";
-	pixel_y = 6
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/obj/structure/window,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "uV" = (
 /obj/structure/surface/rack,
 /obj/item/explosive/plastic,
@@ -13628,16 +13468,6 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"vx" = (
-/obj/structure/sink{
-	dir = 1;
-	pixel_y = -10
-	},
-/turf/open/floor/corsat{
-	dir = 10;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "vz" = (
 /obj/structure/desertdam/decals/road_edge,
 /turf/open/asphalt/cement,
@@ -13785,13 +13615,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"vJ" = (
-/obj/structure/machinery/cm_vending/clothing/synth,
-/obj/structure/machinery/light,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "vK" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -14125,13 +13948,6 @@
 /obj/structure/machinery/cm_vending/sorted/tech/tool_storage/antag,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"wd" = (
-/obj/structure/machinery/autolathe,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "we" = (
 /obj/structure/bed{
 	icon_state = "psychbed"
@@ -14153,6 +13969,14 @@
 	dir = 10;
 	icon_state = "darkgreen"
 	},
+/area/event/deep_underground/dynamic)
+"wh" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/book/manual/hydroponics_beekeeping,
+/obj/item/book/manual/nuclear,
+/turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
 "wi" = (
 /obj/structure/surface/rack,
@@ -14240,12 +14064,6 @@
 	dir = 10;
 	icon_state = "yellow"
 	},
-/area/event/deep_underground/dynamic)
-"wk" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 8
-	},
-/turf/open/floor/carpet,
 /area/event/deep_underground/dynamic)
 "wl" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -14374,6 +14192,12 @@
 	icon_state = "greenwhite"
 	},
 /area/event/metal/dynamic/lit)
+"ws" = (
+/obj/structure/machinery/recharge_station,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "wt" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -15230,6 +15054,19 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"xt" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/prop/almayer/CICmap/upp{
+	layer = 3.5;
+	pixel_y = 7
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "xu" = (
 /turf/open/floor/corsat{
 	icon_state = "yellowcorner"
@@ -15433,6 +15270,17 @@
 "xH" = (
 /obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/auto_turf/sand_white/layer1,
+/area/event/deep_underground/dynamic)
+"xI" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/transmitter/touchtone{
+	phone_category = "UPP";
+	phone_id = "UPP Bunker Black King Overwatch Two";
+	pixel_y = 6
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
 /area/event/deep_underground/dynamic)
 "xJ" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -15648,6 +15496,15 @@
 /obj/item/toy/dice,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"ya" = (
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/window,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "yb" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/reagent_container/food/snacks/pie,
@@ -16137,6 +15994,12 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/closed/wall/r_wall/bunker,
 /area/event/dynamic/lit/unpowered)
+"yQ" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/event/deep_underground/dynamic)
 "yR" = (
 /obj/item/toy/beach_ball,
 /obj/item/toy/beach_ball,
@@ -16208,6 +16071,14 @@
 	dir = 6;
 	icon_state = "yellow"
 	},
+/area/event/deep_underground/dynamic)
+"yT" = (
+/obj/structure/window,
+/obj/structure/machinery/shower{
+	desc = "The UP-153. Installed by the State-Funded Hygiene Organization.";
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/event/deep_underground/dynamic)
 "yU" = (
 /turf/open/floor/prison{
@@ -16352,6 +16223,13 @@
 "zf" = (
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"zg" = (
+/obj/structure/machinery/light,
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "zh" = (
 /obj/structure/barricade/sandbags{
 	brute_multiplier = 0;
@@ -16766,34 +16644,18 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/underground_no_CAS/dynamic)
+"zN" = (
+/obj/structure/machinery/iv_drip,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/open/floor/corsat{
+	dir = 5;
+	icon_state = "greenwhite"
+	},
+/area/event/deep_underground/dynamic)
 "zO" = (
 /turf/open/auto_turf/sand_white/layer1,
-/area/event/deep_underground/dynamic)
-"zP" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 5;
-	icon_state = "platform_deco"
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 10;
-	icon_state = "platform_deco"
-	},
-/turf/open/gm/river/desert/deep{
-	color = "#2d2d2d";
-	default_name = "oil";
-	desc = "our precious";
-	langchat_color = null;
-	name = "oil"
-	},
 /area/event/deep_underground/dynamic)
 "zQ" = (
 /obj/structure/prop/rock/black_ground,
@@ -16979,6 +16841,58 @@
 	icon_state = "greenwhite"
 	},
 /area/event/deep_underground/dynamic)
+"Aj" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/item/reagent_container/food/snacks/upp,
+/obj/structure/barricade/handrail,
+/turf/open/shuttle/elevator/grating,
+/area/event/deep_underground/dynamic)
 "Ak" = (
 /obj/structure/machinery/light,
 /obj/structure/barricade/handrail{
@@ -17021,6 +16935,15 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"An" = (
+/obj/structure/bed{
+	icon_state = "psychbed"
+	},
+/obj/item/bedsheet/hos{
+	name = "silk bedsheet"
+	},
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "Ao" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -17126,6 +17049,17 @@
 	},
 /turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
+"AB" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "AC" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/ammo_magazine/rifle/mar40,
@@ -17218,6 +17152,7 @@
 /obj/structure/machinery/door/window{
 	dir = 2
 	},
+/obj/item/book/manual/surgery,
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
@@ -17302,35 +17237,6 @@
 /obj/item/toy/farwadoll,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"AR" = (
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 4
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 9;
-	icon_state = "platform_deco"
-	},
-/obj/structure/platform{
-	density = 0;
-	dir = 6;
-	icon_state = "platform_deco"
-	},
-/turf/open/gm/river/desert/deep{
-	color = "#2d2d2d";
-	default_name = "oil";
-	desc = "our precious";
-	langchat_color = null;
-	name = "oil"
-	},
-/area/event/deep_underground/dynamic)
 "AS" = (
 /obj/item/ammo_magazine/smg/uzi,
 /obj/item/ammo_magazine/smg/uzi,
@@ -17499,14 +17405,9 @@
 	},
 /area/event/metal/dynamic/lit)
 "Bj" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 8
-	},
-/obj/structure/window{
-	dir = 4
-	},
 /turf/open/floor/corsat{
-	icon_state = "squares"
+	dir = 5;
+	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
 "Bk" = (
@@ -17992,6 +17893,13 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"BQ" = (
+/obj/structure/surface/rack,
+/obj/item/document_objective/technical_manual,
+/turf/open/floor/corsat{
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "BR" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp16"
@@ -18027,16 +17935,14 @@
 	},
 /area/event/underground_no_CAS/dynamic)
 "BU" = (
-/obj/structure/window{
-	dir = 8
-	},
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/machinery/prop/almayer/CICmap/upp{
-	layer = 3.5;
-	pixel_y = 7
-	},
+/obj/structure/surface/rack,
+/obj/item/device/megaphone,
+/obj/item/device/megaphone,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
 /turf/open/floor/corsat{
-	icon_state = "squares"
+	dir = 9;
+	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
 "BV" = (
@@ -18446,21 +18352,6 @@
 	},
 /turf/open/floor/carpet,
 /area/event/deep_underground/dynamic)
-"CF" = (
-/obj/structure/machinery/iv_drip,
-/turf/open/floor/corsat{
-	dir = 5;
-	icon_state = "greenwhite"
-	},
-/area/event/deep_underground/dynamic)
-"CG" = (
-/obj/structure/surface/table/almayer,
-/obj/structure/machinery/cell_charger,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "CH" = (
 /obj/structure/platform/kutjevo/rock{
 	projectile_coverage = 0
@@ -18566,6 +18457,42 @@
 /area/event/deep_underground/dynamic)
 "CP" = (
 /turf/open/gm/dirtgrassborder,
+/area/event/dynamic/lit/unpowered)
+"CQ" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/outpatient{
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a military bunker.";
+	name = "Military bunker traffic signal"
+	},
+/obj/structure/sign/safety/south{
+	pixel_x = 7;
+	pixel_y = 26;
+	desc = "A traffic signal denoting the nearby presence of something to the South.";
+	name = "\improper South traffic signal"
+	},
+/turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
 "CR" = (
 /obj/structure/surface/rack,
@@ -18799,6 +18726,16 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"Dn" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	flickering = 1
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/event/deep_underground/dynamic)
 "Do" = (
 /obj/effect/mist{
 	can_block_movement = 1;
@@ -18840,16 +18777,9 @@
 	icon_state = "barber"
 	},
 /area/event/metal/dynamic/lit)
-"Du" = (
-/obj/structure/sign/nosmoking_2{
-	dir = 1;
-	pixel_x = -28
-	},
-/turf/open/floor/corsat{
-	dir = 10;
-	icon_state = "greenwhite"
-	},
-/area/event/underground_no_CAS/dynamic)
+"Dt" = (
+/turf/open/auto_turf/sand_white/layer1,
+/area/event/dynamic/lit/unpowered)
 "Dv" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/minigun/upp,
@@ -18987,13 +18917,6 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
-"DG" = (
-/mob/living/simple_animal/cat/Runtime{
-	name = "Svetlana";
-	real_name = "Svetlana"
-	},
-/turf/open/floor/wood,
-/area/event/deep_underground/dynamic)
 "DH" = (
 /obj/structure/platform{
 	dir = 1;
@@ -19101,6 +19024,8 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
+/obj/item/book/manual,
+/obj/item/book/manual/research_and_development,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
 "DN" = (
@@ -19169,6 +19094,11 @@
 /obj/item/clothing/under/marine/veteran/UPP/civi3,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"DU" = (
+/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/auto_turf/sand_white/layer1,
+/area/event/deep_underground/dynamic)
 "DV" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -19303,6 +19233,10 @@
 /obj/item/ammo_magazine/smg/fp9000,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"Eg" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "Eh" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -19394,7 +19328,7 @@
 	dir = 8;
 	invisibility = 101
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/event/metal/dynamic/lit)
 "En" = (
 /obj/structure/barricade/handrail/kutjevo,
@@ -19423,6 +19357,23 @@
 	icon_state = "gbcorner"
 	},
 /area/event/dynamic/unpowered)
+"Eq" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/platform{
+	density = 0;
+	dir = 8;
+	icon_state = "platform_deco"
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#2d2d2d";
+	default_name = "oil";
+	desc = "our precious";
+	langchat_color = null;
+	name = "oil"
+	},
+/area/event/deep_underground/dynamic)
 "Er" = (
 /obj/structure/surface/rack,
 /obj/item/pamphlet/skill/jtac,
@@ -19516,6 +19467,18 @@
 /obj/effect/attach_point/weapon/dropship1/right_fore,
 /turf/open/gm/river/ocean,
 /area/event/underground_no_CAS)
+"ED" = (
+/obj/item/storage/box/twobore{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/shotgun/double/twobore,
+/obj/item/attachable/stock/twobore,
+/obj/structure/surface/rack,
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/event/deep_underground/dynamic)
 "EE" = (
 /obj/structure/machinery/floodlight/landing/floor,
 /turf/open/floor/almayer{
@@ -19565,6 +19528,15 @@
 /obj/item/ashtray/glass,
 /turf/open/floor/corsat{
 	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
+"EK" = (
+/obj/structure/janitorialcart,
+/obj/item/reagent_container/glass/bucket/janibucket,
+/obj/item/tool/mop,
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
 "EL" = (
@@ -19682,6 +19654,13 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
+"EW" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
 	},
 /area/event/deep_underground/dynamic)
 "EX" = (
@@ -19803,6 +19782,12 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic)
+"Ff" = (
+/obj/structure/surface/rack,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "Fg" = (
 /obj/structure/surface/table/almayer,
 /obj/item/prop/almayer/handheld1,
@@ -19885,7 +19870,7 @@
 	pixel_y = 5
 	},
 /obj/item/tool/pen,
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/event/metal/dynamic/lit)
 "Fs" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
@@ -19981,19 +19966,6 @@
 /obj/item/toy/deck,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"Fy" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/transmitter/touchtone{
-	phone_category = "UPP";
-	phone_id = "UPP Bunker Black King Overwatch Two"
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "Fz" = (
 /obj/structure/barricade/metal/wired{
 	brute_multiplier = 0.05;
@@ -20032,6 +20004,13 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
+"FC" = (
+/obj/structure/machinery/light,
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "FD" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -20258,6 +20237,16 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"FR" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/transmitter/touchtone{
+	phone_category = "UPP";
+	phone_id = "UPP Bunker Black King Overwatch One"
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "FS" = (
 /obj/structure/machinery/door/airlock/almayer/command{
 	name = "Kolonel's Quarters";
@@ -20290,11 +20279,15 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"FW" = (
-/obj/structure/bookcase{
-	icon_state = "book-5"
+"FX" = (
+/obj/structure/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "blue"
+	},
 /area/event/deep_underground/dynamic)
 "FY" = (
 /obj/structure/machinery/light/small{
@@ -20338,6 +20331,22 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
+"Gd" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/platform{
+	density = 0;
+	icon_state = "platform_deco"
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#2d2d2d";
+	default_name = "oil";
+	desc = "our precious";
+	langchat_color = null;
+	name = "oil"
+	},
+/area/event/deep_underground/dynamic)
 "Ge" = (
 /obj/structure/sink{
 	dir = 8;
@@ -20381,10 +20390,6 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
-"Gj" = (
-/obj/structure/prop/rock/brown,
-/turf/closed/wall/rock/brown,
-/area/event/deep_underground/dynamic)
 "Gk" = (
 /obj/item/clothing/head/hardhat,
 /turf/open/auto_turf/sand_white/layer1,
@@ -20409,6 +20414,13 @@
 /obj/item/attachable/gyro,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Gn" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/event/deep_underground/dynamic)
 "Go" = (
 /obj/structure/machinery/vending/walkman,
 /turf/open/floor/corsat{
@@ -20505,6 +20517,14 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
+"Gv" = (
+/obj/structure/closet/secure_closet/medical2,
+/obj/item/book/manual/surgery,
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "greenwhite"
+	},
+/area/event/deep_underground/dynamic)
 "Gw" = (
 /obj/structure/surface/rack,
 /obj/item/hardpoint/locomotion/van_wheels,
@@ -20527,6 +20547,14 @@
 /obj/structure/desertdam/decals/road_edge,
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"Gz" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/book/manual/detective,
+/obj/item/book/manual/engineering_singularity_safety,
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "GB" = (
 /obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_rook{
 	anchored = 1;
@@ -20548,6 +20576,15 @@
 /obj/item/attachable/stock/shotgun,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"GD" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/structure/prop/dam/van/damaged{
+	dir = 4
+	},
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "GE" = (
 /obj/structure/sign/nosmoking_2{
 	pixel_x = 28
@@ -20759,6 +20796,7 @@
 /area/event/deep_underground/dynamic)
 "GV" = (
 /obj/structure/surface/rack,
+/obj/item/document_objective/technical_manual,
 /turf/open/floor,
 /area/event/underground_no_CAS/dynamic/lit)
 "GW" = (
@@ -20767,6 +20805,11 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/deep_underground/dynamic)
+"GX" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "GY" = (
 /obj/structure/surface/rack,
 /turf/open/floor/almayer{
@@ -20848,6 +20891,16 @@
 	},
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
+"He" = (
+/obj/effect/mist{
+	can_block_movement = 1;
+	density = 1;
+	opacity = 1
+	},
+/turf/open/gm/dirtgrassborder{
+	icon_state = "desert1"
+	},
+/area/event/dynamic/lit/unpowered)
 "Hf" = (
 /obj/structure/machinery/light/small{
 	dir = 8
@@ -21298,14 +21351,6 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic)
-"HW" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/device/megaphone,
-/obj/item/clothing/glasses/hud/health,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "HX" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/weapon/gun/pistol/c99/upp,
@@ -21394,6 +21439,15 @@
 	pixel_x = 11;
 	pixel_y = -6
 	},
+/mob/living/simple_animal/hostile/UPP{
+	anchored = 1;
+	desc = "For updating, refining and detailing the map to a better state";
+	dir = 4;
+	layer = 3.4;
+	name = "Credit to LCMS1";
+	pixel_y = -10;
+	pixel_x = 12
+	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
 "Id" = (
@@ -21471,6 +21525,16 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
+"Ik" = (
+/obj/structure/machinery/cm_vending/sorted/tech/tool_storage/antag,
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "Il" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -21485,6 +21549,24 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic/lit)
+"In" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/structure/barricade/handrail,
+/turf/open/shuttle/elevator/grating,
+/area/event/deep_underground/dynamic)
 "Io" = (
 /obj/structure/surface/table/almayer,
 /obj/item/paper_bin{
@@ -21550,21 +21632,6 @@
 /obj/item/reagent_container/food/snacks/bearmeat,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"Iv" = (
-/obj/item/storage/box/twobore{
-	pixel_y = 11
-	},
-/obj/item/weapon/gun/shotgun/double/twobore,
-/obj/item/attachable/stock/twobore,
-/obj/structure/surface/rack,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/event/deep_underground/dynamic)
 "Iw" = (
 /obj/structure/sign/safety/bathunisex{
 	pixel_x = 8;
@@ -21714,6 +21781,35 @@
 	},
 /turf/open/floor/plating,
 /area/event/deep_underground/dynamic)
+"IS" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
+"IT" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/item/ammo_magazine/m2c,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/dynamic/lit/unpowered)
 "IU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -21944,15 +22040,6 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
-"Jt" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/device/megaphone,
-/obj/item/clothing/glasses/hud/health,
-/obj/structure/window,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "Ju" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/barricade/handrail/strata,
@@ -22276,6 +22363,12 @@
 	icon_state = "darkgreen"
 	},
 /area/event/underground_no_CAS/dynamic)
+"JS" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/event/deep_underground/dynamic)
 "JT" = (
 /obj/item/reagent_container/food/drinks/bottle/wine{
 	pixel_x = -6;
@@ -22567,6 +22660,13 @@
 /obj/item/attachable/stock/double,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Kn" = (
+/obj/structure/machinery/cm_vending/sorted/tech/comp_storage/antag,
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "Ko" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/condiment/hotsauce/sriracha,
@@ -22666,15 +22766,6 @@
 "Ky" = (
 /turf/open/floor/corsat{
 	icon_state = "retrosquareslight"
-	},
-/area/event/deep_underground/dynamic)
-"Kz" = (
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/turf/open/floor/corsat{
-	icon_state = "bluecorner"
 	},
 /area/event/deep_underground/dynamic)
 "KA" = (
@@ -22958,6 +23049,42 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"Lk" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/obj/structure/sign/safety/security{
+	name = "Politsiya traffic checkpoint";
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a law enforcement checkpoint, mainly focused in the administration of traffic."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "Ll" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -23035,6 +23162,7 @@
 /obj/structure/machinery/door/window{
 	dir = 8
 	},
+/obj/item/book/manual/chef_recipes,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -23194,6 +23322,16 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"LB" = (
+/obj/structure/machinery/door/airlock/almayer/command{
+	name = "Leftyenant's Quarters";
+	req_access = list(201);
+	req_one_access_txt = "201"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
 "LC" = (
 /obj/item/stool{
 	pixel_x = 6;
@@ -23237,12 +23375,6 @@
 	icon_state = "bluecorner"
 	},
 /area/event/deep_underground/dynamic)
-"LH" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/event/deep_underground/dynamic)
 "LI" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 8;
@@ -23258,18 +23390,6 @@
 	icon_state = "dark"
 	},
 /area/event/metal/dynamic/unpowered)
-"LK" = (
-/obj/structure/coatrack,
-/obj/item/clothing/head/uppcap/peaked{
-	pixel_x = -1;
-	pixel_y = 8
-	},
-/obj/item/clothing/suit/storage/marine/faction/UPP/kapitan{
-	pixel_x = -1;
-	pixel_y = 4
-	},
-/turf/open/floor/wood,
-/area/event/deep_underground/dynamic)
 "LL" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/groundside_operations/upp{
@@ -23340,7 +23460,7 @@
 /obj/structure/machinery/computer/objective{
 	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/event/metal/dynamic/lit)
 "LU" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -23684,17 +23804,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"Mk" = (
-/obj/structure/machinery/door/airlock/almayer/command{
-	dir = 1;
-	name = "Kolonel's Bathroom";
-	req_access = list(201);
-	req_one_access_txt = "201"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/event/deep_underground/dynamic)
 "Ml" = (
 /turf/open/gm/grass{
 	icon_state = "grass2"
@@ -23837,6 +23946,14 @@
 	icon_state = "grassdirt_corner"
 	},
 /area/event/dynamic/lit/unpowered)
+"Mz" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/book/manual/engineering_construction,
+/obj/item/document_objective/technical_manual,
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "MA" = (
 /obj/item/prop/colony/folded_bedroll,
 /obj/structure/platform/kutjevo{
@@ -24350,15 +24467,6 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
-"Nr" = (
-/obj/structure/janitorialcart,
-/obj/item/reagent_container/glass/bucket/janibucket,
-/obj/item/tool/mop,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "Ns" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/clothing/under/darkred,
@@ -24459,6 +24567,17 @@
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"ND" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "NE" = (
 /obj/structure/machinery/door_control{
 	id = "Black_Rook";
@@ -24483,6 +24602,12 @@
 /obj/item/tool/kitchen/knife,
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
+"NH" = (
+/obj/structure/machinery/autolathe,
+/turf/open/floor/corsat{
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "NI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -24820,6 +24945,44 @@
 	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
+"Ol" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/security{
+	name = "Politsiya traffic checkpoint";
+	pixel_x = 7;
+	pixel_y = 11;
+	desc = "A traffic signal denoting the nearby presence of a law enforcement checkpoint, mainly focused in the administration of traffic."
+	},
+/obj/structure/sign/safety/south{
+	pixel_x = 7;
+	pixel_y = 26;
+	desc = "A traffic signal denoting the nearby presence of something to the South.";
+	name = "\improper South traffic signal"
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4
+	},
+/area/event/dynamic/lit/unpowered)
 "Om" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/underground_no_CAS/dynamic/unpowered)
@@ -24831,6 +24994,9 @@
 /obj/item/clothing/under/lightbrown,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"Oo" = (
+/turf/closed/wall/r_wall/bunker/floodgate,
+/area/event/underground_no_CAS)
 "Op" = (
 /obj/structure/machinery/door/airlock/security/colony{
 	dir = 2;
@@ -25404,9 +25570,19 @@
 	},
 /area/event/deep_underground/dynamic)
 "OZ" = (
-/turf/open/floor/corsat{
-	dir = 6;
-	icon_state = "blue"
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#2d2d2d";
+	default_name = "oil";
+	desc = "our precious";
+	langchat_color = null;
+	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
 "Pa" = (
@@ -25836,6 +26012,14 @@
 /obj/item/reagent_container/food/snacks/grown/wheat,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"Py" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/book/manual/ripley_build_and_repair,
+/obj/item/document_objective/technical_manual,
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "Pz" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/candle,
@@ -26621,6 +26805,16 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"QL" = (
+/obj/structure/bed{
+	icon_state = "abed"
+	},
+/mob/living/simple_animal/cat/Runtime{
+	name = "Svetlana";
+	real_name = "Svetlana"
+	},
+/turf/open/floor/wood,
+/area/event/deep_underground/dynamic)
 "QM" = (
 /obj/structure/filingcabinet,
 /obj/effect/landmark/objective_landmark/far,
@@ -26744,6 +26938,13 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
+"QV" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "QW" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -27495,6 +27696,15 @@
 /obj/structure/surface/table/gamblingtable,
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"Si" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced/colony{
+	req_access = list(201);
+	name = "\improper Command staff quarters"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
 "Sj" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/barricade/metal/wired{
@@ -27527,6 +27737,16 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
+"Sl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/closet/firecloset,
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "Sm" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 1
@@ -27674,14 +27894,6 @@
 	icon_state = "sterile_green_corner"
 	},
 /area/event/metal/dynamic/lit)
-"Sx" = (
-/obj/structure/closet,
-/obj/item/storage/fancy/cigar/tarbacks,
-/obj/item/tool/lighter,
-/obj/item/storage/large_holster/ceremonial_sword/full,
-/obj/item/clothing/under/marine/veteran/UPP/officer,
-/turf/open/floor/wood,
-/area/event/deep_underground/dynamic)
 "Sy" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -27789,6 +28001,14 @@
 	dir = 8;
 	icon_state = "yellow"
 	},
+/area/event/deep_underground/dynamic)
+"SC" = (
+/obj/structure/bookcase{
+	icon_state = "book-5"
+	},
+/obj/item/book/manual/atmospipes,
+/obj/item/book/manual/detective,
+/turf/open/floor/wood,
 /area/event/deep_underground/dynamic)
 "SD" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -28087,6 +28307,24 @@
 	icon_state = "greenwhite"
 	},
 /area/event/underground_no_CAS/dynamic)
+"Te" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
+"Tf" = (
+/obj/structure/sink{
+	pixel_y = 21
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/event/deep_underground/dynamic)
 "Th" = (
 /obj/structure/platform/kutjevo{
 	density = 0;
@@ -28140,12 +28378,6 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
-"Tk" = (
-/turf/open/floor/corsat{
-	dir = 10;
-	icon_state = "blue"
-	},
-/area/event/deep_underground/dynamic)
 "Tl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -28223,31 +28455,6 @@
 	damage_cap = 15000
 	},
 /area/event/metal/dynamic/lit)
-"Ts" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/machinery/m56d_hmg/auto{
-	dir = 4
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "Tt" = (
 /obj/structure/machinery/door/airlock/almayer/command{
 	name = "Supply";
@@ -28483,7 +28690,7 @@
 	pixel_y = 15
 	},
 /mob/living/simple_animal/hostile/UPP{
-	anchored = 13;
+	anchored = 1;
 	desc = "For spearheading the main idea and edits";
 	dir = 1;
 	layer = 3.4;
@@ -28492,16 +28699,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
-"TK" = (
-/obj/structure/sign/nosmoking_2{
-	dir = 1;
-	pixel_x = -28
-	},
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "greenwhite"
-	},
-/area/event/underground_no_CAS/dynamic)
 "TL" = (
 /turf/open/floor{
 	icon_state = "dark"
@@ -28535,28 +28732,6 @@
 	icon_state = "squares"
 	},
 /area/event/underground_no_CAS/dynamic)
-"TQ" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "TR" = (
 /obj/structure/prop/dam/crane,
 /turf/open/floor/corsat,
@@ -28647,19 +28822,22 @@
 /obj/item/bedsheet/brown,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"Uc" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/transmitter/touchtone{
+	phone_category = "UPP";
+	phone_id = "UPP Bunker Black King Overwatch Three";
+	pixel_y = 6
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "Ud" = (
 /obj/structure/machinery/cryo_cell,
 /obj/structure/pipes/standard/cap/hidden,
 /turf/open/floor/corsat{
 	icon_state = "retrosquareslight"
-	},
-/area/event/deep_underground/dynamic)
-"Ue" = (
-/obj/structure/filingcabinet,
-/obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
 "Uf" = (
@@ -28745,6 +28923,15 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"Uh" = (
+/obj/structure/sign/nosmoking_2{
+	pixel_y = -32
+	},
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "greenwhite"
+	},
+/area/event/underground_no_CAS/dynamic)
 "Ui" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/corsat{
@@ -28948,6 +29135,16 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"Uv" = (
+/obj/structure/window,
+/obj/structure/surface/table/reinforced/black,
+/obj/item/storage/backpack/marine/satchel/rto/small{
+	name = "\improper UPP Small Radio Telephone Pack"
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "Ux" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/almayer{
@@ -29857,14 +30054,6 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
-"VJ" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/stairs/perspective{
-	color = "#b29082";
-	icon_state = "p_stair_full"
-	},
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "VK" = (
 /obj/structure/surface/rack,
 /obj/item/device/healthanalyzer/objective,
@@ -30053,7 +30242,7 @@
 	},
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/tool/lighter/zippo,
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/event/metal/dynamic/lit)
 "VS" = (
 /obj/structure/machinery/light{
@@ -30621,12 +30810,6 @@
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"WT" = (
-/obj/structure/sign/poster/clf{
-	pixel_x = 32
-	},
-/turf/open/floor/wood,
-/area/event/deep_underground/dynamic)
 "WU" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
@@ -30635,6 +30818,7 @@
 /area/event/dynamic/unpowered)
 "WV" = (
 /obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/far,
 /turf/open/floor,
 /area/event/metal/dynamic)
 "WW" = (
@@ -30720,6 +30904,15 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"Xc" = (
+/obj/structure/sign/nosmoking_2{
+	pixel_y = 32
+	},
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "greenwhite"
+	},
+/area/event/underground_no_CAS/dynamic)
 "Xd" = (
 /obj/item/reagent_container/food/drinks/bottle/beer/craft/tazhushka{
 	anchored = 1;
@@ -30899,14 +31092,13 @@
 	name = "Pre-Fabricated wall"
 	},
 /area/event/metal/dynamic/lit)
-"Xu" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/item/storage/backpack/marine/satchel/rto/small{
-	name = "\improper UPP Small Radio Telephone Pack"
+"Xt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
 	},
-/obj/structure/window,
 /turf/open/floor/corsat{
-	icon_state = "squares"
+	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
 "Xv" = (
@@ -31204,6 +31396,11 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"XU" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/book/manual/barman_recipes,
+/turf/open/floor/wood,
+/area/event/metal/dynamic/lit)
 "XV" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/ashtray/plastic,
@@ -31350,29 +31547,6 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
-"Yl" = (
-/obj/structure/platform/kutjevo{
-	density = 0;
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood,
-/area/event/dynamic/lit/unpowered)
 "Ym" = (
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
@@ -31571,10 +31745,15 @@
 	},
 /area/event/metal/dynamic/lit)
 "Yy" = (
-/obj/structure/bed,
-/obj/item/bedsheet/hop,
-/obj/structure/machinery/light,
-/turf/open/floor/wood,
+/obj/structure/surface/rack,
+/obj/item/device/megaphone,
+/obj/item/device/megaphone,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/turf/open/floor/corsat{
+	dir = 5;
+	icon_state = "blue"
+	},
 /area/event/deep_underground/dynamic)
 "Yz" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -31726,23 +31905,6 @@
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"YN" = (
-/obj/structure/barricade/handrail{
-	dir = 8
-	},
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/obj/item/ammo_box/magazine/shotgun/buckshot,
-/turf/open/shuttle/elevator/grating,
-/area/event/deep_underground/dynamic)
 "YO" = (
 /turf/open/floor/corsat{
 	dir = 9;
@@ -31787,23 +31949,6 @@
 "YS" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/grass,
-/area/event/dynamic/lit/unpowered)
-"YT" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform/kutjevo{
-	density = 0;
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/stairs/perspective{
-	color = "#b29082";
-	dir = 8;
-	icon_state = "p_stair_ew_full_cap";
-	layer = 3.5;
-	pixel_y = 5
-	},
-/turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
 "YU" = (
 /obj/structure/mineral_door/wood,
@@ -32093,19 +32238,6 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
-"Zz" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/transmitter/touchtone{
-	phone_category = "UPP";
-	phone_id = "UPP Bunker Black King Overwatch One"
-	},
-/obj/structure/window{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "ZA" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/snacks/meat/fish/crab/shelled,
@@ -32857,15 +32989,15 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
 WZ
 WZ
 WZ
@@ -33050,6 +33182,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Zu
 Zu
@@ -33088,26 +33231,15 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+QN
 WZ
 WZ
 WZ
@@ -33125,6 +33257,17 @@ rN
 "}
 (4,1,1) = {"
 rN
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -33330,26 +33473,15 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+Zu
+am
+ob
+ob
+ph
+hM
+Zu
+QN
 WZ
 WZ
 WZ
@@ -33367,6 +33499,17 @@ rN
 "}
 (5,1,1) = {"
 rN
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -33557,48 +33700,37 @@ Zu
 Zu
 Zu
 Zu
+QN
 WZ
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+Zu
+nL
+OY
+xj
+So
+gC
+Zu
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
 WZ
 WZ
 WZ
@@ -33609,6 +33741,17 @@ rN
 "}
 (6,1,1) = {"
 rN
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -33799,48 +33942,37 @@ Ye
 MM
 xx
 Zu
+QN
 WZ
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+gc
+Zu
+Zu
+Zu
+YW
+YW
+YW
+Zu
+YW
+YW
+YW
+QN
 WZ
 WZ
 WZ
@@ -34011,6 +34143,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Tc
 an
@@ -34041,48 +34184,37 @@ an
 an
 Dw
 Zu
+QN
+QN
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+Zu
+YG
+pD
+YG
+Xk
+YG
+pD
+YG
+Xk
+YG
+YW
+Rd
+Jc
+LX
+YW
+BX
+Ta
+ER
+ER
+ER
+yf
+ER
+YW
+QN
 WZ
 WZ
 WZ
@@ -34252,6 +34384,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Zu
 tq
@@ -34284,47 +34427,36 @@ Zu
 Ip
 Zu
 Zu
+QN
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+Zu
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+YW
+Rw
+Jc
+Ap
+YW
+tn
+KF
+HJ
+HJ
+HJ
+HJ
+xv
+YW
+QN
 WZ
 WZ
 WZ
@@ -34494,6 +34626,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 cr
 go
@@ -34526,47 +34669,36 @@ tv
 yF
 yK
 Zu
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
 WZ
 QN
 QN
 QN
 QN
+YW
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+YW
+Rw
+Jc
+Ap
+YW
+Ul
+KF
+HJ
+HJ
+HJ
+HJ
+HJ
+YW
 QN
-QN
-QN
-QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -34736,6 +34868,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Ag
 OA
@@ -34768,47 +34911,36 @@ Eo
 bN
 YK
 Zu
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+QN
 QN
 Zu
 Zu
 Zu
-Zu
-Zu
-Zu
-Zu
+YW
+tR
+zy
+zy
+zy
+zy
+zy
+zy
+zy
+wg
+fW
+AE
+Jc
+YF
+fW
+Ul
+KF
+Sn
+Sn
+Sn
+Sn
+Sn
+YW
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -34978,6 +35110,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 ON
 XG
@@ -35010,47 +35153,36 @@ RN
 tv
 Vf
 Zu
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-QN
 Zu
-am
-ob
-ob
-ph
-hM
 Zu
+Zu
+Zu
+yT
+tQ
+YW
+fv
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+HS
+Ex
+jU
+Jc
+DO
+Ex
+Ul
+KF
+ER
+ER
+ER
+ER
+ER
+YW
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -35220,6 +35352,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Ag
 XG
@@ -35252,47 +35395,36 @@ RN
 tv
 YK
 Zu
+ED
+Dn
+YB
 Zu
-Zu
-Zu
-Zu
-Zu
+Tf
+EW
+YW
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+YW
+Rw
+Jc
+Ap
+YW
+Ul
+KF
+HJ
+HJ
+HJ
+HJ
+HJ
+YW
 QN
-QN
-QN
-QN
-QN
-QN
-QN
-QN
-QN
-QN
-Zu
-nL
-OY
-xj
-So
-gC
-Zu
-QN
-QN
-QN
-QN
-QN
-QN
-QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -35446,6 +35578,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 Ve
 Ve
@@ -35455,6 +35588,16 @@ Ve
 Ve
 Ve
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -35495,46 +35638,35 @@ tv
 YK
 Zu
 Zu
-Iv
-LH
-YB
+Is
 Zu
+Zu
+YW
+dO
+YW
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+Xk
+YG
+YW
+Rw
+Jc
+Ap
+YW
+tn
+KF
+HJ
+HJ
+HJ
+HJ
+xv
+YW
 QN
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-gc
-Zu
-Zu
-Zu
-YW
-YW
-YW
-Zu
-YW
-YW
-YW
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -35688,6 +35820,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 WH
 mC
@@ -35697,6 +35830,16 @@ nn
 ZU
 rL
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -35736,47 +35879,36 @@ RN
 tv
 YK
 Zu
-Zu
-Zu
-Is
-Zu
-Zu
-Zu
-Zu
-YG
-pD
-YG
-Xk
-YG
-pD
-YG
-Xk
-YG
+aC
+Ig
+Ig
+Mz
+Py
+Ig
 YW
-Rd
+YG
+uE
+YG
+Xk
+YG
+uE
+YG
+Xk
+YG
+PL
+Rw
 Jc
-LX
+Ap
 YW
-BX
-Ta
-ER
-ER
-ER
-yf
-ER
+XD
+lG
+Sn
+Sn
+Sn
+XB
+Sn
 YW
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -35928,6 +36060,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 Ve
 Ve
@@ -35939,6 +36072,16 @@ oF
 oF
 Wp
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -35978,47 +36121,36 @@ RN
 tv
 Vf
 Zu
-Zu
-hx
-fC
-cw
+IS
+Ig
+Ig
+Ig
+Ig
+kU
 YW
-kT
-Zu
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
 YW
 Rw
 Jc
 Ap
 YW
-tn
-KF
-HJ
-HJ
-HJ
-HJ
-xv
+YW
+YW
+YW
+YW
+Zu
+YW
+YW
 YW
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -36170,6 +36302,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 oF
 oF
@@ -36181,6 +36314,16 @@ Ee
 pW
 sg
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -36220,47 +36363,36 @@ RN
 tv
 YK
 Zu
-Zu
+cw
+An
 GQ
-DG
 Ig
-Mk
-mp
+QL
+tf
 YW
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
+xQ
+Ig
+vu
+Ou
 YW
+ws
+Xk
+qq
+YW
+Sl
 Rw
 Jc
 Ap
+Te
 YW
-Ul
-KF
-HJ
-HJ
-HJ
-HJ
-HJ
-YW
+AB
+qe
+mh
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+QN
+QN
+QN
 WZ
 WZ
 WZ
@@ -36412,6 +36544,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 fy
 Ve
@@ -36423,6 +36556,16 @@ Ve
 Ve
 Ve
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -36462,44 +36605,33 @@ RN
 tv
 YK
 Zu
-Zu
+YW
+YW
 YW
 AK
 YW
 YW
 YW
+wu
+Ig
+JS
+rF
 YW
-tR
-zy
-zy
-zy
-zy
-zy
-zy
-zy
-wg
-fW
-AE
+Ff
+Xk
+Xk
+ri
+Xt
+Rw
 Jc
-YF
-fW
-Ul
-KF
-Sn
-Sn
-Sn
-Sn
-Sn
-YW
+Ap
+to
+CM
+EK
+Xk
+BQ
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -36654,6 +36786,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 oF
 Ve
@@ -36665,6 +36798,16 @@ Mv
 ce
 Ko
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -36704,44 +36847,33 @@ RN
 tv
 YK
 Zu
-Zu
-FW
-Ig
+wh
+SC
 rX
 Ig
 Ig
+Ig
 YW
-fv
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-Qm
-HS
-Ex
-jU
+FU
+Ig
+Gn
+nv
+YW
+mG
+Tq
+Xk
+YW
+Xt
+Rw
 Jc
-DO
-Ex
-Ul
-KF
-ER
-ER
-ER
-ER
-ER
-YW
+Ap
+to
+CM
+QV
+Xk
+th
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -36896,6 +37028,7 @@ WZ
 WZ
 WZ
 WZ
+WZ
 Ve
 yB
 Ve
@@ -36907,6 +37040,16 @@ oF
 oF
 wp
 Ve
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -36946,44 +37089,33 @@ RN
 tv
 Vf
 Zu
-Zu
-JZ
+Ig
+Ig
 Ig
 bO
 rF
 vu
 YW
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
+Ih
+Ig
+yQ
+vu
 YW
+bg
+Tq
+Xk
+CM
+Xt
 Rw
 Jc
 Ap
+to
 YW
-Ul
-KF
-HJ
-HJ
-HJ
-HJ
-HJ
-YW
+wM
+Xk
+NH
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -37123,7 +37255,7 @@ Jv
 ME
 Ym
 Ym
-DX
+GD
 JB
 JB
 JB
@@ -37134,6 +37266,7 @@ JB
 nV
 JB
 JB
+WZ
 WZ
 WZ
 WZ
@@ -37149,7 +37282,17 @@ EH
 Qf
 Zp
 Ve
-mV
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -37188,44 +37331,33 @@ oj
 aN
 YK
 Zu
-Zu
-aC
+Ih
+Ig
 Ig
 vu
 BZ
 Ka
 YW
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
-Xk
-YG
+Eg
+Ig
+Ig
+Ig
 YW
+Ff
+Xk
+Xk
+CM
+Xt
 Rw
 Jc
 Ap
-YW
-tn
-KF
-HJ
-HJ
-HJ
-HJ
-xv
-YW
+to
+rp
+Xk
+Xk
+az
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -37380,6 +37512,7 @@ JB
 JB
 WZ
 WZ
+WZ
 JB
 Ym
 Ve
@@ -37392,9 +37525,19 @@ zC
 zC
 Ve
 JB
-mV
-mV
-un
+JB
+nV
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -37430,44 +37573,33 @@ qB
 GM
 wW
 Zu
-Zu
-Ih
+JZ
+Ig
 Ig
 GJ
 CE
 vu
 YW
-YG
-uE
-YG
-Xk
-YG
-uE
-YG
-Xk
-YG
-PL
+gh
+Ig
+Gz
+rI
+YW
+Zv
+pN
+pN
+YW
+Xt
 Rw
 Jc
 Ap
+to
 YW
-XD
-lG
-Sn
-Sn
-Sn
-XB
-Sn
-YW
+lf
+Ik
+Kn
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -37623,13 +37755,13 @@ JB
 Fp
 Sp
 JB
-Ym
 JB
+Ym
 JB
 nV
 Zm
-Ym
 JB
+Ym
 JB
 JB
 Fp
@@ -37637,7 +37769,18 @@ Sp
 JB
 JB
 JB
-mV
+JB
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -37672,7 +37815,6 @@ Zu
 Ip
 Zu
 Zu
-Zu
 YW
 FS
 YW
@@ -37681,6 +37823,7 @@ YW
 YW
 YW
 YW
+pk
 YW
 YW
 YW
@@ -37692,24 +37835,13 @@ YW
 Rw
 Jc
 Ap
-YW
-YW
-YW
-YW
-YW
 Zu
-YW
-YW
-YW
+Zu
+Zu
+Zu
+Zu
+Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -37846,7 +37978,7 @@ JB
 Gr
 Gr
 JB
-ME
+dJ
 Ym
 Ym
 Kj
@@ -37883,6 +38015,17 @@ QK
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 Or
@@ -37913,25 +38056,25 @@ Sd
 rD
 Ne
 EG
-Ue
-jy
-dX
+kF
+Kt
+Xk
 Kt
 Kt
 Kt
-oV
 Kt
-yx
-WC
-HW
-Se
-Xu
-WC
-HW
-Se
-sN
-YW
-cj
+Kt
+Kt
+Xk
+Kt
+Kt
+Kt
+Kt
+Kt
+Kt
+Kt
+Si
+AE
 Jc
 fK
 YW
@@ -37941,17 +38084,6 @@ nX
 YG
 Zu
 QN
-QN
-QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -38087,7 +38219,7 @@ Qb
 JB
 Gr
 Gr
-wl
+JB
 ME
 Ym
 Ym
@@ -38125,6 +38257,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -38155,25 +38298,25 @@ Bg
 lP
 Ne
 EG
-rG
-Xk
-Xk
-Xk
-Xk
-bC
-ly
-Xk
-GU
-oK
-np
 Bj
-rR
-oK
-np
-Bj
-Zz
-YW
-Rw
+Xk
+fR
+fR
+fR
+Xk
+fR
+fR
+fR
+Xk
+fR
+fR
+fR
+Xk
+fR
+fR
+fR
+NL
+jU
 Jc
 Ap
 YW
@@ -38183,17 +38326,6 @@ Yc
 VP
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -38364,7 +38496,18 @@ Ym
 Ym
 Ym
 DX
-JB
+Sp
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -38397,25 +38540,25 @@ RN
 VA
 Ne
 EG
-vK
-oC
-Pl
-Je
-Xk
-im
-hc
-Xk
-LG
-Kt
-Kt
-Kt
-Kt
-Kt
-Kt
-Kt
-Tk
 YW
-Cf
+LB
+YW
+YW
+YW
+LB
+YW
+YW
+YW
+LB
+YW
+YW
+YW
+LB
+YW
+YW
+YW
+YW
+Rw
 Jc
 Ap
 YW
@@ -38425,17 +38568,6 @@ Yc
 cM
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -38571,7 +38703,7 @@ Xj
 JB
 Gr
 Gr
-JB
+wl
 ME
 Ym
 tc
@@ -38609,6 +38741,17 @@ DX
 JB
 JB
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -38639,26 +38782,26 @@ Bg
 xc
 Ne
 EG
-rG
-oC
-EJ
-Je
-Xk
-Xk
-Gx
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-Xk
-LG
-fh
-AE
-Jc
+dN
+Ig
+Fu
+YW
+dN
+Ig
+sA
+YW
+dN
+Ig
+sA
+YW
+dN
+Ig
+Fd
+YW
+zV
+YW
+Rw
+ND
 Ap
 YW
 DZ
@@ -38667,17 +38810,6 @@ Yc
 Tb
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -38851,6 +38983,17 @@ DX
 JB
 JB
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -38881,26 +39024,26 @@ Lw
 lP
 Ne
 EG
-rG
-oC
-Aq
-Je
-Xk
-Xk
-WB
-lB
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-mW
-NL
-Oa
-Ji
+xQ
+tj
+Ig
+YW
+xQ
+tj
+Ig
+YW
+xQ
+tj
+Ig
+YW
+jA
+tj
+Ig
+YW
+zV
+YW
+Rw
+Jc
 Ap
 YW
 qq
@@ -38909,17 +39052,6 @@ Yc
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -39093,6 +39225,17 @@ DX
 JB
 nV
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 QJ
 cr
@@ -39123,25 +39266,25 @@ RN
 VA
 Ne
 EG
-rG
-oC
-SF
-Je
-Xk
-im
-cm
-Jc
-Kb
-fR
-fR
-fR
-fR
-fR
-fR
-fR
-OZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
 YW
-Cf
+EG
+EG
+Rw
 Jc
 Ap
 YW
@@ -39151,17 +39294,6 @@ Yc
 Vm
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -39335,6 +39467,17 @@ DX
 Fp
 JB
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -39365,23 +39508,23 @@ qu
 xc
 Ne
 EG
-rG
-Xk
-Xk
-Xk
-Xk
-kS
-id
-Jc
-GU
+zV
+EG
 BU
-uo
+lQ
 sP
-uT
-BU
-uo
-sP
-Fy
+jy
+lQ
+dX
+oV
+Kt
+yx
+xI
+Se
+fc
+FR
+Se
+fc
 YW
 Rw
 Jc
@@ -39393,17 +39536,6 @@ Yc
 fp
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -39577,6 +39709,17 @@ DX
 JB
 JB
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -39607,25 +39750,25 @@ Bg
 lP
 Ne
 EG
-pz
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Kz
-Ht
+zV
+EG
+rG
+Xk
+Xk
+Xk
+Xk
+Xk
+Xk
+Xk
+GU
 WC
-sN
-mz
-Jt
+fX
+bs
 WC
-sN
-mz
-HW
+fX
+bs
 YW
-cj
+Rw
 Jc
 fK
 YW
@@ -39635,17 +39778,6 @@ Qu
 xh
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -39708,12 +39840,12 @@ WZ
 WZ
 WZ
 WZ
-VC
-VC
-VC
-VC
-VC
-VC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -39819,6 +39951,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -39849,25 +39992,25 @@ RN
 VA
 Ne
 EG
-pX
+zV
+EG
+rG
 Xk
 Xk
 Xk
 Xk
+bC
+ly
 Xk
-Xk
-Pm
+GU
+oK
+np
+ya
+oK
+np
+ya
 YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-Rw
+cj
 Jc
 Ap
 YW
@@ -39877,17 +40020,6 @@ ts
 YW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -39950,12 +40082,12 @@ WZ
 WZ
 WZ
 WZ
-VC
-st
-yb
-eb
-TP
-VC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -40061,13 +40193,24 @@ DX
 Pk
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
-AR
+OZ
 xc
 cr
-ia
+OZ
 xc
 wM
 az
@@ -40084,32 +40227,32 @@ cr
 wM
 az
 cr
-ia
+OZ
 xc
 cr
-ia
+OZ
 xc
 Ne
 EG
-up
-fR
-fR
-CB
-aS
-Nt
-cl
-OZ
-bh
+zV
+EG
+vK
+oC
+Pl
+Je
 Xk
-ri
+im
+hc
 Xk
-vJ
+LG
+Kt
+Kt
+Kt
+Kt
+Kt
+zg
 YW
-YW
-Nr
-vx
-YW
-Rw
+Cf
 Jc
 Xk
 OD
@@ -40119,17 +40262,6 @@ Qu
 YW
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -40192,12 +40324,12 @@ WZ
 WZ
 WZ
 WZ
-VC
-BK
-eb
-yb
-eb
-VC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -40303,6 +40435,17 @@ DX
 OK
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 an
@@ -40333,25 +40476,25 @@ No
 an
 Ne
 EG
-YW
-pk
-YW
-YW
-YW
-YW
-YW
-YW
-YW
+zV
+EG
+rG
+oC
+EJ
+Je
 Xk
-YW
-YW
-YW
-YW
-YW
-gl
-az
-CM
-Rw
+Xk
+Gx
+Xk
+Xk
+Xk
+Xk
+Xk
+Xk
+Xk
+LG
+ar
+AE
 Jc
 fK
 YW
@@ -40361,17 +40504,6 @@ YW
 YW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -40434,12 +40566,12 @@ WZ
 WZ
 WZ
 WZ
-VC
-VC
-VC
-VC
-VC
-VC
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 WZ
@@ -40543,6 +40675,17 @@ ME
 Ym
 DX
 JB
+JB
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -40575,26 +40718,26 @@ EG
 Xk
 Ne
 EG
-FW
-Ig
-Ig
-LK
-YW
-dN
-Ig
-Ig
-ab
+zV
+EG
+rG
+oC
+Aq
+Je
 Xk
-ab
-Ig
-Ig
-Sx
-YW
-wd
-az
-YW
-Rw
-Jc
+Xk
+WB
+lB
+Cp
+Cp
+Cp
+Cp
+Cp
+Cp
+mW
+NL
+Oa
+Ji
 Ap
 YW
 BX
@@ -40603,17 +40746,6 @@ wg
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -40785,6 +40917,17 @@ ME
 Ym
 DX
 JB
+JB
+JB
+gH
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -40817,25 +40960,25 @@ EG
 Zf
 Ne
 EG
-wu
-Ig
-Ig
-Ig
-YW
-jA
-Ig
-Fd
-YW
-rx
-YW
-sA
-Ig
-Yy
-YW
-CG
+zV
+EG
+rG
+oC
+SF
+Je
 Xk
-rp
-Xk
+im
+cm
+Jc
+Kb
+fR
+fR
+fR
+fR
+fR
+FC
+YW
+Cf
 Jc
 YF
 iV
@@ -40845,17 +40988,6 @@ Xm
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -41027,6 +41159,17 @@ ME
 Ym
 DX
 nV
+JB
+JB
+gH
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -41059,25 +41202,25 @@ EG
 jT
 Ne
 EG
-FU
-Ig
-rc
-nv
-YW
-YW
-YW
-YW
-YW
+zV
+EG
+vK
 Xk
+Xk
+Xk
+Xk
+kS
+id
+Jc
+GU
+xt
+uo
+aU
+xt
+uo
+aU
 YW
-YW
-YW
-YW
-YW
-pK
-az
-YW
-Rw
+cj
 Jc
 DO
 Ex
@@ -41087,17 +41230,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -41269,6 +41401,17 @@ ME
 Ym
 DX
 JB
+JB
+JB
+gH
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -41301,24 +41444,24 @@ EG
 Re
 Ne
 EG
-Ih
-Ig
-wk
-Ou
+zV
+EG
+rG
+lB
+Cp
+Cp
+Cp
+Cp
+Cp
+JI
+GU
+WC
+Qr
+bs
+WC
+Qr
+bs
 YW
-Sx
-Ig
-Ig
-ab
-Xk
-ab
-Ig
-Ig
-dN
-YW
-sM
-az
-CM
 Rw
 Jc
 fK
@@ -41329,17 +41472,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -41475,8 +41607,8 @@ zf
 Av
 Gr
 Gr
+JB
 nI
-ME
 Ym
 DX
 JB
@@ -41512,6 +41644,17 @@ Ym
 DX
 JB
 WZ
+gH
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 EG
 az
@@ -41543,23 +41686,23 @@ EG
 Xk
 Ne
 EG
-xQ
-WT
-vu
-rF
-YW
-jA
-Ig
-sA
-YW
-Xk
-YW
-Fu
-Ig
+zV
+EG
 Yy
-YW
-lf
-iv
+FX
+CB
+aS
+Nt
+iZ
+cl
+fR
+Ht
+Uc
+mz
+Uv
+bJ
+mz
+Uv
 YW
 Rw
 Jc
@@ -41571,17 +41714,6 @@ Xm
 Od
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -41626,7 +41758,7 @@ ZY
 Jl
 iE
 zf
-zf
+Dg
 Me
 Ev
 zf
@@ -41755,6 +41887,17 @@ DX
 JB
 WZ
 WZ
+WZ
+ZS
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 qQ
@@ -41785,7 +41928,7 @@ FP
 qQ
 Ne
 EG
-YW
+zV
 YW
 YW
 YW
@@ -41813,17 +41956,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -41990,20 +42122,31 @@ CK
 mi
 mi
 zC
-JB
+Sp
 ME
 Ym
 DX
 JB
 WZ
 WZ
+WZ
+WZ
+PD
+Kf
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
-zP
+Bg
 lP
 cr
-uq
+Bg
 lP
 wM
 Xk
@@ -42020,10 +42163,10 @@ Xk
 Xk
 az
 cr
-zP
+Bg
 lP
 cr
-zP
+Bg
 lP
 Ne
 EG
@@ -42055,17 +42198,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -42239,6 +42371,17 @@ DX
 Fp
 WZ
 WZ
+WZ
+WZ
+Vz
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -42297,17 +42440,6 @@ Xm
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -42481,6 +42613,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -42539,17 +42682,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -42723,6 +42855,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+ZS
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
@@ -42781,17 +42924,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -42963,6 +43095,17 @@ ME
 Ym
 DX
 JB
+JB
+WZ
+WZ
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -43006,7 +43149,7 @@ YW
 dA
 YW
 YW
-qp
+fO
 Ky
 Ky
 Ky
@@ -43023,17 +43166,6 @@ Xm
 Od
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -43205,6 +43337,17 @@ ME
 Ym
 DX
 JB
+nV
+WZ
+WZ
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -43240,11 +43383,11 @@ EG
 zV
 zV
 YW
-ch
+Gv
 Ky
 bF
 YW
-ur
+Gv
 Ky
 bF
 YW
@@ -43265,17 +43408,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -43334,7 +43466,7 @@ zf
 zf
 zf
 zf
-zf
+Dg
 zf
 zf
 iE
@@ -43447,6 +43579,17 @@ ME
 Ym
 DX
 JB
+JB
+WZ
+WZ
+LU
+Kf
+PD
+ZS
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -43507,17 +43650,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -43689,6 +43821,17 @@ ME
 Ym
 DX
 nV
+JB
+WZ
+WZ
+LU
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -43724,11 +43867,11 @@ EG
 zV
 zV
 YW
-CF
+zN
 Xh
 Ra
 YW
-CF
+zN
 Xh
 Ra
 YW
@@ -43749,17 +43892,6 @@ Xm
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -43931,6 +44063,17 @@ lD
 Ym
 DX
 JB
+Sp
+WZ
+WZ
+LU
+PD
+PD
+PD
+Vz
+WZ
+WZ
+WZ
 WZ
 WZ
 EG
@@ -43991,17 +44134,6 @@ Xm
 Vm
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -44175,12 +44307,23 @@ DX
 JB
 WZ
 WZ
+WZ
+LU
+LU
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 az
 cr
 PU
-ZR
-ZR
+Eq
+Gd
 nK
 cr
 wM
@@ -44199,8 +44342,8 @@ LQ
 az
 cr
 uG
-ZR
-ZR
+Eq
+Gd
 nK
 cr
 Ne
@@ -44233,17 +44376,6 @@ Xm
 Pj
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -44417,6 +44549,17 @@ DX
 JB
 WZ
 WZ
+WZ
+LU
+LU
+ZS
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 EG
 uf
 qQ
@@ -44475,17 +44618,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -44659,6 +44791,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+LU
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
 EG
 OB
 an
@@ -44703,7 +44846,7 @@ TU
 TU
 AD
 TU
-TU
+sG
 TU
 lr
 TU
@@ -44717,17 +44860,6 @@ Xm
 Od
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -44901,6 +45033,17 @@ DX
 JB
 WZ
 WZ
+WZ
+WZ
+PD
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
 Zu
 Zu
 EG
@@ -44959,17 +45102,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -45144,6 +45276,17 @@ Fp
 WZ
 WZ
 WZ
+WZ
+PD
+PD
+PD
+Kf
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 gU
 cr
@@ -45201,17 +45344,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -45386,6 +45518,17 @@ JB
 WZ
 WZ
 WZ
+WZ
+WZ
+Vz
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 MU
 cr
@@ -45443,17 +45586,6 @@ Xm
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -45628,6 +45760,17 @@ JB
 WZ
 WZ
 WZ
+WZ
+WZ
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 cN
 cr
@@ -45685,17 +45828,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -45870,6 +46002,17 @@ Sp
 JB
 WZ
 WZ
+WZ
+WZ
+PD
+PD
+ZS
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 cN
 cr
@@ -45906,7 +46049,7 @@ Ex
 jG
 YW
 YW
-Rw
+pE
 Jc
 ra
 XD
@@ -45927,17 +46070,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -46112,6 +46244,17 @@ JB
 JB
 WZ
 WZ
+WZ
+PD
+Kf
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 KH
 cr
@@ -46178,17 +46321,6 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 rN
 "}
 (58,1,1) = {"
@@ -46222,7 +46354,7 @@ Za
 Za
 Kh
 oA
-iE
+Mp
 zf
 zf
 GZ
@@ -46354,6 +46486,17 @@ JB
 nV
 WZ
 WZ
+PD
+ZS
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 eA
 cr
@@ -46411,17 +46554,6 @@ Xm
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -46596,6 +46728,17 @@ JB
 JB
 WZ
 WZ
+XY
+PD
+PD
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 zE
 cr
@@ -46653,17 +46796,6 @@ Xm
 VW
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -46837,6 +46969,17 @@ DX
 JB
 wl
 WZ
+gH
+zU
+iH
+PD
+PD
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 Zu
 la
@@ -46895,17 +47038,6 @@ Xm
 WG
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -47078,6 +47210,17 @@ Ym
 DX
 JB
 nV
+ke
+gH
+zU
+dL
+dL
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -47137,17 +47280,6 @@ HS
 Ac
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -47320,6 +47452,17 @@ Ym
 DX
 JB
 JB
+xT
+gH
+gH
+mN
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -47379,17 +47522,6 @@ Zu
 Zu
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -47562,6 +47694,17 @@ Ym
 DX
 JB
 JB
+fP
+xT
+gH
+gH
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -47621,17 +47764,6 @@ lM
 zu
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -47804,6 +47936,17 @@ Ym
 DX
 nV
 Sp
+JB
+Qn
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -47863,17 +48006,6 @@ yI
 yI
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -48046,6 +48178,17 @@ Ym
 DX
 JB
 nV
+JB
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 Zu
@@ -48105,17 +48248,6 @@ ai
 ym
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -48290,6 +48422,17 @@ Fp
 JB
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Zu
 Zu
 uY
@@ -48347,17 +48490,6 @@ UR
 Ap
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -48462,7 +48594,7 @@ zf
 MR
 aY
 aY
-aY
+Ol
 aY
 aY
 aY
@@ -48534,6 +48666,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 aw
 zO
 zO
@@ -48589,17 +48732,6 @@ UR
 Nc
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -48776,6 +48908,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 QN
 zO
 zO
@@ -48831,17 +48974,6 @@ UR
 Ap
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -49018,6 +49150,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 QN
 zO
 zO
@@ -49026,7 +49169,7 @@ zO
 zO
 zO
 zO
-VJ
+uK
 Cu
 zO
 zO
@@ -49073,17 +49216,6 @@ UR
 jl
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -49260,6 +49392,17 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 QN
 QN
 QN
@@ -49315,17 +49458,6 @@ Tl
 GF
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -49464,7 +49596,7 @@ RE
 jr
 zf
 Av
-JB
+Lk
 nV
 JB
 Fp
@@ -49502,13 +49634,24 @@ WZ
 WZ
 WZ
 WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+JB
+nV
+WZ
+WZ
+WZ
+WZ
 QN
 QN
 QN
 QN
-QN
-Gj
-zO
+aw
 zO
 jj
 pS
@@ -49557,17 +49700,6 @@ SM
 Dz
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -49749,13 +49881,24 @@ Ve
 Ve
 Ve
 Ve
+Ve
+WZ
+JB
+JB
+JB
+JB
+WZ
+WZ
+WZ
 WZ
 QN
 QN
 QN
-QN
-QN
-QN
+zO
+jj
+pS
+zO
+zO
 QN
 QN
 QN
@@ -49799,17 +49942,6 @@ lW
 PP
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -49982,6 +50114,7 @@ Ym
 DX
 JB
 zC
+oF
 sa
 tI
 wa
@@ -49991,12 +50124,22 @@ zs
 yR
 AF
 Ve
+JB
+wl
+JB
+JB
+JB
+JB
+JB
+wl
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
+QN
+QN
+QN
+QN
+QN
 QN
 QN
 QN
@@ -50041,17 +50184,6 @@ Xk
 Pm
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -50227,19 +50359,30 @@ zC
 oF
 oF
 oF
-yB
+oF
+Ve
 eW
 oF
 oF
 Lz
 Ve
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-BA
+JB
+Mw
+dn
+dn
+Uj
+JB
+JB
+JB
+GX
+Yd
+Om
+do
+QN
+QN
+QN
+QN
+QN
 Om
 QN
 QN
@@ -50283,17 +50426,6 @@ SM
 PP
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -50467,6 +50599,7 @@ DX
 Fp
 Ve
 oF
+oF
 ex
 Mo
 Ve
@@ -50475,16 +50608,26 @@ KC
 oF
 AQ
 Ve
-WZ
-WZ
-WZ
-WZ
-WZ
+JB
+hX
+Ym
+Ym
+DX
+JB
+Sp
+JB
+qI
+Yd
+Dt
 Om
 Om
 Om
-rQ
 Om
+Om
+Om
+Om
+DU
+zO
 zO
 zO
 zO
@@ -50525,17 +50668,6 @@ lW
 xd
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -50711,22 +50843,33 @@ yB
 oF
 oF
 oF
+oF
 Ve
 Ve
 Ve
 yB
 Ve
 Ve
-WZ
-WZ
-WZ
-WZ
+JB
+ME
+Ym
+Ym
+DX
+JB
+JB
+JB
+qI
+jX
+Dt
 Om
 Om
 Om
 Om
 Om
+BA
 Om
+jb
+zO
 zO
 zO
 zO
@@ -50776,17 +50919,6 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 rN
 "}
 (77,1,1) = {"
@@ -50818,7 +50950,7 @@ Za
 Za
 Za
 Kh
-oA
+sn
 Vh
 Oy
 Fz
@@ -50951,6 +51083,7 @@ DX
 vk
 Cw
 oF
+oF
 sW
 oF
 iN
@@ -50959,9 +51092,17 @@ LM
 oF
 NX
 Ve
-WZ
-WZ
-WZ
+JB
+ME
+Ym
+Ym
+DX
+nV
+JB
+JB
+jc
+jX
+Dt
 Om
 Om
 Om
@@ -50969,6 +51110,8 @@ Om
 Om
 Om
 Om
+jb
+zO
 zO
 zO
 aw
@@ -51009,17 +51152,6 @@ Nl
 jl
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -51193,19 +51325,30 @@ DX
 Qt
 zC
 oF
+oF
 pQ
 oF
 iN
 ac
 oF
 oF
-TN
-Ve
-WZ
-WZ
+oF
+yB
+Ym
+ME
+Ym
+Ym
+DX
+JB
+JB
+JB
+IT
+Yd
+Dt
+Om
 zQ
 Om
-Om
+rQ
 Om
 Om
 WZ
@@ -51251,17 +51394,6 @@ Nl
 Ap
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -51435,28 +51567,39 @@ DX
 OK
 zC
 oF
+oF
 fq
 oF
 iN
 oF
 oF
-oF
+TN
 mC
 Ve
-WZ
-WZ
+nV
+ME
+Ym
+Ym
+DX
+JB
+JB
+JB
+qI
+Yd
 Om
 Om
 Om
 Om
+Om
+do
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+zO
+zO
+zO
+zO
+zO
 zO
 xH
 zO
@@ -51493,17 +51636,6 @@ Nl
 Nc
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -51686,20 +51818,31 @@ Ve
 Ve
 Ve
 Ve
-mV
-UU
-UU
-UU
+JB
+ME
+Ym
+Ym
+DX
+wl
+JB
+nV
+WZ
+WZ
+WZ
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+zO
+zO
+zO
+zO
+zO
+zO
 aw
 zO
 zO
@@ -51712,7 +51855,7 @@ QN
 Zu
 aq
 OE
-YN
+In
 Gq
 Xk
 Xk
@@ -51735,17 +51878,6 @@ Nl
 Ap
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -51928,12 +52060,14 @@ gi
 pG
 qF
 zC
-Pg
-aW
-tG
-YT
-mH
-dC
+JB
+ME
+Ym
+Ym
+DX
+JB
+JB
+JB
 WZ
 WZ
 WZ
@@ -51942,8 +52076,17 @@ WZ
 WZ
 WZ
 WZ
-QN
-QN
+WZ
+WZ
+WZ
+zO
+zO
+zO
+zO
+zO
+zO
+zO
+zO
 zO
 zO
 zO
@@ -51955,7 +52098,7 @@ Zu
 Oc
 po
 BG
-Gq
+iJ
 Xk
 qr
 Xk
@@ -51977,17 +52120,6 @@ TU
 BS
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -52170,13 +52302,13 @@ FG
 oF
 wq
 zC
-kX
-TQ
-Ts
-Yl
-TQ
-eT
-iz
+JB
+ME
+Ym
+Ym
+DX
+Sp
+JB
 WZ
 WZ
 WZ
@@ -52186,7 +52318,18 @@ WZ
 WZ
 WZ
 WZ
-QN
+WZ
+WZ
+WZ
+jb
+jb
+jb
+jb
+jb
+zO
+zO
+zO
+zO
 zO
 zO
 zO
@@ -52197,7 +52340,7 @@ Zu
 mI
 sR
 HX
-iJ
+wJ
 Xk
 rM
 Xk
@@ -52219,17 +52362,6 @@ LD
 Zu
 Zu
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -52413,12 +52545,12 @@ oF
 gG
 Ve
 JB
-Mw
-dn
-dn
-Uj
+ME
+Ym
+Ym
+DX
 JB
-JB
+wl
 Ve
 Ve
 Ve
@@ -52428,7 +52560,18 @@ Ve
 Ve
 Ve
 Ve
-QN
+WZ
+WZ
+Om
+Om
+zQ
+Om
+Om
+jb
+zO
+zO
+zO
+zO
 zO
 zO
 aw
@@ -52438,8 +52581,8 @@ QN
 Zu
 dD
 mr
-fn
-wJ
+Aj
+Gq
 xu
 wO
 Fw
@@ -52461,17 +52604,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -52670,7 +52802,18 @@ lO
 Tp
 AV
 Ve
-QN
+WZ
+Om
+BA
+Om
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+zO
 zO
 zO
 zO
@@ -52703,17 +52846,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -52912,7 +53044,18 @@ Bl
 mi
 gr
 Ve
-QN
+WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+WZ
 zO
 zO
 zO
@@ -52945,17 +53088,6 @@ Vd
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -53154,7 +53286,18 @@ Ve
 CK
 Ve
 Ve
-QN
+WZ
+WZ
+Om
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
 zO
 zO
 zO
@@ -53187,17 +53330,6 @@ Lt
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -53311,9 +53443,9 @@ WZ
 RW
 zk
 WM
-TK
+xy
 PG
-Du
+wz
 WM
 zk
 RW
@@ -53396,8 +53528,19 @@ Lc
 mi
 mi
 Ve
-QN
-zO
+WZ
+WZ
+Om
+Om
+Om
+do
+rQ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 nm
 zO
 zO
@@ -53429,17 +53572,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -53551,13 +53683,13 @@ WZ
 WZ
 WZ
 WM
-xy
+Xc
 SX
 Wc
 PG
 bM
 SX
-wz
+Uh
 WM
 WZ
 WZ
@@ -53622,7 +53754,7 @@ Ve
 Ve
 Ve
 Ve
-JB
+ki
 ME
 Ym
 Ym
@@ -53638,8 +53770,19 @@ FV
 mi
 mi
 Ve
-QN
-QN
+WZ
+WZ
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 rf
 jb
 jb
@@ -53671,17 +53814,6 @@ aw
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -53881,7 +54013,18 @@ yB
 Ve
 Ve
 WZ
-QN
+WZ
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 jb
 jb
 Om
@@ -53913,17 +54056,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -54124,6 +54256,17 @@ ad
 Ve
 WZ
 WZ
+zQ
+Om
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
 Om
 Om
 Om
@@ -54152,20 +54295,9 @@ zO
 zO
 zO
 zO
+zO
 QN
 QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -54369,6 +54501,17 @@ WZ
 do
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
+Om
+Om
+Om
+Om
 Om
 Om
 AT
@@ -54394,20 +54537,9 @@ Uo
 DE
 zO
 zO
+zO
 QN
 QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -54612,7 +54744,18 @@ Om
 Om
 Om
 Om
-zQ
+WZ
+WZ
+WZ
+WZ
+WZ
+do
+Om
+Om
+Om
+Om
+Om
+Om
 AT
 mj
 Xk
@@ -54636,20 +54779,9 @@ xg
 Lt
 zO
 zO
+zO
 QN
 QN
-QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -54853,6 +54985,17 @@ WZ
 Om
 Om
 Om
+BA
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
+Om
+Om
+Om
+Om
 Om
 Om
 YW
@@ -54881,17 +55024,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -55096,7 +55228,18 @@ Om
 Om
 Om
 Om
-do
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+rQ
+Om
+Om
+Om
+zQ
+Om
 YW
 WK
 Xk
@@ -55123,17 +55266,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -55176,7 +55308,7 @@ Za
 Za
 Kh
 oA
-iE
+He
 zf
 zf
 Tw
@@ -55338,6 +55470,17 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
+Om
+Om
+Om
+Om
 Om
 YW
 Aa
@@ -55365,17 +55508,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -55581,6 +55713,17 @@ rQ
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
+Om
+Om
+Om
+WZ
 YW
 YW
 YW
@@ -55593,7 +55736,7 @@ YW
 YW
 YW
 YW
-QN
+zO
 zO
 zO
 aw
@@ -55607,17 +55750,6 @@ zO
 QN
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -55823,7 +55955,18 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+BA
 Om
+Om
+WZ
+WZ
 QN
 QN
 QN
@@ -55835,7 +55978,7 @@ QN
 QN
 QN
 QN
-QN
+zO
 jb
 jb
 jb
@@ -55849,17 +55992,6 @@ jb
 zO
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -56012,7 +56144,7 @@ oF
 oF
 JG
 Ve
-NC
+XU
 IK
 NC
 NC
@@ -56065,8 +56197,19 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
 Om
+Om
+WZ
+WZ
+WZ
 QN
 QN
 QN
@@ -56091,17 +56234,6 @@ jb
 zO
 QN
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -56308,8 +56440,19 @@ Om
 Om
 Om
 Om
+WZ
+mb
+WZ
+WZ
+WZ
+WZ
 Om
 Om
+Om
+Om
+WZ
+WZ
+WZ
 QN
 QN
 QN
@@ -56333,17 +56476,6 @@ jb
 jb
 zO
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -56556,6 +56688,17 @@ WZ
 WZ
 WZ
 WZ
+Om
+Om
+Om
+Om
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 QN
 QN
@@ -56568,24 +56711,13 @@ Om
 Om
 Om
 Om
-rQ
+Om
 Om
 Om
 Om
 jb
 jb
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -56791,6 +56923,17 @@ WZ
 Om
 Om
 Om
+zQ
+Om
+Om
+Om
+WZ
+WZ
+Om
+Om
+Om
+Om
+Om
 Om
 Om
 Om
@@ -56802,7 +56945,7 @@ WZ
 WZ
 Om
 Om
-Om
+rQ
 Om
 Om
 Om
@@ -56817,17 +56960,6 @@ Om
 Om
 jb
 QN
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -57037,11 +57169,6 @@ Om
 Om
 Om
 Om
-do
-WZ
-WZ
-WZ
-WZ
 Om
 Om
 Om
@@ -57057,18 +57184,23 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -57280,10 +57412,10 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
 Om
 rQ
 Om
@@ -57297,21 +57429,21 @@ Om
 do
 Om
 Om
+zQ
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -57519,12 +57651,6 @@ Om
 Om
 Om
 Om
-zQ
-Om
-Om
-Om
-WZ
-WZ
 Om
 Om
 Om
@@ -57541,19 +57667,25 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+do
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -57781,22 +57913,22 @@ Om
 Om
 Om
 Om
+BA
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+rQ
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -58024,21 +58156,21 @@ Om
 Om
 Om
 Om
+Om
+Om
+Om
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -58262,25 +58394,25 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -58503,26 +58635,26 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
 Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
 WZ
 WZ
 WZ
@@ -58743,27 +58875,27 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+Om
+BA
 Om
 Om
 Om
 Om
-Om
-Om
-Om
-Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 WZ
 WZ
 WZ
@@ -58985,26 +59117,26 @@ Om
 Om
 Om
 do
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
 Om
 Om
 Om
 Om
 Om
-Om
-Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+do
 WZ
 WZ
 WZ
@@ -59228,6 +59360,16 @@ BA
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
 Om
 Om
@@ -59235,18 +59377,8 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
 WZ
 WZ
 WZ
@@ -59471,24 +59603,24 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
+WZ
+WZ
+WZ
 Om
-zQ
 Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -59714,22 +59846,22 @@ Om
 Om
 Om
 Om
+WZ
+WZ
+WZ
 Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -59956,20 +60088,20 @@ Om
 Om
 Om
 Om
+zQ
 Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+do
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -60202,14 +60334,14 @@ Om
 Om
 Om
 do
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+zQ
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -60443,15 +60575,15 @@ Om
 Om
 Om
 Om
-do
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+rQ
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -60498,7 +60630,7 @@ Za
 Za
 Za
 Kh
-oA
+sn
 oA
 iE
 zf
@@ -60685,12 +60817,12 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Om
+Om
+Om
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -60927,9 +61059,9 @@ Om
 Om
 Om
 Om
-WZ
-WZ
-WZ
+Om
+Om
+Om
 WZ
 WZ
 WZ
@@ -61169,8 +61301,8 @@ Om
 Om
 Om
 Om
-WZ
-WZ
+Om
+Om
 WZ
 WZ
 WZ
@@ -61393,15 +61525,15 @@ WZ
 WZ
 WZ
 WZ
+Oo
+Oo
+Oo
+Oo
+Oo
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-Om
+BA
 Om
 Om
 Om
@@ -61635,11 +61767,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
+Oo
 Ic
 Ot
 PS
-WZ
+Oo
 WZ
 WZ
 WZ
@@ -61877,11 +62009,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
+Oo
 CT
 Gc
 TI
-WZ
+Oo
 WZ
 WZ
 WZ
@@ -62119,11 +62251,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
+Oo
 gY
 Nz
 PS
-WZ
+Oo
 WZ
 WZ
 WZ
@@ -62361,11 +62493,11 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Oo
+Oo
+Oo
+Oo
+Oo
 WZ
 WZ
 WZ
@@ -63556,7 +63688,7 @@ nV
 zC
 fV
 Em
-mi
+eQ
 mi
 Ve
 WZ
@@ -63743,12 +63875,12 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+VC
+VC
+VC
+VC
+VC
+VC
 WZ
 WZ
 WZ
@@ -63985,12 +64117,12 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+VC
+st
+yb
+eb
+TP
+VC
 WZ
 WZ
 WZ
@@ -64031,7 +64163,7 @@ JB
 JB
 JB
 JB
-JB
+CQ
 ME
 Ym
 Ym
@@ -64227,12 +64359,12 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+VC
+BK
+eb
+yb
+eb
+VC
 WZ
 WZ
 WZ
@@ -64280,9 +64412,9 @@ Ym
 DX
 Sp
 Ve
-eQ
-eQ
-gW
+mi
+mi
+Yf
 va
 Ve
 WZ
@@ -64469,12 +64601,12 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+VC
+VC
+VC
+VC
+VC
+VC
 WZ
 WZ
 WZ
@@ -65344,7 +65476,7 @@ iE
 Dg
 zf
 zf
-zf
+iQ
 WZ
 WZ
 WZ
@@ -68867,7 +68999,7 @@ Zd
 WA
 BO
 BO
-BO
+Bi
 BO
 Wa
 gO
