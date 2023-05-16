@@ -559,6 +559,13 @@
 	icon_state = "grass2"
 	},
 /area/event/dynamic/unpowered)
+"aW" = (
+/obj/structure/surface/rack,
+/obj/structure/sign/safety/ammunition{
+	pixel_x = 36
+	},
+/turf/open/floor,
+/area/event/metal/dynamic/lit)
 "aX" = (
 /obj/structure/platform{
 	density = 0;
@@ -1230,6 +1237,15 @@
 	icon_state = "greenwhite"
 	},
 /area/event/underground_no_CAS/dynamic)
+"ch" = (
+/obj/structure/sign/safety/cryo{
+	pixel_x = 7;
+	pixel_y = -32
+	},
+/turf/open/floor/corsat{
+	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
 "cj" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -3199,6 +3215,19 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"fd" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/sign/safety/synth_storage{
+	pixel_x = 7;
+	pixel_y = 28
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "fe" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -3224,6 +3253,10 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"fh" = (
+/obj/structure/monorail,
+/turf/open/auto_turf/sand_white/layer1,
+/area/event/deep_underground/dynamic)
 "fi" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/faxmachine,
@@ -3263,6 +3296,14 @@
 	icon_state = "sterile_green"
 	},
 /area/event/metal/dynamic/lit)
+"fn" = (
+/obj/structure/flora/jungle/vines{
+	icon_state = "light_2";
+	icon_tag = "light_2"
+	},
+/obj/structure/flora/jungle/vines,
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "fo" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/corsat{
@@ -3397,7 +3438,7 @@
 	pixel_x = 8;
 	pixel_y = 24
 	},
-/obj/structure/sign/safety/storage{
+/obj/structure/sign/safety/ammunition{
 	pixel_x = 8;
 	pixel_y = 38
 	},
@@ -6222,6 +6263,45 @@
 	icon_state = "grassbeach"
 	},
 /area/event/dynamic/unpowered)
+"ks" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/west{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper West traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the West."
+	},
+/obj/structure/sign/safety/storage{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "Supply depot traffic signal";
+	desc = "A traffic signal denoting the nearby presence of a general dry supply depot."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "kt" = (
 /turf/open/gm/coast{
 	dir = 9
@@ -6838,12 +6918,12 @@
 	},
 /area/event/metal/dynamic/lit)
 "lq" = (
-/obj/structure/prop/server_equipment/laptop{
-	pixel_x = 12;
-	pixel_y = 5
-	},
 /obj/structure/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/prop/server_equipment/laptop/on{
+	pixel_x = 11;
+	pixel_y = 6
 	},
 /turf/open/floor{
 	icon_state = "dark"
@@ -8416,6 +8496,9 @@
 /obj/structure/machinery/medical_pod/autodoc{
 	dir = 1
 	},
+/obj/structure/sign/safety/autodoc{
+	pixel_x = -20
+	},
 /turf/open/floor/corsat{
 	dir = 8;
 	icon_state = "greenwhite"
@@ -9952,6 +10035,13 @@
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
+"pV" = (
+/obj/structure/sign/safety/ammunition{
+	pixel_x = 8;
+	pixel_y = -28
+	},
+/turf/open/floor,
+/area/event/metal/dynamic/lit)
 "pW" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/reagent_container/food/condiment/hotsauce/franks,
@@ -20947,6 +21037,15 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"Hj" = (
+/obj/structure/sign/safety/autodoc{
+	pixel_x = 34
+	},
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "sterile_green_side"
+	},
+/area/event/metal/dynamic/lit)
 "Hk" = (
 /obj/structure/desertdam/decals/road_edge,
 /obj/item/tool/warning_cone{
@@ -21351,6 +21450,42 @@
 /obj/structure/surface/rack,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"HW" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/medical{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "medical traffic signal";
+	desc = "A traffic signal denoting the nearby presence of a hospital or medical building."
+	},
+/obj/structure/sign/safety/west{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper West traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the West."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "HX" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/weapon/gun/pistol/c99/upp,
@@ -21447,6 +21582,9 @@
 	name = "Credit to LCMS1";
 	pixel_y = -10;
 	pixel_x = 12
+	},
+/obj/structure/sign/catclock{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
@@ -22776,6 +22914,42 @@
 /obj/item/tool/pen,
 /turf/open/floor/wood,
 /area/event/underground_no_CAS/dynamic/lit)
+"KB" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/east{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper East traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the East."
+	},
+/obj/structure/sign/safety/medical{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "medical traffic signal";
+	desc = "A traffic signal denoting the nearby presence of a hospital or medical building."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "KC" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/toy/bikehorn,
@@ -24786,6 +24960,42 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"NV" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/medical{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "medical traffic signal";
+	desc = "A traffic signal denoting the nearby presence of a hospital or medical building."
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "NW" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -26375,13 +26585,13 @@
 	},
 /area/event/deep_underground/dynamic)
 "Qh" = (
-/obj/structure/sign/safety/storage{
-	pixel_x = 8;
-	pixel_y = 38
-	},
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 8;
 	pixel_y = 24
+	},
+/obj/structure/sign/safety/ammunition{
+	pixel_x = 8;
+	pixel_y = 38
 	},
 /turf/open/floor,
 /area/event/metal/dynamic)
@@ -30399,6 +30609,16 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"We" = (
+/obj/structure/flora/jungle/vines{
+	icon_state = "light_3";
+	icon_tag = "light_3"
+	},
+/obj/structure/flora/jungle/vines{
+	icon_state = "light_2"
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "Wf" = (
 /turf/open/floor/corsat{
 	dir = 10;
@@ -34688,7 +34908,7 @@ YG
 YW
 Rw
 Jc
-Ap
+ch
 YW
 Ul
 KF
@@ -35414,7 +35634,7 @@ YG
 YW
 Rw
 Jc
-Ap
+ch
 YW
 Ul
 KF
@@ -36863,7 +37083,7 @@ mG
 Tq
 Xk
 YW
-Xt
+fd
 Rw
 Jc
 Ap
@@ -38960,7 +39180,7 @@ Fp
 JB
 JB
 JB
-JB
+KB
 ME
 Ym
 Ym
@@ -39515,9 +39735,9 @@ lQ
 sP
 jy
 lQ
-dX
-oV
 Kt
+oV
+dX
 yx
 xI
 Se
@@ -40918,9 +41138,9 @@ Ym
 DX
 JB
 JB
-JB
+fn
 gH
-PD
+RA
 WZ
 WZ
 WZ
@@ -41160,10 +41380,10 @@ Ym
 DX
 nV
 JB
-JB
+We
 gH
-PD
-PD
+PO
+dL
 WZ
 WZ
 WZ
@@ -41401,10 +41621,10 @@ ME
 Ym
 DX
 JB
-JB
-JB
+Qn
+fn
 gH
-PD
+iH
 PD
 WZ
 WZ
@@ -41645,7 +41865,7 @@ DX
 JB
 WZ
 gH
-PD
+PO
 PD
 PD
 WZ
@@ -41693,9 +41913,9 @@ FX
 CB
 aS
 Nt
-iZ
-cl
 fR
+cl
+iZ
 Ht
 Uc
 mz
@@ -43739,7 +43959,7 @@ BB
 NT
 UU
 UU
-EQ
+ks
 zf
 zf
 zf
@@ -44067,7 +44287,7 @@ Sp
 WZ
 WZ
 LU
-PD
+Wz
 PD
 PD
 Vz
@@ -44277,7 +44497,7 @@ JB
 Ve
 ei
 vr
-Ao
+Hj
 Ya
 vr
 Sr
@@ -44784,7 +45004,7 @@ JB
 JB
 JB
 JB
-JB
+NV
 ME
 Ym
 DX
@@ -45281,7 +45501,7 @@ PD
 PD
 PD
 Kf
-PD
+LU
 WZ
 WZ
 WZ
@@ -45523,7 +45743,7 @@ WZ
 Vz
 PD
 PD
-PD
+LU
 WZ
 WZ
 WZ
@@ -45763,9 +45983,9 @@ WZ
 WZ
 WZ
 PD
+Wz
 PD
-PD
-PD
+LU
 WZ
 WZ
 WZ
@@ -46007,7 +46227,7 @@ WZ
 PD
 PD
 ZS
-PD
+LU
 WZ
 WZ
 WZ
@@ -46730,7 +46950,7 @@ WZ
 WZ
 XY
 PD
-PD
+Wz
 PD
 PD
 WZ
@@ -48396,9 +48616,9 @@ JB
 yv
 JB
 Fp
-JB
 nV
 JB
+HW
 ME
 Ym
 Ym
@@ -49829,7 +50049,7 @@ JB
 JB
 JB
 JB
-JB
+vX
 JB
 nV
 JB
@@ -50553,7 +50773,7 @@ Gr
 Gr
 JB
 wl
-JB
+vX
 JB
 JB
 JB
@@ -50799,7 +51019,7 @@ JB
 JB
 JB
 nV
-JB
+vX
 WZ
 WZ
 WZ
@@ -51322,7 +51542,7 @@ ME
 Ym
 Ym
 DX
-Qt
+JB
 zC
 oF
 oF
@@ -51564,7 +51784,7 @@ ME
 Ym
 Ym
 DX
-OK
+Qt
 zC
 oF
 oF
@@ -51806,7 +52026,7 @@ ME
 Ym
 Ym
 DX
-Sp
+OK
 Ve
 Ve
 Ve
@@ -52534,7 +52754,7 @@ Ym
 DX
 nV
 Ve
-NX
+aW
 oF
 ms
 oF
@@ -52833,7 +53053,7 @@ YW
 YW
 YW
 zO
-zO
+nm
 zO
 zO
 zO
@@ -53320,7 +53540,7 @@ ZH
 XM
 XM
 Lt
-zO
+fh
 zO
 zO
 ZH
@@ -53806,7 +54026,7 @@ zO
 zO
 zO
 zO
-zO
+rf
 zO
 zO
 zO
@@ -54537,7 +54757,7 @@ Uo
 DE
 zO
 zO
-zO
+nm
 QN
 QN
 WZ
@@ -55253,7 +55473,7 @@ Wd
 zn
 YW
 zO
-zO
+rf
 zO
 zO
 zO
@@ -55743,7 +55963,7 @@ aw
 zO
 zO
 zO
-zO
+nm
 zO
 zO
 zO
@@ -58653,7 +58873,7 @@ Om
 Om
 Om
 Om
-Om
+zQ
 Om
 WZ
 WZ
@@ -61507,7 +61727,7 @@ vk
 Vk
 sc
 KQ
-oF
+pV
 Ve
 yl
 Hq
@@ -64905,7 +65125,7 @@ Om
 Om
 Om
 Om
-Om
+BA
 Om
 Om
 Om
@@ -65640,7 +65860,7 @@ Om
 Om
 Om
 Om
-Om
+BA
 Om
 Om
 Om
@@ -65873,7 +66093,7 @@ WZ
 WZ
 WZ
 WZ
-Om
+do
 Om
 Om
 Om
