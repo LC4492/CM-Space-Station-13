@@ -19,17 +19,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"ae" = (
-/obj/structure/surface/rack,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/item/stack/sheet/cardboard/full_stack,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "af" = (
 /obj/item/weapon/gun/launcher/grenade/m81/m79,
 /obj/item/weapon/gun/launcher/grenade/m81/m79,
@@ -779,6 +768,46 @@
 	icon_state = "grassdirt_corner2"
 	},
 /area/event/dynamic/lit/unpowered)
+"bq" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "br" = (
 /obj/structure/prop/dam/truck,
 /turf/open/gm,
@@ -889,6 +918,10 @@
 /turf/open/gm/river/ocean,
 /area/event/underground_no_CAS)
 "bB" = (
+/obj/structure/bed/chair{
+	dir = 4;
+	tag = "icon-chair (EAST)"
+	},
 /turf/open/floor/corsat{
 	dir = 10;
 	icon_state = "yellow"
@@ -1076,6 +1109,14 @@
 	},
 /turf/open/gm/river/ocean,
 /area/event/underground_no_CAS)
+"bT" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "bU" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 8
@@ -1246,6 +1287,17 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
+"ci" = (
+/obj/structure/sign/safety/security{
+	name = "Politsiya traffic checkpoint";
+	pixel_x = 7;
+	pixel_y = -28;
+	desc = "A traffic signal denoting the nearby presence of a law enforcement checkpoint, mainly focused in the administration of traffic."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4
+	},
+/area/event/dynamic/lit/unpowered)
 "cj" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -1578,6 +1630,16 @@
 	icon_state = "greenwhite"
 	},
 /area/event/underground_no_CAS/dynamic)
+"cQ" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet/toolcloset,
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "cR" = (
 /obj/structure/platform/kutjevo/rock{
 	climb_delay = 20;
@@ -2000,6 +2062,31 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
+"dt" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/machinery/m56d_hmg/auto{
+	dir = 4
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "du" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/effect/landmark/objective_landmark/close,
@@ -2325,6 +2412,28 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"dZ" = (
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "ea" = (
 /obj/structure/surface/rack,
 /obj/item/ammo_magazine/rifle{
@@ -2462,6 +2571,16 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/corsat{
 	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
+"ed" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_N_Check2";
+	name = "\improper Politsiya Checkpoint";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
 "ee" = (
@@ -2615,13 +2734,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
-"et" = (
-/obj/structure/closet/toolcloset,
-/turf/open/floor/corsat{
-	dir = 6;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "eu" = (
 /obj/structure/platform/kutjevo/rock{
 	projectile_coverage = 0
@@ -3254,8 +3366,18 @@
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
 "fh" = (
-/obj/structure/monorail,
-/turf/open/auto_turf/sand_white/layer1,
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/recharger,
+/obj/structure/machinery/door_control{
+	id = "B_N_Check2";
+	name = "\improper North Shutters 2";
+	pixel_y = 26;
+	req_access = list(201)
+	},
+/turf/open/floor/corsat{
+	dir = 5;
+	icon_state = "red"
+	},
 /area/event/deep_underground/dynamic)
 "fi" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -3353,6 +3475,12 @@
 /obj/structure/machinery/light,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"fu" = (
+/obj/structure/machinery/light,
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "fv" = (
 /obj/structure/sign/poster/clf{
 	pixel_y = 32
@@ -3444,6 +3572,17 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"fC" = (
+/obj/structure/closet/secure_closet/cargotech,
+/obj/structure/machinery/light/small{
+	dir = 1;
+	flickering = 1
+	},
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/event/deep_underground/dynamic)
 "fD" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 4
@@ -3456,6 +3595,11 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"fF" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "fG" = (
 /obj/structure/machinery/iv_drip,
 /obj/structure/machinery/light{
@@ -3624,6 +3768,14 @@
 	},
 /turf/open/floor/corsat{
 	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
+"fY" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 1
+	},
+/turf/open/floor/corsat{
+	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
 "fZ" = (
@@ -4310,22 +4462,6 @@
 /turf/open/floor/corsat{
 	dir = 8;
 	icon_state = "greenwhite"
-	},
-/area/event/deep_underground/dynamic)
-"ha" = (
-/obj/structure/closet/secure_closet/engineering_welding{
-	req_one_access = null
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/turf/open/floor/corsat{
-	dir = 4;
-	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
 "hb" = (
@@ -5118,6 +5254,19 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"iF" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/holowindow{
+	layer = 3
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_Check_L";
+	name = "\improper Politsiya Checkpoint"
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "iG" = (
 /turf/closed/wall/almayer{
 	name = "Pillar"
@@ -5204,13 +5353,6 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"iO" = (
-/obj/structure/closet/secure_closet/cargotech,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "yellow"
-	},
-/area/event/deep_underground/dynamic)
 "iP" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -5838,7 +5980,7 @@
 "jL" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	id = "N_Check";
-	name = "\improper Police Checkpoint"
+	name = "\improper Politsiya Checkpoint"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -6238,6 +6380,9 @@
 	},
 /area/event/deep_underground/dynamic)
 "km" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
 /turf/open/floor/corsat{
 	dir = 6;
 	icon_state = "yellow"
@@ -6257,6 +6402,22 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
+"kp" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/photocopier,
+/obj/structure/machinery/door_control{
+	id = "B_N_Check1";
+	name = "\improper North Shutters 1";
+	pixel_y = 26;
+	req_access = list(201)
+	},
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
 "kq" = (
 /turf/open/gm/grass{
 	dir = 8;
@@ -6310,17 +6471,6 @@
 "kv" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp3"
-	},
-/area/event/deep_underground/dynamic)
-"kw" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced{
-	dir = 2;
-	name = "Bunker Black King";
-	req_access = list(201)
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
 	},
 /area/event/deep_underground/dynamic)
 "kx" = (
@@ -6572,6 +6722,15 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"kT" = (
+/obj/structure/sign/safety/security{
+	name = "Politsiya traffic checkpoint";
+	pixel_x = 7;
+	pixel_y = 32;
+	desc = "A traffic signal denoting the nearby presence of a law enforcement checkpoint, mainly focused in the administration of traffic."
+	},
+/turf/open/gm/grass,
+/area/event/dynamic/lit/unpowered)
 "kU" = (
 /obj/structure/machinery/light,
 /turf/open/floor/wood,
@@ -6821,17 +6980,23 @@
 	icon_state = "white"
 	},
 /area/event/deep_underground/dynamic)
-"lk" = (
-/obj/structure/surface/rack,
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "ll" = (
 /obj/structure/machinery/washing_machine,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"lm" = (
+/obj/structure/machinery/door_control{
+	id = UPP_Garage2;
+	name = "\improper Shutters";
+	pixel_y = 5;
+	req_access_txt = "201"
+	},
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "ln" = (
 /turf/open/gm/dirtgrassborder{
 	dir = 8;
@@ -6967,13 +7132,6 @@
 	icon_state = "dark"
 	},
 /area/event/metal/dynamic/unpowered)
-"lv" = (
-/obj/structure/surface/rack,
-/obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "lw" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood/antag,
 /turf/open/floor/almayer{
@@ -7538,6 +7696,44 @@
 	},
 /turf/open/floor,
 /area/event/metal/dynamic)
+"mp" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 8
+	},
+/area/event/dynamic/lit/unpowered)
 "mq" = (
 /obj/structure/bed/chair/wood/wings,
 /turf/open/floor,
@@ -8666,6 +8862,10 @@
 /obj/effect/vehicle_spawner/van/decrepit{
 	dir = 8
 	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	tag = "icon-S"
+	},
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -8714,15 +8914,6 @@
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"nW" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/corsat{
-	dir = 8;
-	icon_state = "yellow"
-	},
-/area/event/deep_underground/dynamic)
 "nX" = (
 /turf/open/floor/corsat{
 	dir = 10;
@@ -9212,6 +9403,46 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
+"oD" = (
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "oE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/overwatch/upp{
@@ -9599,6 +9830,18 @@
 /obj/structure/closet/coffin/woodencrate,
 /turf/open/shuttle/elevator/grating,
 /area/event/deep_underground/dynamic)
+"pp" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	tag = "icon-S"
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "pq" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
@@ -9885,6 +10128,22 @@
 	icon_state = "gbcorner"
 	},
 /area/event/dynamic/lit/unpowered)
+"pL" = (
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/structure/surface/rack,
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/item/ammo_box/magazine/misc/flashlight,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "yellow"
+	},
+/area/event/deep_underground/dynamic)
 "pM" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/box/handcuffs{
@@ -10155,17 +10414,6 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
-"qi" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_king{
-	anchored = 1;
-	name = "Bunker Black King"
-	},
-/turf/closed/wall/r_wall/bunker{
-	damage_cap = 25000;
-	name = "reinforced bunker wall"
-	},
-/area/event/deep_underground/dynamic)
 "qj" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -10778,6 +11026,24 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS/dynamic/lit)
+"rc" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/surface/rack,
+/obj/item/storage/box/zipcuffs,
+/obj/item/storage/box/zipcuffs,
+/obj/structure/machinery/door_control{
+	id = "B_S_Check1";
+	name = "\improper South Shutters 1";
+	req_access = list(201);
+	pixel_y = -24
+	},
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
 "rd" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal9"
@@ -10808,7 +11074,7 @@
 "rg" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	id = "S_Check";
-	name = "\improper Police Checkpoint"
+	name = "\improper Politsiya Checkpoint"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -10986,28 +11252,6 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
-"rv" = (
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "rw" = (
 /obj/structure/sign/kiddieplaque{
 	desc = "A shop sign that signals to you what the shop generally sells";
@@ -11018,6 +11262,43 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"rx" = (
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 6;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "ry" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/glass/bottle/oxycodone{
@@ -11119,6 +11400,44 @@
 	tag = "icon-sterile"
 	},
 /area/event/metal/dynamic/lit)
+"rC" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/obj/structure/sign/safety/north{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper North traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the North."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4
+	},
+/area/event/dynamic/lit/unpowered)
 "rD" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -11353,6 +11672,17 @@
 /obj/item/weapon/gun/shotgun/merc,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"rU" = (
+/obj/structure/sign/safety/security{
+	name = "Politsiya traffic checkpoint";
+	pixel_x = 7;
+	pixel_y = -28;
+	desc = "A traffic signal denoting the nearby presence of a law enforcement checkpoint, mainly focused in the administration of traffic."
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 8
+	},
+/area/event/dynamic/lit/unpowered)
 "rV" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -12239,14 +12569,6 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
-"ty" = (
-/obj/structure/bed/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "tz" = (
 /obj/structure/platform{
 	dir = 1
@@ -12474,6 +12796,10 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/underground_no_CAS/dynamic)
+"tU" = (
+/obj/structure/prop/dam/truck/mining,
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "tV" = (
 /obj/structure/surface/rack,
 /obj/item/storage/box/packet/m15,
@@ -12705,6 +13031,15 @@
 "uo" = (
 /turf/open/floor/corsat{
 	icon_state = "arrow_east"
+	},
+/area/event/deep_underground/dynamic)
+"uq" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "red"
 	},
 /area/event/deep_underground/dynamic)
 "us" = (
@@ -13257,6 +13592,13 @@
 	icon_state = "yellow"
 	},
 /area/event/underground_no_CAS/dynamic)
+"uU" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "uV" = (
 /obj/structure/surface/rack,
 /obj/item/explosive/plastic,
@@ -13558,6 +13900,15 @@
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"vx" = (
+/obj/structure/closet/secure_closet/engineering_welding{
+	req_one_access = null
+	},
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "vz" = (
 /obj/structure/desertdam/decals/road_edge,
 /turf/open/asphalt/cement,
@@ -13641,12 +13992,6 @@
 	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
-"vE" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/event/deep_underground/dynamic)
 "vF" = (
 /turf/open/floor/corsat{
 	dir = 9;
@@ -13713,52 +14058,6 @@
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/event/deep_underground/dynamic)
-"vL" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/obj/item/ammo_magazine/m2c{
-	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
-	},
-/obj/structure/platform/kutjevo{
-	dir = 1;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 1;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 10;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
 "vM" = (
 /obj/structure/surface/rack,
@@ -14970,28 +15269,6 @@
 	icon_state = "white"
 	},
 /area/event/deep_underground/dynamic)
-"xg" = (
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "xh" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/antag_guns,
 /turf/open/floor/corsat{
@@ -15514,6 +15791,14 @@
 /obj/item/ammo_magazine/rifle/l42a,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"xS" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 4
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "xT" = (
 /obj/structure/flora/jungle/vines{
 	icon_state = "light_2"
@@ -15534,6 +15819,16 @@
 	icon_state = "darkyellowfull2"
 	},
 /area/event/metal/dynamic/lit)
+"xV" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_S_Check1";
+	name = "\improper Politsiya Checkpoint";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
 "xW" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/toy/dice/d20,
@@ -15664,11 +15959,6 @@
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
-/area/event/deep_underground/dynamic)
-"yh" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/auto_turf/sand_white/layer1,
 /area/event/deep_underground/dynamic)
 "yi" = (
 /obj/structure/platform/kutjevo{
@@ -16483,43 +16773,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/metal/dynamic/lit)
-"zw" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 4;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 6;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 4;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "zx" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -16747,6 +17000,43 @@
 "zO" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/event/deep_underground/dynamic)
+"zP" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 8;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/platform/kutjevo{
+	dir = 8;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "zQ" = (
 /obj/structure/prop/rock/black_ground,
 /turf/open/auto_turf/sand_white/layer1,
@@ -16760,9 +17050,6 @@
 	name = "Pre-Fabricated wall"
 	},
 /area/event/metal/dynamic/lit)
-"zT" = (
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "zU" = (
 /obj/structure/flora/jungle/vines{
 	icon_state = "light_3";
@@ -17132,13 +17419,6 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
-"AA" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform_decoration/kutjevo{
-	dir = 8
-	},
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "AB" = (
 /obj/structure/sink{
 	dir = 8;
@@ -17404,9 +17684,15 @@
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
 "Ba" = (
-/obj/structure/window/framed/bunker/reinforced,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/floor/plating,
+/obj/structure/machinery/door/airlock/security/colony{
+	dir = 8;
+	name = "\improper Politsiya Checkpoint";
+	req_access = list(201);
+	req_one_access = null
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
 /area/event/deep_underground/dynamic)
 "Bb" = (
 /obj/structure/largecrate/supply/explosives/grenades,
@@ -18700,6 +18986,21 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"Db" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/window{
+	dir = 1;
+	layer = 2.5;
+	pixel_y = 9
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_Check_L";
+	name = "\improper Politsiya Checkpoint"
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "Dc" = (
 /obj/structure/machinery/autodoc_console,
 /turf/open/floor/almayer{
@@ -18963,43 +19264,6 @@
 /turf/open/floor/corsat{
 	icon_state = "retrosquareslight"
 	},
-/area/event/deep_underground/dynamic)
-"DE" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	dir = 8;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	pixel_y = 1;
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
-/obj/structure/platform/kutjevo{
-	dir = 8;
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/obj/structure/platform/kutjevo{
-	layer = 2.96;
-	projectile_coverage = 0
-	},
-/turf/open/floor/interior/wood,
 /area/event/deep_underground/dynamic)
 "DF" = (
 /obj/structure/pipes/standard/tank/oxygen,
@@ -20056,6 +20320,20 @@
 /obj/item/toy/deck,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"Fy" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/door/window/westright{
+	dir = 2;
+	layer = 3
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_Check_L";
+	name = "\improper Politsiya Checkpoint"
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "Fz" = (
 /obj/structure/barricade/metal/wired{
 	brute_multiplier = 0.05;
@@ -20369,6 +20647,16 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"FW" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_S_Check2";
+	name = "\improper Politsiya Checkpoint";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
 "FX" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -20618,6 +20906,9 @@
 "Gw" = (
 /obj/structure/surface/rack,
 /obj/item/hardpoint/locomotion/van_wheels,
+/obj/structure/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/corsat{
 	dir = 8;
 	icon_state = "brown"
@@ -21418,6 +21709,12 @@
 	icon_state = "darkgreen"
 	},
 /area/event/deep_underground/dynamic)
+"HT" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "HU" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/ammo_magazine/smg/ppsh,
@@ -21568,6 +21865,42 @@
 	},
 /turf/open/floor/prison,
 /area/event/metal/dynamic/lit)
+"Ib" = (
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 13;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 16;
+	density = 0;
+	name = "pole signal"
+	},
+/obj/structure/sign/safety/twilight_zone_terminator{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "active combat zone traffic signal";
+	desc = "A traffic signal denoting the nearby presence of an active combat zone. It's way less cool than it sounds."
+	},
+/obj/structure/sign/safety/east{
+	pixel_x = 7;
+	pixel_y = 26;
+	name = "\improper East traffic signal";
+	desc = "A traffic signal denoting the nearby presence of something to the East."
+	},
+/turf/open/gm/dirtgrassborder,
+/area/event/dynamic/lit/unpowered)
 "Ic" = (
 /obj/item/stool{
 	layer = 2.95;
@@ -21789,6 +22122,52 @@
 	icon_state = "purple"
 	},
 /area/event/deep_underground/dynamic)
+"Iy" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/item/ammo_magazine/m2c{
+	name = "T37 MMG ammunition box (10x28mm tungsten rounds)"
+	},
+/obj/structure/platform/kutjevo{
+	dir = 1;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 1;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 10;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "Iz" = (
 /obj/structure/machinery/light/small{
 	dir = 4;
@@ -21797,6 +22176,12 @@
 /obj/structure/bed/bedroll,
 /turf/open/floor/interior/wood/alt,
 /area/event/metal/dynamic/lit)
+"IA" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal4"
+	},
+/turf/open/asphalt/cement,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "IB" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -21835,6 +22220,21 @@
 	invisibility = 101
 	},
 /turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
+"IF" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/door/window/westright{
+	dir = 1;
+	pixel_y = 11;
+	layer = 2
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_Check_L";
+	name = "\improper Politsiya Checkpoint"
+	},
+/turf/open/floor/corsat{
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
@@ -22472,6 +22872,43 @@
 /obj/item/ammo_magazine/shotgun/incendiary,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
+"JO" = (
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/platform/kutjevo{
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 6;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "JP" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -22878,14 +23315,6 @@
 	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
-"Ku" = (
-/obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_king{
-	anchored = 1;
-	name = "Bunker Black King"
-	},
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/closed/wall/r_wall/bunker/floodgate,
-/area/event/deep_underground/dynamic)
 "Kv" = (
 /obj/structure/window/framed/hangar,
 /turf/open/floor/plating,
@@ -22906,6 +23335,9 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
+"Kz" = (
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "KA" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/paper_bin{
@@ -23020,18 +23452,6 @@
 	icon_state = "cell_stripe"
 	},
 /area/event/metal/dynamic/lit)
-"KM" = (
-/obj/structure/machinery/door_control{
-	id = UPP_Garage2;
-	name = "\improper Shutters";
-	pixel_y = 25;
-	req_access_txt = "201"
-	},
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
 "KN" = (
 /obj/item/weapon/gun/smg/m39,
 /obj/item/weapon/gun/smg/m39,
@@ -23141,6 +23561,28 @@
 /obj/item/ammo_magazine/pistol/vp78,
 /turf/open/floor,
 /area/event/metal/dynamic)
+"KZ" = (
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 1;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "La" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/flashlight/lamp{
@@ -23514,12 +23956,10 @@
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
 "LD" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_king{
-	anchored = 1;
-	name = "Bunker Black King"
+/obj/effect/decal/strata_decals/catwalk/prison,
+/turf/open/floor/corsat{
+	icon_state = "squares"
 	},
-/turf/closed/wall/r_wall/bunker/floodgate,
 /area/event/deep_underground/dynamic)
 "LE" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
@@ -24071,22 +24511,6 @@
 	dir = 1
 	},
 /area/event/dynamic/lit/unpowered)
-"Mt" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/tool/extinguisher,
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/event/deep_underground/dynamic)
-"Mu" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/platform_decoration/kutjevo,
-/turf/open/floor/interior/wood,
-/area/event/deep_underground/dynamic)
 "Mv" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/condiment/hotsauce/cholula,
@@ -24369,6 +24793,9 @@
 /obj/item/stool{
 	pixel_x = 6;
 	pixel_y = 6
+	},
+/obj/structure/machinery/space_heater/radiator{
+	pixel_y = 24
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
@@ -24787,6 +25214,9 @@
 	icon_state = "S";
 	tag = "icon-S"
 	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 28
+	},
 /turf/open/floor/corsat{
 	dir = 4;
 	icon_state = "brown"
@@ -24871,6 +25301,13 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"NO" = (
+/obj/structure/machinery/computer/crew,
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
 "NP" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -25105,18 +25542,6 @@
 /obj/structure/prop/rock/brown_degree,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
-"Oh" = (
-/obj/structure/bed/chair/wood/wings{
-	dir = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "Oi" = (
 /obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_bishop{
 	anchored = 1;
@@ -25210,7 +25635,7 @@
 "Op" = (
 /obj/structure/machinery/door/airlock/security/colony{
 	dir = 2;
-	name = "\improper Police Checkpoint";
+	name = "\improper Politsiya Checkpoint";
 	req_access = list(201);
 	req_one_access = null
 	},
@@ -27033,6 +27458,12 @@
 "QN" = (
 /turf/closed/wall/rock/brown,
 /area/event/deep_underground/dynamic)
+"QO" = (
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/corsat{
+	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
 "QP" = (
 /obj/structure/fence,
 /turf/open/gm/grass,
@@ -27315,6 +27746,10 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	tag = "icon-S"
+	},
+/obj/item/tool/extinguisher,
+/obj/structure/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/corsat{
 	dir = 4;
@@ -27630,6 +28065,8 @@
 /area/event/deep_underground/dynamic)
 "RG" = (
 /obj/structure/machinery/light/small,
+/obj/structure/surface/table/almayer,
+/obj/item/ashtray/plastic,
 /turf/open/floor/corsat{
 	icon_state = "yellow"
 	},
@@ -27638,6 +28075,16 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor/interior/wood,
 /area/event/dynamic/lit/unpowered)
+"RI" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sandbags_empty/full,
+/obj/item/stack/sandbags_empty/full,
+/turf/open/floor/corsat{
+	icon_state = "yellow"
+	},
+/area/event/deep_underground/dynamic)
 "RJ" = (
 /obj/structure/largecrate/supply/medicine/iv,
 /turf/open/floor/corsat{
@@ -27947,6 +28394,16 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit/unpowered)
+"Sk" = (
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_king{
+	anchored = 1;
+	name = "Bunker Black King"
+	},
+/turf/closed/wall/r_wall/bunker{
+	damage_cap = 25000;
+	name = "reinforced bunker wall"
+	},
+/area/event/deep_underground/dynamic)
 "Sl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -28665,6 +29122,12 @@
 	damage_cap = 15000
 	},
 /area/event/metal/dynamic/lit)
+"Ts" = (
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/event/deep_underground/dynamic)
 "Tt" = (
 /obj/structure/machinery/door/airlock/almayer/command{
 	name = "Supply";
@@ -28909,6 +29372,14 @@
 	},
 /turf/open/floor/wood,
 /area/event/underground_no_CAS)
+"TJ" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/event/deep_underground/dynamic)
 "TL" = (
 /turf/open/floor{
 	icon_state = "dark"
@@ -29050,6 +29521,13 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/deep_underground/dynamic)
+"Ue" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/structure/prop/dam/truck/mining,
+/turf/open/asphalt/cement,
+/area/event/dynamic/lit/unpowered)
 "Uf" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -29373,26 +29851,6 @@
 	desc = "our precious";
 	langchat_color = null;
 	name = "oil"
-	},
-/area/event/deep_underground/dynamic)
-"Uz" = (
-/obj/structure/showcase{
-	color = "#95948B";
-	desc = "A statue of the late and great Leytenant Dmitri Rosanov, who (of the red hand batallion) gained acclaim for actions during the dog war - where he alone assaulted a USCM flagship and forced its self-destruct. There are doubts to the truth of this story.";
-	icon = 'icons/mob/humans/species/r_synthetic.dmi';
-	icon_state = "Synthetic_Template";
-	name = "Hero of the People's Union statue"
-	},
-/obj/item/clothing/head/uppcap/ushanka{
-	pixel_y = 10;
-	anchored = 1
-	},
-/obj/item/clothing/suit/storage/marine/faction/UPP/officer{
-	anchored = 1
-	},
-/turf/open/floor/corsat{
-	dir = 5;
-	icon_state = "green"
 	},
 /area/event/deep_underground/dynamic)
 "UA" = (
@@ -29901,13 +30359,6 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/closed/wall/r_wall/bunker,
 /area/event/underground_no_CAS)
-"Vi" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/storage/toolbox/mechanical,
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "Vj" = (
 /obj/structure/machinery/m56d_hmg/auto{
 	dir = 1;
@@ -30600,15 +31051,6 @@
 	icon_state = "greenwhitecorner"
 	},
 /area/event/underground_no_CAS/dynamic)
-"Wd" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 2
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/event/deep_underground/dynamic)
 "We" = (
 /obj/structure/flora/jungle/vines{
 	icon_state = "light_3";
@@ -31143,6 +31585,15 @@
 	name = "Pre-Fabricated wall"
 	},
 /area/event/metal/dynamic/lit)
+"Xe" = (
+/obj/structure/window/framed/bunker/reinforced,
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_Check_L";
+	name = "\improper Politsiya Checkpoint";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/event/deep_underground/dynamic)
 "Xf" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal4"
@@ -32125,6 +32576,28 @@
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"YN" = (
+/obj/structure/platform/kutjevo{
+	dir = 4;
+	layer = 2.96;
+	projectile_coverage = 0
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	dir = 4;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	pixel_y = 6;
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
+/turf/open/floor/interior/wood,
+/area/event/underground_no_CAS/dynamic/unpowered)
 "YO" = (
 /turf/open/floor/corsat{
 	dir = 9;
@@ -32170,6 +32643,13 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
+"YT" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/stack/sheet/cardboard/full_stack,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "YU" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor,
@@ -32450,6 +32930,31 @@
 	icon_state = "yellowcorner"
 	},
 /area/event/deep_underground/dynamic)
+"Zx" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/paper_bin/uscm{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/obj/item/tool/pen,
+/obj/structure/machinery/door_control{
+	id = "B_S_Check2";
+	name = "\improper South Shutters 2";
+	req_access = list(201);
+	pixel_y = -24
+	},
+/obj/structure/machinery/door_control{
+	id = "B_Check_L";
+	name = "\improper Bunker checkpoint Lockdown";
+	pixel_y = 4;
+	req_access = list(201);
+	pixel_x = -6
+	},
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "red"
+	},
+/area/event/deep_underground/dynamic)
 "Zy" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -32458,6 +32963,20 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"Zz" = (
+/obj/structure/sign/safety/security{
+	pixel_y = 32;
+	pixel_x = 15
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_y = 32;
+	pixel_x = 1
+	},
+/turf/open/gm/dirtgrassborder{
+	dir = 4;
+	icon_state = "grassdirt_corner2"
+	},
+/area/event/dynamic/lit/unpowered)
 "ZA" = (
 /obj/structure/surface/rack,
 /obj/item/reagent_container/food/snacks/meat/fish/crab/shelled,
@@ -32504,6 +33023,16 @@
 	},
 /turf/open/gm,
 /area/event/dynamic/lit/unpowered)
+"ZG" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	id = "B_N_Check1";
+	name = "\improper Politsiya Checkpoint";
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/event/deep_underground/dynamic)
 "ZH" = (
 /obj/structure/platform/kutjevo{
 	dir = 1;
@@ -40514,12 +41043,12 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Za
+Za
+Za
+Za
+Za
+Za
 WZ
 WZ
 WZ
@@ -42952,7 +43481,7 @@ zf
 zf
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -43984,7 +44513,7 @@ aY
 Gr
 aY
 aY
-aY
+rC
 aY
 aY
 aY
@@ -44969,7 +45498,7 @@ UU
 vU
 Ay
 UU
-UU
+mp
 UU
 vU
 Gr
@@ -46104,7 +46633,7 @@ zf
 zf
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -46820,7 +47349,7 @@ iE
 zf
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -48111,7 +48640,7 @@ aT
 bn
 al
 Yo
-EQ
+Zz
 zf
 Av
 JB
@@ -48588,13 +49117,13 @@ hv
 JB
 JB
 Ah
-aY
+ci
 Yo
 CZ
 CZ
 CZ
 Yo
-JB
+kT
 CP
 zf
 Av
@@ -49410,7 +49939,7 @@ QN
 QN
 QN
 QN
-QN
+Zu
 Zu
 Zu
 Zu
@@ -49652,9 +50181,9 @@ QN
 QN
 QN
 QN
-QN
 Zu
 hL
+Ts
 bB
 Zu
 YW
@@ -49798,13 +50327,13 @@ JB
 JB
 Ay
 UU
-UU
+rU
 Yo
 Yo
 Yo
 Yo
 Yo
-JB
+kT
 JB
 JB
 JB
@@ -49894,9 +50423,9 @@ QN
 QN
 QN
 QN
-QN
 Zu
-iO
+fC
+Xk
 RG
 Zu
 lT
@@ -49973,7 +50502,7 @@ zf
 Ev
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -50136,9 +50665,9 @@ QN
 QN
 QN
 QN
-QN
 Zu
 yY
+Xk
 km
 Zu
 aJ
@@ -50378,10 +50907,10 @@ QN
 QN
 QN
 QN
-QN
 Zu
 YW
 ik
+Zu
 Zu
 tW
 Xk
@@ -50622,8 +51151,8 @@ QN
 QN
 Zu
 ye
-nW
-xu
+Xk
+pL
 YW
 OP
 vM
@@ -50829,10 +51358,10 @@ oF
 AQ
 Ve
 JB
-hX
+ME
 Ym
 Ym
-DX
+Ue
 JB
 Sp
 JB
@@ -50865,7 +51394,7 @@ QN
 Zu
 MJ
 Xk
-so
+RI
 YW
 YW
 CM
@@ -51072,7 +51601,7 @@ Ve
 Ve
 JB
 ME
-Ym
+tU
 Ym
 DX
 JB
@@ -52281,7 +52810,7 @@ pG
 qF
 zC
 JB
-ME
+hX
 Ym
 Ym
 DX
@@ -52326,8 +52855,8 @@ uI
 Xk
 vZ
 YW
-Uz
-jU
+Rw
+Xk
 DO
 TU
 lr
@@ -52335,8 +52864,8 @@ TU
 lr
 TU
 jU
+Xk
 DO
-TU
 BS
 Zu
 QN
@@ -52568,18 +53097,18 @@ uQ
 Xk
 wn
 YW
-qi
-vE
-kw
-qi
-Ba
-Ba
-Ba
-Ku
-vE
-kw
 LD
-Zu
+LD
+LD
+Sk
+YW
+Ba
+YW
+Sk
+LD
+LD
+LD
+YW
 Zu
 QN
 WZ
@@ -52810,18 +53339,18 @@ uV
 cF
 yS
 YW
-zO
-zO
-zO
-zO
-GW
-zO
-GW
-zO
-zO
-zO
-zO
-QN
+ZG
+ZG
+ZG
+YW
+kp
+Xk
+rc
+YW
+xV
+xV
+xV
+YW
 QN
 QN
 WZ
@@ -53052,18 +53581,18 @@ YW
 YW
 YW
 YW
-zO
-nm
-zO
-zO
-zO
-zO
-zO
-zO
-zO
-zO
-zO
-QN
+mj
+Xk
+mj
+IF
+uq
+mj
+Yc
+iF
+mj
+Xk
+fu
+YW
 QN
 QN
 WZ
@@ -53293,19 +53822,19 @@ QN
 QN
 QN
 QN
-QN
-Mi
-OO
-lZ
-QS
-zO
-zO
-zO
-QF
-lZ
-kz
-Vd
-QN
+YW
+TJ
+Xk
+mj
+Db
+Un
+mj
+QO
+Fy
+mj
+Xk
+mj
+YW
 QN
 QN
 WZ
@@ -53524,7 +54053,7 @@ zO
 zO
 zO
 QN
-YW
+QN
 YW
 YW
 LO
@@ -53536,18 +54065,18 @@ YW
 YW
 YW
 YW
-ZH
-XM
-XM
-Lt
+ed
+ed
+ed
+YW
 fh
-zO
-zO
-ZH
-XM
-XM
-Lt
-QN
+NO
+Zx
+YW
+FW
+FW
+FW
+YW
 QN
 QN
 WZ
@@ -53608,7 +54137,7 @@ zf
 zf
 zf
 Nd
-OF
+Gr
 vh
 iE
 au
@@ -53766,30 +54295,30 @@ zO
 zO
 zO
 QN
+QN
 YW
-lk
-FP
+bT
 Gw
 HY
 uf
 qQ
-qQ
-QG
-FP
+vx
+cQ
 YR
 YW
-aw
-Ce
-xp
-zO
-zO
-zO
-zO
-xH
-Pi
-RF
-zO
-QN
+Sk
+LD
+LD
+LD
+Sk
+YW
+Xe
+YW
+Sk
+LD
+LD
+LD
+Sk
 QN
 QN
 WZ
@@ -54008,29 +54537,29 @@ jb
 jb
 jb
 QN
+QN
 YW
-ae
-Xk
-lv
+LQ
 Xk
 Xk
 Xk
 Xk
-Iq
-ty
+Xk
+Xk
 zn
 YW
+QN
 zO
 zO
 zO
 zO
+GW
+zO
+GW
 zO
 zO
-rf
 zO
 zO
-zO
-aw
 QN
 QN
 QN
@@ -54250,18 +54779,18 @@ jb
 Om
 Om
 Om
-YW
+Om
+Sk
 MD
-Xk
 dE
 Xk
 Xk
 Xk
-Xk
-Vi
-Xk
-az
+YT
+Iq
+fY
 YW
+QN
 zO
 zO
 zO
@@ -54492,10 +55021,9 @@ Om
 Om
 Om
 Om
+Om
 AT
 mj
-Xk
-Xk
 Xk
 Xk
 Xk
@@ -54504,6 +55032,7 @@ Pt
 Xk
 az
 YW
+QN
 zO
 zO
 zO
@@ -54707,7 +55236,7 @@ Ym
 DX
 JB
 Ve
-mi
+ti
 mi
 mi
 Dy
@@ -54734,27 +55263,27 @@ Om
 Om
 Om
 Om
+Om
 AT
 mj
 Xk
 Xk
-Xk
-Xk
-Xk
+xS
 Xk
 Xk
 Xk
 az
 YW
+QN
+zO
+nm
 zO
 zO
-Mi
-Uo
-OO
-lZ
-OV
-Uo
-DE
+zO
+zO
+zO
+zO
+zO
 zO
 zO
 nm
@@ -54976,29 +55505,29 @@ Om
 Om
 Om
 Om
+Om
 AT
 mj
 Xk
 Xk
 Xk
-Xk
-Xk
-Xk
+HT
 Xk
 Xk
 az
 YW
+QN
+Mi
+OO
+lZ
+QS
 zO
 zO
-ZH
-rv
-AA
-zT
-Mu
-xg
-Lt
 zO
-zO
+QF
+lZ
+kz
+Vd
 zO
 QN
 QN
@@ -55218,29 +55747,29 @@ Om
 Om
 Om
 Om
-YW
-KM
-Xk
+Om
+Sk
+lm
 Ru
 mj
 dg
 Ru
 mj
 nR
-Oh
 az
 YW
-zO
-zO
-xH
-zO
-vL
-fw
-zw
-zO
+QN
+ZH
+XM
+XM
+Lt
 zO
 zO
 zO
+ZH
+XM
+XM
+Lt
 QN
 QN
 QN
@@ -55460,28 +55989,28 @@ Om
 Om
 zQ
 Om
+QN
 YW
 WK
-Xk
 ji
 mj
 Az
 Ru
 mj
-mj
-Wd
+Az
 zn
 YW
-zO
-rf
-zO
-zO
-zO
-zO
-zO
+QN
 aw
+Ce
+xp
 zO
 zO
+zO
+zO
+xH
+Pi
+RF
 zO
 QN
 QN
@@ -55702,29 +56231,29 @@ Om
 Om
 Om
 Om
+QN
 YW
 Aa
-Mt
 Ri
 mj
 Az
 NI
 mj
-mj
-ha
-et
+pp
+tp
 YW
+QN
 zO
 zO
 zO
 zO
 zO
 zO
+rf
 zO
 zO
 zO
-zO
-zO
+aw
 QN
 QN
 QN
@@ -55944,6 +56473,7 @@ Om
 Om
 Om
 WZ
+QN
 YW
 YW
 YW
@@ -55954,16 +56484,15 @@ YW
 YW
 YW
 YW
-YW
-YW
+QN
 zO
 zO
 zO
-aw
 zO
 zO
 zO
-nm
+zO
+zO
 zO
 zO
 zO
@@ -56022,7 +56551,7 @@ zf
 Tw
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -56199,16 +56728,16 @@ QN
 QN
 QN
 zO
-jb
-jb
-jb
-yh
 zO
 zO
-jb
-jb
-jb
-jb
+zO
+zO
+zO
+zO
+zO
+zO
+zO
+zO
 zO
 QN
 QN
@@ -56442,14 +56971,14 @@ QN
 jb
 jb
 jb
-Om
-Om
+bq
+dZ
+OO
+lZ
+OV
+Uo
+zP
 jb
-jb
-jb
-jb
-Om
-Om
 jb
 zO
 QN
@@ -56684,14 +57213,14 @@ jb
 jb
 Om
 Om
+oD
+KZ
+uU
+Kz
+fF
+YN
+JO
 Om
-Om
-Om
-Om
-Om
-Om
-Om
-BA
 jb
 jb
 zO
@@ -56926,11 +57455,11 @@ Om
 Om
 Om
 Om
+rQ
 Om
-Om
-Om
-Om
-Om
+Iy
+dt
+rx
 Om
 Om
 Om
@@ -57124,7 +57653,7 @@ nV
 ME
 Ym
 Ym
-nc
+DX
 JB
 zC
 oF
@@ -58448,7 +58977,7 @@ zf
 iQ
 zf
 Nd
-OF
+Gr
 vh
 zf
 Tw
@@ -59404,7 +59933,7 @@ iE
 zf
 zf
 Nd
-OF
+Gr
 vh
 zf
 Tw
@@ -60200,7 +60729,7 @@ JB
 JB
 JB
 JB
-CP
+Ib
 zf
 zf
 zf
@@ -60512,7 +61041,7 @@ rK
 ME
 Ym
 Ym
-DX
+nc
 nV
 Ve
 Ve
@@ -61593,7 +62122,7 @@ Ev
 Tw
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -63583,7 +64112,7 @@ aY
 aY
 aY
 aY
-aY
+rC
 aY
 aY
 aY
@@ -64007,7 +64536,7 @@ Qc
 zf
 zf
 Nd
-OF
+Gr
 vh
 zf
 zf
@@ -64632,7 +65161,7 @@ Ym
 DX
 Sp
 Ve
-mi
+ti
 mi
 Yf
 va
@@ -65918,10 +66447,10 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
+ZL
+ZL
+ZL
+ZL
 WZ
 WZ
 WZ
@@ -66107,9 +66636,9 @@ WZ
 WZ
 WZ
 Zu
+IA
 Om
 Om
-DC
 Zu
 WZ
 WZ
@@ -66349,9 +66878,9 @@ WZ
 WZ
 WZ
 Zu
-Ph
-Eh
+IA
 Om
+DC
 Zu
 WZ
 WZ
@@ -66591,9 +67120,9 @@ WZ
 WZ
 WZ
 Zu
-Qk
-Qk
-Qk
+Ph
+Eh
+Om
 Zu
 WZ
 WZ
@@ -66818,35 +67347,35 @@ Ve
 WZ
 WZ
 WZ
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-dK
-dK
-dK
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
 Zu
+Qk
+Qk
+Qk
 Zu
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
-YW
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
 WZ
 WZ
 WZ
@@ -67060,35 +67589,35 @@ Ve
 WZ
 WZ
 WZ
-Hc
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+Zu
 dK
 dK
 dK
-dK
-IE
-dK
-dK
-dK
-dK
-dK
-dK
-dK
-dK
-EV
-dK
-dK
-dK
-EV
-dK
-Fg
-Cn
-XZ
-IE
-dK
-dK
-dK
-dK
-YW
+Zu
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
+QN
 WZ
 WZ
 WZ
@@ -67302,34 +67831,34 @@ Ve
 WZ
 WZ
 WZ
-Hc
-kH
-gI
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-VD
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
 pf
 pf
 pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-dK
+Zu
+Zu
+YW
+YW
+YW
+YW
+YW
+YW
+YW
+YW
 YW
 WZ
 WZ
@@ -67536,7 +68065,7 @@ Ym
 DX
 nV
 Ve
-mi
+ti
 mi
 Yf
 mi
@@ -67545,32 +68074,32 @@ WZ
 WZ
 WZ
 Hc
-kH
-pf
-HJ
-Vp
-NK
-BR
-NK
-AX
-ej
-hI
-pf
-kh
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
+dK
+dK
+dK
+dK
+IE
+dK
+dK
+dK
+dK
+dK
+dK
+dK
+dK
+EV
+dK
+dK
+dK
+EV
+dK
+Fg
+Cn
+XZ
+IE
+dK
+dK
+dK
 dK
 YW
 WZ
@@ -67788,17 +68317,17 @@ WZ
 WZ
 Hc
 kH
-HJ
-Vp
-qN
-IN
-cH
-LL
-uN
-AX
-ej
-hI
-lA
+gI
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+VD
 pf
 pf
 pf
@@ -68029,33 +68558,33 @@ WZ
 WZ
 WZ
 Hc
-ub
+kH
 pf
-sU
-pj
-wT
-ga
-uw
-kY
-lV
+HJ
+Vp
+NK
+BR
+NK
+AX
+ej
+hI
+pf
+kh
 pf
 pf
-lA
 pf
-lA
-gI
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-hy
-ol
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+dK
 YW
 WZ
 WZ
@@ -68273,30 +68802,30 @@ WZ
 Hc
 kH
 HJ
-dc
-cI
-ne
-yy
-sy
-Lh
-cG
-QA
-xG
-lA
-pf
-lA
-pf
-HJ
 Vp
-NK
-BR
-NK
-NK
+qN
+IN
+cH
+LL
+uN
 AX
 ej
-pC
 hI
-kh
+lA
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
 dK
 YW
 WZ
@@ -68513,33 +69042,33 @@ WZ
 WZ
 WZ
 Hc
-kH
-pf
-HJ
-dc
-Kx
-Kx
-Kx
-cG
-QA
-xG
-pf
-kh
-pf
-lA
-HJ
+ub
 pf
 sU
-bd
-ze
-ze
-ze
-uN
-NK
-NK
-uL
+pj
+wT
+ga
+uw
+kY
+lV
+pf
+pf
 lA
-dK
+pf
+lA
+gI
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+hy
+ol
 YW
 WZ
 WZ
@@ -68754,32 +69283,32 @@ Ve
 WZ
 WZ
 WZ
-YW
+Hc
 kH
-PM
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-jS
+HJ
+dc
+cI
+ne
+yy
+sy
+Lh
+cG
+QA
+xG
+lA
 pf
 lA
 pf
+HJ
 Vp
-qN
-Ax
-ga
-ga
-ga
-ga
-ga
-kY
-wf
+NK
+BR
+NK
+NK
+AX
+ej
+pC
+hI
 kh
 dK
 YW
@@ -68996,34 +69525,34 @@ Ve
 WZ
 WZ
 WZ
-YW
-FJ
+Hc
+kH
 pf
+HJ
+dc
+Kx
+Kx
+Kx
+cG
+QA
+xG
 pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
+kh
 pf
 lA
+HJ
 pf
 sU
-pj
-wT
-Ze
-vO
-ga
-lE
-Qg
-kY
-ga
-kh
-ol
+bd
+ze
+ze
+ze
+uN
+NK
+NK
+uL
+lA
+dK
 YW
 WZ
 WZ
@@ -69240,30 +69769,30 @@ WZ
 WZ
 YW
 kH
-gI
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-hy
+PM
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+jS
 pf
 lA
 pf
-dc
-cI
-nf
+Vp
+qN
+Ax
 ga
 ga
 ga
 ga
 ga
 kY
-ga
+wf
 kh
 dK
 YW
@@ -69481,33 +70010,33 @@ WZ
 WZ
 WZ
 YW
-kH
+FJ
 pf
-HJ
-Vp
-NK
-BR
-NK
-AX
-ej
-hI
 pf
-kh
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
+pf
 pf
 lA
-HJ
 pf
 sU
-Ny
-xb
-xb
-xb
-Lh
-Kx
-Kx
-kv
-lA
-dK
+pj
+wT
+Ze
+vO
+ga
+lE
+Qg
+kY
+ga
+kh
+ol
 YW
 WZ
 WZ
@@ -69724,30 +70253,30 @@ WZ
 WZ
 YW
 kH
-HJ
-Vp
-qN
-IN
-cH
-LL
-uN
-AX
-ej
-hI
-lA
+gI
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+hy
 pf
 lA
 pf
-HJ
 dc
-Kx
-Kx
-Kx
-Kx
-cG
-QA
-md
-xG
+cI
+nf
+ga
+ga
+ga
+ga
+ga
+kY
+ga
 kh
 dK
 YW
@@ -69965,33 +70494,33 @@ WZ
 WZ
 WZ
 YW
-ub
+kH
+pf
+HJ
+Vp
+NK
+BR
+NK
+AX
+ej
+hI
+pf
+kh
+pf
+lA
+HJ
 pf
 sU
-pj
-wT
-ga
-uw
-kY
-lV
-pf
-pf
+Ny
+xb
+xb
+xb
+Lh
+Kx
+Kx
+kv
 lA
-pf
-lA
-PM
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-jS
-ol
+dK
 YW
 WZ
 WZ
@@ -70209,30 +70738,30 @@ WZ
 YW
 kH
 HJ
-dc
-cI
-ne
-yy
-sy
-Lh
-cG
-QA
-xG
+Vp
+qN
+IN
+cH
+LL
+uN
+AX
+ej
+hI
 lA
 pf
+lA
 pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
-pf
+HJ
+dc
+Kx
+Kx
+Kx
+Kx
+cG
+QA
+md
+xG
+kh
 dK
 YW
 WZ
@@ -70449,33 +70978,33 @@ WZ
 WZ
 WZ
 YW
-kH
+ub
 pf
-HJ
-dc
-Kx
-Kx
-Kx
-cG
-QA
-xG
-pf
-kh
+sU
+pj
+wT
+ga
+uw
+kY
+lV
 pf
 pf
+lA
 pf
-EG
-CM
-CM
-EG
-CM
-CM
-EG
-pf
-pf
-pf
-pf
-dK
+lA
+PM
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+jS
+ol
 YW
 WZ
 WZ
@@ -70692,27 +71221,27 @@ WZ
 WZ
 YW
 kH
-PM
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-jS
+HJ
+dc
+cI
+ne
+yy
+sy
+Lh
+cG
+QA
+xG
+lA
 pf
 pf
 pf
-EG
-wZ
-tZ
-jo
-tZ
-wZ
-EG
+pf
+pf
+pf
+pf
+pf
+pf
+pf
 pf
 pf
 pf
@@ -70933,32 +71462,32 @@ WZ
 WZ
 WZ
 YW
-dK
-dK
-dK
-dK
-if
-dK
-dK
-dK
-dK
-dK
-dK
-dK
-if
-dK
-dK
-Zu
-PN
-WQ
-II
-WQ
+kH
 pf
-me
-if
-dK
-dK
-dK
+HJ
+dc
+Kx
+Kx
+Kx
+cG
+QA
+xG
+pf
+kh
+pf
+pf
+pf
+EG
+CM
+CM
+EG
+CM
+CM
+EG
+pf
+pf
+pf
+pf
 dK
 YW
 WZ
@@ -71174,35 +71703,35 @@ WZ
 WZ
 WZ
 WZ
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
+YW
+kH
+PM
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+FL
+jS
+pf
+pf
+pf
+EG
+wZ
+tZ
+jo
+tZ
+wZ
+EG
+pf
+pf
+pf
+pf
+dK
+YW
 WZ
 WZ
 WZ
@@ -71416,35 +71945,35 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+YW
+dK
+dK
+dK
+dK
+if
+dK
+dK
+dK
+dK
+dK
+dK
+dK
+if
+dK
+dK
+Zu
+PN
+WQ
+II
+WQ
+pf
+me
+if
+dK
+dK
+dK
+dK
+YW
 WZ
 WZ
 WZ
@@ -71658,35 +72187,35 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
+Zu
 WZ
 WZ
 WZ
