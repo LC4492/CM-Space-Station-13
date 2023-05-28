@@ -13028,6 +13028,10 @@
 	icon_state = "darkyellow2"
 	},
 /area/event/metal/dynamic/lit)
+"un" = (
+/obj/structure/machinery/light,
+/turf/open/floor/wood,
+/area/event/metal/dynamic/lit)
 "uo" = (
 /turf/open/floor/corsat{
 	icon_state = "arrow_east"
@@ -61245,7 +61249,7 @@ mi
 rJ
 XV
 Sm
-mi
+un
 Ve
 JB
 ME
