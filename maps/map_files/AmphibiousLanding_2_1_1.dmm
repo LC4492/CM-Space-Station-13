@@ -1990,6 +1990,13 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"dm" = (
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_king{
+	anchored = 1;
+	name = "Oil Refinery White King"
+	},
+/turf/closed/wall/r_wall/bunker,
+/area/event/deep_underground/dynamic)
 "dn" = (
 /obj/structure/desertdam/decals/road_edge,
 /obj/structure/desertdam/decals/road_stop{
@@ -2794,6 +2801,14 @@
 	},
 /turf/open/gm/dirt2,
 /area/event/dynamic/lit)
+"et" = (
+/obj/structure/closet/hydrant{
+	pixel_y = -32
+	},
+/turf/open/floor/corsat{
+	icon_state = "brown"
+	},
+/area/event/deep_underground/dynamic)
 "eu" = (
 /obj/structure/platform/kutjevo/rock{
 	projectile_coverage = 0
@@ -5042,6 +5057,15 @@
 	icon_state = "freezerfloor"
 	},
 /area/event/metal/dynamic/lit)
+"ia" = (
+/obj/structure/closet/hydrant{
+	pixel_x = 30
+	},
+/turf/open/floor/prison{
+	dir = 4;
+	icon_state = "darkyellow2"
+	},
+/area/event/metal/dynamic/lit)
 "ib" = (
 /obj/structure/machinery/shower{
 	desc = "The UP-153. Installed by the State-Funded Hygiene Organization.";
@@ -5150,7 +5174,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
@@ -5225,7 +5250,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
@@ -7516,6 +7542,9 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
 /turf/open/floor/corsat{
 	dir = 4;
 	icon_state = "red"
@@ -9761,8 +9790,10 @@
 /turf/open/floor/corsat,
 /area/event/deep_underground/dynamic)
 "oS" = (
-/obj/structure/safe,
 /obj/effect/landmark/objective_landmark/far,
+/obj/structure/safe{
+	spawnkey = 0
+	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
 "oT" = (
@@ -15260,7 +15291,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/floor/almayer_hull{
 	name = "Reinforced Structure"
@@ -15466,6 +15498,15 @@
 	icon_state = "squares"
 	},
 /area/event/deep_underground/dynamic)
+"xi" = (
+/obj/structure/closet/hydrant{
+	pixel_x = -30
+	},
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "darkyellow2"
+	},
+/area/event/metal/dynamic/lit)
 "xj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -15888,7 +15929,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
@@ -16326,7 +16368,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/gm/grass,
 /area/event/dynamic/lit/unpowered)
@@ -17649,18 +17692,6 @@
 /obj/item/ammo_magazine/rifle/mar40,
 /turf/open/floor,
 /area/event/metal/dynamic/lit)
-"AD" = (
-/obj/structure/sign/poster/clf{
-	pixel_x = 32
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	dir = 4;
-	icon_state = "green"
-	},
-/area/event/deep_underground/dynamic)
 "AE" = (
 /turf/open/floor/corsat{
 	dir = 1;
@@ -17809,6 +17840,16 @@
 /obj/item/toy/farwadoll,
 /obj/item/toy/farwadoll,
 /turf/open/floor,
+/area/event/metal/dynamic/lit)
+"AR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	tag = "icon-S"
+	},
+/obj/structure/closet/hydrant{
+	pixel_x = 30
+	},
+/turf/open/floor/almayer,
 /area/event/metal/dynamic/lit)
 "AS" = (
 /obj/item/ammo_magazine/smg/uzi,
@@ -18931,6 +18972,15 @@
 	},
 /turf/open/floor/carpet,
 /area/event/deep_underground/dynamic)
+"CF" = (
+/obj/structure/sign/poster/clf{
+	pixel_x = -28
+	},
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
 "CG" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -19283,7 +19333,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
@@ -19375,10 +19426,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 28
 	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "barber"
-	},
+/turf/open/floor,
 /area/event/metal/dynamic/lit)
 "Dt" = (
 /turf/open/auto_turf/sand_white/layer1,
@@ -20975,6 +21023,15 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"Gj" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/closed/wall/r_wall/bunker{
+	damage_cap = 25000;
+	name = "reinforced bunker wall"
+	},
+/area/event/deep_underground/dynamic)
 "Gk" = (
 /obj/item/clothing/head/hardhat,
 /turf/open/auto_turf/sand_white/layer1,
@@ -21574,15 +21631,6 @@
 /turf/open/floor/corsat{
 	dir = 1;
 	icon_state = "green"
-	},
-/area/event/deep_underground/dynamic)
-"Hn" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/corsat{
-	dir = 10;
-	icon_state = "brown"
 	},
 /area/event/deep_underground/dynamic)
 "Ho" = (
@@ -24644,6 +24692,15 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"Mk" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	flickering = 1
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "Ml" = (
 /turf/open/gm/grass{
 	icon_state = "grass2"
@@ -24916,7 +24973,8 @@
 	maxhealth = 500;
 	projectile_coverage = 100;
 	stack_amount = 50;
-	starting_maxhealth = 500
+	starting_maxhealth = 500;
+	icon_state = "sandbag5"
 	},
 /turf/open/asphalt/cement,
 /area/event/dynamic/lit/unpowered)
@@ -27051,15 +27109,6 @@
 	icon_state = "test_floor4"
 	},
 /area/event/underground_no_CAS/dynamic)
-"PL" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/closed/wall/r_wall/bunker{
-	damage_cap = 25000;
-	name = "reinforced bunker wall"
-	},
-/area/event/deep_underground/dynamic)
 "PM" = (
 /obj/item/tool/warning_cone{
 	pixel_x = -12
@@ -28143,6 +28192,18 @@
 /obj/structure/bed/roller,
 /turf/open/floor/almayer,
 /area/event/metal/dynamic/lit)
+"Rq" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 3
+	},
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "Rr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -32224,17 +32285,6 @@
 	},
 /area/event/metal/dynamic/lit)
 "XF" = (
-/obj/structure/barricade/sandbags{
-	brute_multiplier = 0;
-	build_stage = 5;
-	burn_multiplier = 0;
-	health = 500;
-	maxhealth = 500;
-	name = "trench lining";
-	projectile_coverage = 100;
-	stack_amount = 50;
-	starting_maxhealth = 500
-	},
 /obj/structure/platform/kutjevo{
 	dir = 8;
 	layer = 2.96;
@@ -32258,6 +32308,17 @@
 	projectile_coverage = 0
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
+/obj/structure/barricade/sandbags{
+	brute_multiplier = 0;
+	build_stage = 5;
+	burn_multiplier = 0;
+	health = 500;
+	maxhealth = 500;
+	name = "trench lining";
+	projectile_coverage = 100;
+	stack_amount = 50;
+	starting_maxhealth = 500
+	},
 /turf/open/floor/interior/wood{
 	breakable_tile = 0
 	},
@@ -32358,6 +32419,15 @@
 	icon_state = "retrosquareslight"
 	},
 /area/event/underground_no_CAS/dynamic)
+"XO" = (
+/obj/structure/sign/poster/clf{
+	pixel_x = 28
+	},
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
 "XP" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -35546,9 +35616,9 @@ YG
 Xk
 YG
 YW
-Rw
+cj
 Jc
-Ap
+fK
 YW
 tn
 KF
@@ -36756,7 +36826,7 @@ YG
 Xk
 YG
 YW
-Rw
+pE
 Jc
 Ap
 YW
@@ -36997,10 +37067,10 @@ uE
 YG
 Xk
 YG
-PL
-Rw
+YW
+cj
 Jc
-Ap
+fK
 YW
 XD
 lG
@@ -37478,7 +37548,7 @@ vu
 Ou
 YW
 ws
-Xk
+Mk
 qq
 YW
 Sl
@@ -38688,7 +38758,7 @@ Gz
 rI
 YW
 Zv
-pN
+Rq
 pN
 YW
 Xt
@@ -40386,7 +40456,7 @@ EG
 YW
 EG
 EG
-Rw
+pE
 Jc
 Ap
 YW
@@ -42564,7 +42634,7 @@ WC
 Qr
 bs
 YW
-Rw
+pE
 Jc
 fK
 YW
@@ -43445,7 +43515,7 @@ RK
 vr
 oi
 Ve
-DN
+AR
 BO
 Yx
 pm
@@ -44431,7 +44501,7 @@ Ve
 mi
 mi
 Ve
-mi
+oS
 fe
 Ve
 JB
@@ -45210,12 +45280,13 @@ Ne
 EG
 EG
 EG
+dm
 EG
-EG
+Sk
 YW
 YW
-uY
 Zu
+YW
 YW
 YW
 YW
@@ -45223,7 +45294,6 @@ YW
 Ex
 dx
 YW
-Cg
 YW
 YW
 Rw
@@ -45451,23 +45521,23 @@ cr
 Ne
 uf
 qQ
-qQ
-qQ
-qQ
-qQ
-Hn
+FP
+YR
 CM
 Rd
 Qy
+ai
+ai
+Qy
+ai
 ai
 Qy
 SV
 AE
 YF
 SV
-ai
-ai
-ai
+Qy
+CF
 AE
 Jc
 Ap
@@ -45695,10 +45765,10 @@ Cp
 Cp
 Cp
 Cp
-Cp
-Cp
-Cp
 Bc
+Cp
+Cp
+Cp
 Cp
 De
 Cp
@@ -45792,7 +45862,7 @@ kB
 Jh
 MB
 NE
-qz
+ia
 qz
 PX
 Iv
@@ -45935,21 +46005,21 @@ Xk
 an
 an
 an
-an
 No
-an
-an
 tp
 CM
-Rw
+zW
+lr
+TU
+jU
 JV
 TU
 TU
 TU
-AD
+lr
+XO
 TU
 sG
-TU
 lr
 TU
 jU
@@ -46178,11 +46248,11 @@ YW
 YW
 YW
 YW
-YW
-YW
-YW
-YW
 uY
+YW
+Sk
+YW
+YW
 Rw
 BW
 YW
@@ -47150,7 +47220,7 @@ YW
 Ex
 jG
 YW
-YW
+Gj
 pE
 Jc
 ra
@@ -51670,7 +51740,7 @@ JT
 Jf
 rH
 gm
-Xf
+ME
 Ym
 DX
 JB
@@ -52154,7 +52224,7 @@ ij
 mw
 gx
 gm
-vb
+ME
 Ym
 DX
 Ym
@@ -52396,7 +52466,7 @@ Jf
 Jf
 Jf
 gm
-SA
+ME
 Ym
 DX
 vk
@@ -52880,7 +52950,7 @@ nl
 Jf
 no
 gm
-ME
+Xf
 Ym
 DX
 Gl
@@ -53364,7 +53434,7 @@ Jf
 Jf
 Jf
 Jf
-ME
+vb
 Ym
 DX
 vk
@@ -53606,7 +53676,7 @@ ZZ
 Jf
 Jf
 Jf
-ME
+SA
 Ym
 DX
 Ym
@@ -55625,7 +55695,7 @@ xS
 Xk
 Xk
 Xk
-az
+et
 YW
 QN
 zO
@@ -56211,7 +56281,7 @@ JB
 Mj
 UW
 Vv
-JX
+Zj
 vX
 nV
 JB
@@ -59357,7 +59427,7 @@ JB
 Mj
 UW
 Vv
-JX
+Zj
 JB
 JB
 JB
@@ -62248,7 +62318,7 @@ fb
 Cv
 KL
 rr
-EU
+xi
 EU
 PX
 Iv
@@ -69145,8 +69215,8 @@ JB
 JB
 Ve
 Yk
-oL
-oL
+oF
+oF
 kC
 Ve
 WZ
@@ -69387,8 +69457,8 @@ WZ
 WZ
 Ve
 XW
-oL
-oL
+oF
+oF
 dl
 Ve
 WZ
@@ -69629,8 +69699,8 @@ WZ
 WZ
 Ve
 cy
-oL
-oL
+oF
+oF
 Bt
 Ve
 WZ
@@ -69872,7 +69942,7 @@ WZ
 Ve
 iX
 Ds
-oL
+oF
 Mr
 Ve
 WZ
