@@ -18716,6 +18716,14 @@
 	icon_state = "grassdirt_corner2"
 	},
 /area/event/dynamic/lit/unpowered)
+"mTT" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin{
+	pixel_y = 5
+	},
+/obj/item/tool/pen,
+/turf/open/floor/wood,
+/area/event/metal/dynamic/lit)
 "mUb" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
 /turf/open/gm/grass,
@@ -19351,8 +19359,9 @@
 	},
 /area/event/deep_underground/dynamic)
 "ntf" = (
-/obj/structure/machinery/door/poddoor/almayer/closed{
-	id = "O_R_Check3"
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "O_R_Check3";
+	name = "Oil Refinery Secondary entrance Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -25053,6 +25062,18 @@
 	icon_state = "white"
 	},
 /area/event/deep_underground/dynamic)
+"rjI" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/faxmachine{
+	target_department = "UPP High Command";
+	department = "Rosansk's Town Hall - Mayor Office";
+	name = "UPP Command Fax Machine"
+	},
+/turf/open/floor/wood,
+/area/event/metal/dynamic/lit)
 "rjO" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/attachable/magnetic_harness,
@@ -29204,8 +29225,9 @@
 	req_access = list(201);
 	req_one_access = null
 	},
-/obj/structure/machinery/door/poddoor/almayer/closed{
-	id = "O_R_Check3"
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "O_R_Check3";
+	name = "Oil Refinery Secondary entrance Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -32949,6 +32971,13 @@
 	icon_state = "yellow"
 	},
 /area/event/deep_underground/dynamic)
+"wdE" = (
+/obj/structure/safe{
+	spawnkey = 0
+	},
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/floor/wood,
+/area/event/metal/dynamic/lit)
 "wdQ" = (
 /obj/structure/machinery/vending/coffee/simple,
 /turf/open/floor/corsat{
@@ -66721,9 +66750,9 @@ nfU
 nfU
 nfU
 nfU
-dDw
 mvP
-uNY
+rKX
+rjI
 nfU
 tgG
 tgG
@@ -66954,14 +66983,14 @@ ooB
 wQP
 wQP
 nfU
-wmO
-rKX
-rKX
-rKX
 nfU
-rVn
-rVn
-rVn
+dDw
+rKX
+wmO
+nfU
+tgG
+tgG
+tgG
 aUD
 sML
 aUD
@@ -67188,13 +67217,13 @@ wQP
 uUT
 wQP
 nfU
-pYY
+wdE
 rKX
 rKX
-rKX
-hqI
-kmH
-hNj
+mTT
+nfU
+rVn
+rVn
 rVn
 aUD
 egT
@@ -67422,13 +67451,13 @@ bOU
 kks
 tbx
 nfU
-tKf
-kyt
-qLN
+pYY
 rKX
-nfU
-tWI
-cVW
+rKX
+rKX
+hqI
+kmH
+hNj
 rVn
 aUD
 aUD
@@ -67656,13 +67685,13 @@ fhg
 mwp
 ooB
 nfU
+tKf
+kyt
+qLN
+rKX
 nfU
-nfU
-nfU
-bFK
-nfU
-rVn
-rVn
+tWI
+cVW
 rVn
 aUD
 qzJ
@@ -67889,15 +67918,15 @@ pHR
 pHR
 mwp
 aON
-jRX
-hic
-dSW
-wiX
-rKX
 nfU
-tgG
-tgG
-tgG
+nfU
+nfU
+nfU
+bFK
+nfU
+rVn
+rVn
+rVn
 aUD
 aUD
 aUD
@@ -68123,10 +68152,10 @@ pHR
 pHR
 mwp
 wQP
-nfU
-esD
-uBB
-eYz
+jRX
+hic
+dSW
+wiX
 rKX
 nfU
 tgG
@@ -68356,11 +68385,11 @@ wOO
 pHR
 pHR
 mwp
-pHR
-eje
-wiX
-rai
-wiX
+wQP
+nfU
+esD
+uBB
+eYz
 rKX
 nfU
 tgG
@@ -68590,12 +68619,12 @@ wOO
 pHR
 kUn
 mwp
-bIn
-nfU
-uia
+pHR
+eje
+wiX
+rai
+wiX
 rKX
-jal
-aGI
 nfU
 tgG
 tgG
@@ -68824,12 +68853,12 @@ wOO
 pHR
 pHR
 mwp
-sSy
+bIn
 nfU
-nfU
-nfU
-nfU
-nfU
+uia
+rKX
+jal
+aGI
 nfU
 tgG
 tgG
@@ -69057,14 +69086,14 @@ mJx
 wOO
 pHR
 pHR
-xvz
-bOU
-pZL
-aUD
-aUD
-pnX
-aUD
-aUD
+mwp
+sSy
+nfU
+nfU
+nfU
+nfU
+nfU
+nfU
 aUD
 aUD
 aUD
@@ -69291,14 +69320,14 @@ mJx
 wOO
 pHR
 kUn
-pHR
-pHR
-pAP
-vOB
+xvz
+bOU
+pZL
 aUD
-vOB
 aUD
-vOB
+pnX
+aUD
+aUD
 aUD
 aUD
 aUD
@@ -69528,11 +69557,11 @@ pHR
 pHR
 pHR
 pAP
-aUD
-vOB
 vOB
 aUD
+vOB
 aUD
+vOB
 aUD
 aUD
 aUD
