@@ -967,7 +967,9 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/structure/machinery/vending/cigarette/free,
+/obj/structure/bed/chair{
+	dir = 8
+	},
 /turf/open/floor/corsat{
 	dir = 5;
 	icon_state = "blue"
@@ -1412,6 +1414,15 @@
 	},
 /area/event/deep_underground/dynamic)
 "aXZ" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/platform{
+	density = 0;
+	dir = 10;
+	icon_state = "platform_deco"
+	},
 /turf/open/gm/river/desert/deep{
 	color = "#00FF00";
 	default_name = "oil-eating bacteria";
@@ -2358,11 +2369,10 @@
 /obj/structure/window/framed/bunker/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "UPPCIC";
-	dir = 8
+	dir = 8;
+	name = "Combat Information Center Lockdown"
 	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
+/turf/open/floor/plating,
 /area/event/deep_underground/dynamic)
 "bIn" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
@@ -3846,6 +3856,23 @@
 	icon_state = "plate"
 	},
 /area/event/deep_underground/dynamic)
+"cTl" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 8;
+	id = unleash1;
+	name = "Biohazard Seal"
+	},
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#2d2d2d";
+	default_name = "oil";
+	desc = "our precious";
+	langchat_color = null;
+	name = "oil"
+	},
+/area/event/deep_underground/dynamic)
 "cVu" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2"
@@ -4689,6 +4716,9 @@
 	dir = 1;
 	flickering = 1
 	},
+/obj/structure/platform{
+	dir = 1
+	},
 /turf/open/gm/river/desert/deep{
 	color = "#2d2d2d";
 	default_name = "oil";
@@ -4837,7 +4867,13 @@
 	id = "O_R_Check3";
 	name = "Oil Refinery Secondary entrance Lockdown Shutters";
 	req_one_access_txt = "1;21";
-	pixel_x = 27
+	pixel_x = 27;
+	pixel_y = 14
+	},
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_queen{
+	name = "Oil Refinery White Queen";
+	pixel_x = 32;
+	pixel_y = 0
 	},
 /turf/open/floor/corsat{
 	dir = 4;
@@ -7184,7 +7220,7 @@
 "fiX" = (
 /obj/structure/machinery/light,
 /turf/open/floor/corsat{
-	dir = 4;
+	dir = 6;
 	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
@@ -8175,6 +8211,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/emcloset,
 /turf/open/floor/corsat{
 	dir = 6;
 	icon_state = "blue"
@@ -9119,7 +9156,7 @@
 "gpa" = (
 /obj/structure/machinery/light,
 /turf/open/floor/corsat{
-	dir = 8;
+	dir = 10;
 	icon_state = "blue"
 	},
 /area/event/deep_underground/dynamic)
@@ -9230,7 +9267,8 @@
 	req_one_access = null
 	},
 /obj/structure/machinery/door/poddoor/almayer/open{
-	id = "UPPCIC"
+	id = "UPPCIC";
+	name = "Combat Information Center Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -11469,6 +11507,13 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"hKp" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "hLJ" = (
 /obj/structure/surface/rack,
 /obj/structure/machinery/light/small,
@@ -12123,6 +12168,11 @@
 "idh" = (
 /obj/structure/machinery/light{
 	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_18";
+	pixel_y = 12
 	},
 /turf/open/floor/corsat{
 	dir = 5;
@@ -13705,6 +13755,7 @@
 	dir = 8
 	},
 /obj/structure/window,
+/obj/structure/closet/firecloset,
 /turf/open/floor/corsat{
 	icon_state = "squares"
 	},
@@ -15386,6 +15437,13 @@
 	},
 /turf/open/floor/wood,
 /area/event/metal/dynamic/lit)
+"kzn" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "bluecorner"
+	},
+/area/event/deep_underground/dynamic)
 "kzI" = (
 /obj/structure/platform{
 	dir = 4
@@ -15987,6 +16045,13 @@
 	icon_state = "sterile_green_side"
 	},
 /area/event/metal/dynamic/lit)
+"kWS" = (
+/obj/structure/window,
+/obj/structure/closet/firecloset,
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/event/deep_underground/dynamic)
 "kXf" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -21085,7 +21150,8 @@
 "oCo" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/poddoor/almayer/open{
-	id = "UPPCIC"
+	id = "UPPCIC";
+	name = "Combat Information Center Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -21377,6 +21443,7 @@
 /area/event/metal/dynamic/lit)
 "oQv" = (
 /obj/structure/machinery/light/small,
+/obj/structure/platform,
 /turf/open/gm/river/desert/deep{
 	color = "#2d2d2d";
 	default_name = "oil";
@@ -23728,6 +23795,13 @@
 	icon_state = "plate"
 	},
 /area/event/metal/dynamic/lit)
+"qoL" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "qoT" = (
 /turf/open/floor/prison{
 	icon_state = "darkyellow2"
@@ -25036,6 +25110,7 @@
 	id = "unleash2";
 	name = "Biohazard Seal"
 	},
+/obj/structure/platform,
 /turf/open/gm/river/desert/deep{
 	color = "#2d2d2d";
 	default_name = "oil";
@@ -25399,6 +25474,7 @@
 	id = unleash1;
 	name = "Biohazard Seal"
 	},
+/obj/structure/platform,
 /turf/open/gm/river/desert/deep{
 	color = "#2d2d2d";
 	default_name = "oil";
@@ -28834,6 +28910,12 @@
 	breakable_tile = 0
 	},
 /area/event/dynamic/lit/unpowered)
+"tDZ" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/corsat{
+	icon_state = "bluecorner"
+	},
+/area/event/deep_underground/dynamic)
 "tEx" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -28855,7 +28937,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/structure/machinery/vending/coffee/simple,
+/obj/structure/closet/firecloset,
 /turf/open/floor/corsat{
 	dir = 9;
 	icon_state = "blue"
@@ -29378,6 +29460,23 @@
 /turf/open/floor/corsat{
 	dir = 6;
 	icon_state = "green"
+	},
+/area/event/deep_underground/dynamic)
+"tWc" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 8;
+	id = "unleash2";
+	name = "Biohazard Seal"
+	},
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#2d2d2d";
+	default_name = "oil";
+	desc = "our precious";
+	langchat_color = null;
+	name = "oil"
 	},
 /area/event/deep_underground/dynamic)
 "tWj" = (
@@ -30300,7 +30399,8 @@
 "utc" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "UPPCIC";
-	dir = 8
+	dir = 8;
+	name = "Combat Information Center Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -30488,7 +30588,8 @@
 	},
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "UPPCIC";
-	dir = 8
+	dir = 8;
+	name = "Combat Information Center Lockdown"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -31161,6 +31262,18 @@
 	icon_state = "red"
 	},
 /area/event/metal/dynamic/lit)
+"uTz" = (
+/obj/structure/sign/safety/bridge{
+	desc = "Semiotic Standard denoting the nearby presence of a command center or post.";
+	name = "Command Presence semiotic";
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/event/deep_underground/dynamic)
 "uUQ" = (
 /obj/structure/platform_decoration/kutjevo,
 /obj/structure/platform/kutjevo{
@@ -31246,6 +31359,26 @@
 /obj/item/tool/pen,
 /turf/open/floor/wood,
 /area/event/underground_no_CAS/dynamic/lit)
+"uXh" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/platform{
+	density = 0;
+	dir = 5;
+	icon_state = "platform_deco"
+	},
+/turf/open/gm/river/desert/deep{
+	color = "#00FF00";
+	default_name = "oil-eating bacteria";
+	desc = "dangerous beyond disbelief";
+	langchat_color = null;
+	name = "oil-eating bacteria"
+	},
+/area/event/deep_underground/dynamic)
 "uXj" = (
 /obj/structure/machinery/light{
 	unacidable = 1;
@@ -31346,11 +31479,10 @@
 "vaI" = (
 /obj/structure/window/framed/bunker/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
-	id = "UPPCIC"
+	id = "UPPCIC";
+	name = "Combat Information Center Lockdown"
 	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
+/turf/open/floor/plating,
 /area/event/deep_underground/dynamic)
 "vcb" = (
 /obj/effect/mist{
@@ -31570,6 +31702,15 @@
 	target_department = "UPP High Command"
 	},
 /turf/open/floor/carpet,
+/area/event/deep_underground/dynamic)
+"vkH" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "blue"
+	},
 /area/event/deep_underground/dynamic)
 "vlN" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
@@ -36039,6 +36180,7 @@
 	},
 /area/event/deep_underground/dynamic)
 "xNF" = (
+/obj/structure/bed/chair,
 /turf/open/floor/corsat{
 	dir = 9;
 	icon_state = "blue"
@@ -38207,7 +38349,7 @@ cHA
 fnt
 qal
 mju
-aXZ
+uXh
 aXZ
 mju
 jhp
@@ -38441,7 +38583,7 @@ cHA
 jCa
 flD
 cHA
-rrW
+cTl
 rrW
 cHA
 riE
@@ -38676,7 +38818,7 @@ eUe
 pyS
 cHA
 dEh
-ycN
+fxS
 cHA
 gCF
 dVM
@@ -38909,8 +39051,8 @@ rtm
 rtm
 eJa
 mju
-ycN
-ycN
+egv
+fxS
 mju
 tYY
 rtm
@@ -39143,8 +39285,8 @@ wiO
 xGF
 flD
 mju
-ycN
-ycN
+egv
+fxS
 mju
 riE
 byC
@@ -39377,8 +39519,8 @@ sQH
 rtm
 pyS
 mju
-ycN
-ycN
+egv
+fxS
 mju
 gCF
 rtm
@@ -39611,7 +39753,7 @@ fFk
 mmH
 awR
 dlj
-ycN
+egv
 oQv
 dlj
 uHO
@@ -39845,7 +39987,7 @@ mju
 mju
 dlj
 dlj
-ril
+tWc
 ril
 dlj
 dlj
@@ -40079,8 +40221,8 @@ nah
 nah
 nah
 nah
-ycN
-ycN
+jpq
+xne
 nah
 nah
 nah
@@ -43155,7 +43297,7 @@ wMc
 pIw
 fCG
 pIw
-fzj
+kuO
 sQH
 rnj
 pIw
@@ -43373,12 +43515,12 @@ vyM
 eUw
 ntf
 dJL
+uTz
 par
+oWm
+mmA
 par
-rtm
-rtm
-par
-par
+uTz
 par
 rtm
 par
@@ -43389,7 +43531,7 @@ fxd
 pIw
 fCG
 pIw
-rtm
+kuO
 sQH
 syq
 pIw
@@ -43623,7 +43765,7 @@ pIw
 pIw
 fCG
 pIw
-rtm
+kuO
 sQH
 syq
 pIw
@@ -43843,9 +43985,9 @@ fCG
 fCG
 dlj
 xNF
-rtm
-rtm
-wMc
+qLl
+lxy
+hKp
 pIw
 wGC
 vht
@@ -43857,7 +43999,7 @@ wGC
 pIw
 fCG
 pIw
-rtm
+kuO
 cLP
 syq
 pIw
@@ -44077,8 +44219,8 @@ fCG
 fCG
 dlj
 idh
-rtm
-rtm
+oWm
+mmA
 fMm
 pIw
 yfU
@@ -44091,7 +44233,7 @@ yfU
 pIw
 fCG
 pIw
-rDL
+kuO
 sQH
 syq
 pIw
@@ -44545,8 +44687,8 @@ uPP
 oyF
 qBM
 oyF
-bGA
-bGA
+qLl
+lxy
 ooc
 kmy
 dWj
@@ -45259,7 +45401,7 @@ bGA
 gpa
 pIw
 tFW
-wMc
+qoL
 vaI
 kuO
 sQH
@@ -45490,10 +45632,10 @@ rtm
 rtm
 rtm
 rtm
-rtm
+lxy
 ggd
-rtm
-rtm
+qLl
+lxy
 guV
 fzj
 sQH
@@ -45724,10 +45866,10 @@ xbh
 xbh
 xbh
 xbh
-xbh
+tDZ
 xsW
-xbh
-xbh
+kzn
+tDZ
 oCo
 qQF
 lph
@@ -45961,7 +46103,7 @@ par
 fiX
 pIw
 aJq
-fxd
+vkH
 vaI
 kuO
 sQH
@@ -46426,7 +46568,7 @@ cER
 gNb
 qCG
 cER
-gNb
+kWS
 pIw
 fCG
 fCG
