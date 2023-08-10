@@ -62,18 +62,10 @@
 	QDEL_NULL_LIST(embedded_items)
 	QDEL_LIST_ASSOC_VAL(internal_organs_by_name)
 	QDEL_NULL_LIST(limbs)
-	remove_from_all_mob_huds()
+	if(hud_used)
+		QDEL_NULL(hud_used)
 	. = ..()
 
-	species = null
-	limbs_to_process = null
-	brute_mod_override = null
-	burn_mod_override = null
-	assigned_squad = null
-	selected_ability = null
-	remembered_dropped_objects = null
-
-	focus = null
 	overlays_standing = null
 
 	//Equipment slots
@@ -98,7 +90,6 @@
 	assigned_squad = null
 	selected_ability = null
 	remembered_dropped_objects = null
-
 
 /mob/living/carbon/human/get_status_tab_items()
 	. = ..()
@@ -1317,7 +1308,8 @@
 		TRACKER_BSL = /datum/squad/marine/bravo,
 		TRACKER_CSL = /datum/squad/marine/charlie,
 		TRACKER_DSL = /datum/squad/marine/delta,
-		TRACKER_ESL = /datum/squad/marine/echo
+		TRACKER_ESL = /datum/squad/marine/echo,
+		TRACKER_FSL = /datum/squad/marine/cryo
 	)
 	switch(tracker_setting)
 		if(TRACKER_SL)
@@ -1729,4 +1721,11 @@
 		if(I.throwforce) // for hurty stuff only
 			to_chat(src, SPAN_DANGER("You are currently unable to throw harmful items."))
 			return
+	. = ..()
+
+/mob/living/carbon/human/equip_to_slot_if_possible(obj/item/equipping_item, slot, ignore_delay = 1, del_on_fail = 0, disable_warning = 0, redraw_mob = 1, permanent = 0)
+
+	if(SEND_SIGNAL(src, COMSIG_HUMAN_ATTEMPTING_EQUIP, equipping_item, slot) & COMPONENT_HUMAN_CANCEL_ATTEMPT_EQUIP)
+		return FALSE
+
 	. = ..()
