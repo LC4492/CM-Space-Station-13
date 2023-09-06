@@ -326,7 +326,13 @@
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	paygrade = "WYC2"
 	idtype = /obj/item/card/id/silver/clearance_badge/cl
-	access = list(ACCESS_CIVILIAN_PUBLIC,ACCESS_WY_CORPORATE,ACCESS_CIVILIAN_COMMAND)
+	access = list(
+		ACCESS_CIVILIAN_PUBLIC,
+		ACCESS_CIVILIAN_COMMAND,
+		ACCESS_WY_GENERAL,
+		ACCESS_WY_COLONIAL,
+		ACCESS_WY_EXEC,
+	)
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_JAPANESE)
 
 	survivor_variant = CORPORATE_SURVIVOR
@@ -1151,9 +1157,12 @@
 	paygrade = "WYC2"
 	role_comm_title = "ICC Rep."
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
-	access = list(ACCESS_CIVILIAN_PUBLIC,ACCESS_WY_CORPORATE,ACCESS_CIVILIAN_COMMAND)
 
 	survivor_variant = CORPORATE_SURVIVOR
+
+/datum/equipment_preset/survivor/interstellar_commerce_commission_liason/New()
+	. = ..()
+	access = get_access(ACCESS_LIST_CIVIL_LIAISON)
 
 /datum/equipment_preset/survivor/interstellar_commerce_commission_liason/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/liaison_suit(new_human), WEAR_BODY)
@@ -1390,13 +1399,15 @@
 	idtype = /obj/item/card/id/silver/clearance_badge/manager
 	faction_group = list(FACTION_WY, FACTION_SURVIVOR)
 	access = list(
-		ACCESS_WY_CORPORATE,
+		ACCESS_WY_GENERAL,
+		ACCESS_WY_COLONIAL,
+		ACCESS_WY_LEADERSHIP,
+		ACCESS_WY_SECURITY,
+		ACCESS_WY_EXEC,
+		ACCESS_WY_RESEARCH,
+		ACCESS_WY_ENGINEERING,
+		ACCESS_WY_MEDICAL,
 		ACCESS_ILLEGAL_PIRATE,
-		ACCESS_MARINE_COMMAND,
-		ACCESS_MARINE_DROPSHIP,
-		ACCESS_MARINE_RESEARCH,
-		ACCESS_CIVILIAN_COMMAND,
-		ACCESS_CIVILIAN_PUBLIC,
 	)
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_JAPANESE)
 
@@ -1566,7 +1577,7 @@
 	..()
 
 /datum/equipment_preset/survivor/upp
-	name = "UPP Soldier"
+	name = "Survivor - UPP"
 	paygrade = "UE1"
 	origin_override = ORIGIN_UPP
 	rank = JOB_SURVIVOR
@@ -1603,11 +1614,13 @@
 	new_human.equip_to_slot_or_del(new /obj/item/stack/sheet/metal/med_small_stack(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine(new_human), WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/UPP/recon(new_human), WEAR_L_EAR)
 
 /datum/equipment_preset/survivor/upp/soldier
 	name = "Survivor - UPP Soldier"
 	paygrade = "UE2"
-	assignment = "UPP Soldier"
+	assignment = JOB_UPP
+	rank = JOB_UPP
 	skills = /datum/skills/military/survivor/upp_private
 
 /datum/equipment_preset/survivor/upp/soldier/load_gear(mob/living/carbon/human/new_human)
@@ -1630,7 +1643,8 @@
 /datum/equipment_preset/survivor/upp/sapper
 	name = "Survivor - UPP Sapper"
 	paygrade = "UE3S"
-	assignment = "UPP Sapper"
+	assignment = JOB_UPP_ENGI
+	rank = JOB_UPP_ENGI
 	skills = /datum/skills/military/survivor/upp_sapper
 
 /datum/equipment_preset/survivor/upp/sapper/load_gear(mob/living/carbon/human/new_human)
@@ -1656,7 +1670,8 @@
 /datum/equipment_preset/survivor/upp/medic
 	name = "Survivor - UPP Medic"
 	paygrade = "UE3M"
-	assignment = "UPP Medic"
+	assignment = JOB_UPP_MEDIC
+	rank = JOB_UPP_MEDIC
 	skills = /datum/skills/military/survivor/upp_medic
 
 /datum/equipment_preset/survivor/upp/medic/load_gear(mob/living/carbon/human/new_human)
@@ -1683,8 +1698,9 @@
 
 /datum/equipment_preset/survivor/upp/specialist
 	name = "Survivor - UPP Specialist"
+	assignment = JOB_UPP_SPECIALIST
+	rank = JOB_UPP_SPECIALIST
 	paygrade = "UE4"
-	assignment = "UPP Specialist"
 	skills = /datum/skills/military/survivor/upp_spec
 
 /datum/equipment_preset/survivor/upp/specialist/load_gear(mob/living/carbon/human/new_human)
@@ -1696,25 +1712,26 @@
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack/five_slot(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/type71(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/type71(new_human), WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/type47/PK9(new_human), WEAR_WAIST)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/type47/t73(new_human), WEAR_WAIST)
 
 	..()
 
 /datum/equipment_preset/survivor/upp/squad_leader
 	name = "Survivor - UPP Squad Leader"
 	paygrade = "UE5"
+	assignment = JOB_UPP_LEADER
+	rank = JOB_UPP_LEADER
 	languages = list(LANGUAGE_RUSSIAN, LANGUAGE_ENGLISH,  LANGUAGE_GERMAN,  LANGUAGE_CHINESE)
-	assignment = "UPP Squad Leader"
 	role_comm_title = "UPP 173Rd RECON SL"
 	skills = /datum/skills/military/survivor/upp_sl
 
 /datum/equipment_preset/survivor/upp/squad_leader/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/UPP/officer (new_human), WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction/UPP/officer (new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction/UPP (new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/tool/crowbar(new_human), WEAR_IN_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/beret(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack/five_slot(new_human), WEAR_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/type47/PK9(new_human), WEAR_WAIST)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/type47/revolver(new_human), WEAR_WAIST)
 	add_upp_weapon(new_human)
 
 	..()

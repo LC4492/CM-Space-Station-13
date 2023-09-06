@@ -9,7 +9,7 @@
 
 /datum/equipment_preset/synth/New()
 	. = ..()
-	access = get_global_access()
+	access = get_access(ACCESS_LIST_GLOBAL)
 
 /datum/equipment_preset/synth/load_race(mob/living/carbon/human/new_human)
 	if(new_human.client?.prefs?.synthetic_type)
@@ -141,7 +141,7 @@
 
 /datum/equipment_preset/synth/survivor/New()
 	. = ..()
-	access = get_all_civilian_access() + get_region_accesses(2) + get_region_accesses(4) + ACCESS_MARINE_RESEARCH + ACCESS_WY_CORPORATE //Access to civillians stuff + medbay stuff + engineering stuff + research
+	access = get_access(ACCESS_LIST_COLONIAL_ALL) + get_region_accesses(2) + get_region_accesses(4) + ACCESS_MARINE_RESEARCH //Access to civillians stuff + medbay stuff + engineering stuff + research
 
 /datum/equipment_preset/synth/survivor/load_gear(mob/living/carbon/human/new_human)
 	for(var/equipment in equipment_to_spawn)
@@ -460,7 +460,7 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 	languages = ALL_SYNTH_LANGUAGES_UPP
 	assignment = JOB_UPP_COMBAT_SYNTH
-	rank = JOB_SURVIVOR
+	rank = JOB_UPP_COMBAT_SYNTH
 	faction = FACTION_UPP
 	faction_group = list(FACTION_UPP, FACTION_SURVIVOR)
 	skills = /datum/skills/colonial_synthetic
@@ -479,7 +479,7 @@
 	new_human.equip_to_slot_or_del(uniform, WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/beret, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/tool/screwdriver, WEAR_R_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress, WEAR_L_EAR)
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/UPP/recon, WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack/upp, WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/roller, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/multitool, WEAR_IN_BACK)
@@ -560,7 +560,7 @@
 
 /datum/equipment_preset/synth/working_joe/New()
 	. = ..()
-	access = get_global_access()
+	access = get_access(ACCESS_LIST_GLOBAL)
 
 /datum/equipment_preset/synth/working_joe/load_race(mob/living/carbon/human/new_human)
 	new_human.set_species(SYNTH_WORKING_JOE)
@@ -721,7 +721,7 @@
 
 /datum/equipment_preset/synth/infiltrator/New()
 	. = ..()
-	access = get_global_access()
+	access = get_access(ACCESS_LIST_GLOBAL)
 
 /datum/equipment_preset/synth/infiltrator/load_name(mob/living/carbon/human/new_human, randomise)
 	new_human.gender = pick(MALE,FEMALE)

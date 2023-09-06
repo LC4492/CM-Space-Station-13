@@ -127,6 +127,8 @@
 #define TRAIT_INTENT_EYES "t_intent_eyes"
 /// Masked synthetic biology. Basic medHUDs will percieve the mob as human. (Infiltrator Synths)
 #define TRAIT_INFILTRATOR_SYNTH "t_infiltrator_synth"
+/// Makes it impossible to strip the inventory of this mob.
+#define TRAIT_UNSTRIPPABLE "t_unstrippable"
 
 // HIVE TRAITS
 /// If the Hive is a Xenonid Hive
@@ -201,6 +203,7 @@
 
 // GUN TRAITS
 #define TRAIT_GUN_SILENCED "t_gun_silenced"
+#define TRAIT_GUN_LIGHT_DEACTIVATED "t_gun_light_deactivated"
 
 // Miscellaneous item traits.
 // Do NOT bloat this category, if needed make a new category (like shoe traits, xeno item traits...)
@@ -251,6 +254,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"TRAIT_FOREIGN_BIO" = TRAIT_FOREIGN_BIO,
 		"TRAIT_INTENT_EYES" = TRAIT_INTENT_EYES,
 		"TRAIT_INFILTRATOR_SYNTH" = TRAIT_INFILTRATOR_SYNTH,
+		"TRAIT_UNSTRIPPABLE" = TRAIT_UNSTRIPPABLE,
 		"TRAIT_NESTED" = TRAIT_NESTED,
 		"TRAIT_CRAWLER" = TRAIT_CRAWLER,
 		"TRAIT_SIMPLE_DESC" = TRAIT_SIMPLE_DESC,

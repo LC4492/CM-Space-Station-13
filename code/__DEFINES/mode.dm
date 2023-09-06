@@ -71,6 +71,7 @@
 #define MODE_SHIPSIDE_SD (1<<8) /// Toggles whether Predators can big SD when not on the groundmap
 #define MODE_HARDCORE_PERMA (1<<9) /// Toggles Hardcore for all marines, meaning they instantly perma upon death
 #define MODE_DISPOSABLE_MOBS (1<<10) // Toggles if mobs fit in disposals or not. Off by default.
+#define MODE_BYPASS_JOE (1<<11) // Toggles if ghosts can bypass Working Joe spawn limitations, does NOT bypass WL requirement. Off by default.
 
 #define ROUNDSTATUS_FOG_DOWN 1
 #define ROUNDSTATUS_PODDOORS_OPEN 2
@@ -185,7 +186,7 @@ var/global/list/whitelist_hierarchy = list(WHITELIST_NORMAL, WHITELIST_COUNCIL, 
 
 #define WHITELIST_EVERYTHING (WHITELISTS_GENERAL|WHITELISTS_COUNCIL|WHITELISTS_LEADER)
 
-#define isCouncil(A) (RoleAuthority.roles_whitelist[A.ckey] & (WHITELIST_YAUTJA_COUNCIL | WHITELIST_SYNTHETIC_COUNCIL | WHITELIST_COMMANDER_COUNCIL))
+#define isCouncil(A) (RoleAuthority.roles_whitelist[A.ckey] & WHITELIST_YAUTJA_COUNCIL) || (RoleAuthority.roles_whitelist[A.ckey] & WHITELIST_SYNTHETIC_COUNCIL) || (RoleAuthority.roles_whitelist[A.ckey] & WHITELIST_COMMANDER_COUNCIL)
 
 //=================================================
 
