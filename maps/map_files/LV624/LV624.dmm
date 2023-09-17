@@ -11344,6 +11344,10 @@
 	pixel_y = 0;
 	pixel_x = -1
 	},
+/obj/item/stack/cable_coil{
+	pixel_y = 2;
+	pixel_x = -8
+	},
 /turf/open/floor{
 	dir = 4;
 	icon_state = "asteroidwarning"
@@ -11650,6 +11654,8 @@
 /turf/open/gm/grass/grass1,
 /area/lv624/lazarus/landing_zones/lz1)
 "cag" = (
+/obj/item/tool/screwdriver,
+/obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor{
 	icon_state = "asteroidwarning"
 	},
@@ -13600,6 +13606,7 @@
 	pixel_y = -20;
 	plane = -5
 	},
+/obj/item/storage/toolbox/mechanical/green,
 /turf/open/floor{
 	dir = 8;
 	icon_state = "asteroidwarning"
