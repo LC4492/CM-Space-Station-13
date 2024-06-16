@@ -286,3 +286,38 @@
 		return FALSE
 
 	return TRUE
+
+/obj/structure/machinery/optable/surgery_display
+	icon = 'icons/obj/structures/machinery/status_display.dmi'
+	icon_state = "Surgery_Off"
+	name = "Surgery display"
+	desc = "A monitor that displays the current occupation of this Operation Theatre."
+	anchored = TRUE
+	density = FALSE
+	use_power = FALSE
+	idle_power_usage = 10
+	id = null
+
+/obj/structure/machinery/optable/surgery_display/update_icon()
+	if(ishuman(buckled_mob))
+		icon_state = "Surgery_O"
+	else if(ishuman(!buckled_mob))
+		icon_state = "Surgery_Free"
+	else
+		icon_state = "Surgery_Off"
+
+/obj/structure/machinery/optable/surgery_display/Theatre_1
+	name = "Operating Theatre 1"
+	id = "Op_Theatre 1"
+
+/obj/structure/machinery/optable/surgery_display/Theatre_2
+	name = "Operating Theatre 2"
+	id = "Op_Theatre 2"
+
+/obj/structure/machinery/optable/surgery_display/Theatre_3
+	name = "Operating Theatre 3"
+	id = "Op_Theatre 3"
+
+/obj/structure/machinery/optable/surgery_display/Theatre_4
+	name = "Operating Theatre 4"
+	id = "Op_Theatre 4"
