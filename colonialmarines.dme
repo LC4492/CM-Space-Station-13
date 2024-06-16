@@ -882,6 +882,7 @@
 #include "code\game\machinery\storm_siren.dm"
 #include "code\game\machinery\suit_storage_unit.dm"
 #include "code\game\machinery\supply_display.dm"
+#include "code\game\machinery\surgery_display.dm"
 #include "code\game\machinery\teleporter.dm"
 #include "code\game\machinery\washing_machine.dm"
 #include "code\game\machinery\weather_siren.dm"

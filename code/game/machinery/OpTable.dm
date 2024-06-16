@@ -24,6 +24,7 @@
 	surgery_duration_multiplier = SURGERY_SURFACE_MULT_IDEAL //Ideal surface for surgery.
 	var/patient_exam = 0
 	var/obj/item/tank/anesthetic/anes_tank
+	var/id = null
 
 	var/obj/structure/machinery/computer/operating/computer = null
 
