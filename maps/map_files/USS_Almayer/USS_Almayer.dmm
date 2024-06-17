@@ -9545,7 +9545,9 @@
 	},
 /area/almayer/medical/lower_medical_lobby)
 "bag" = (
-/obj/structure/machinery/optable,
+/obj/structure/machinery/optable{
+	id = "Op_Theatre 1"
+	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
 	},
@@ -15994,6 +15996,9 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/machinery/surgery_display/Theatre_1{
+	pixel_y = 28
 	},
 /turf/open/floor/almayer{
 	dir = 5;
@@ -112802,7 +112807,7 @@ buj
 bev
 dBO
 waD
-bkE
+bst
 bQM
 rlZ
 izY

@@ -287,7 +287,7 @@
 
 	return TRUE
 
-/obj/structure/machinery/optable/surgery_display
+/obj/structure/machinery/surgery_display
 	icon = 'icons/obj/structures/machinery/status_display.dmi'
 	icon_state = "Surgery_Off"
 	name = "Surgery display"
@@ -296,28 +296,30 @@
 	density = FALSE
 	use_power = FALSE
 	idle_power_usage = 10
-	id = null
+	var/id = null
 
-/obj/structure/machinery/optable/surgery_display/update_icon()
-	if(ishuman(buckled_mob))
+
+/obj/structure/machinery/surgery_display/update_icon()
+	if(/obj/structure/machinery/optable/do_buckle())
 		icon_state = "Surgery_O"
-	else if(ishuman(!buckled_mob))
+	else if(/obj/structure/machinery/optable/unbuckle())
 		icon_state = "Surgery_Free"
-	else
+	else if(power_change())
 		icon_state = "Surgery_Off"
+	return
 
-/obj/structure/machinery/optable/surgery_display/Theatre_1
+/obj/structure/machinery/surgery_display/Theatre_1
 	name = "Operating Theatre 1"
 	id = "Op_Theatre 1"
 
-/obj/structure/machinery/optable/surgery_display/Theatre_2
+/obj/structure/machinery/surgery_display/Theatre_2
 	name = "Operating Theatre 2"
 	id = "Op_Theatre 2"
 
-/obj/structure/machinery/optable/surgery_display/Theatre_3
+/obj/structure/machinery/surgery_display/Theatre_3
 	name = "Operating Theatre 3"
 	id = "Op_Theatre 3"
 
-/obj/structure/machinery/optable/surgery_display/Theatre_4
+/obj/structure/machinery/surgery_display/Theatre_4
 	name = "Operating Theatre 4"
 	id = "Op_Theatre 4"
