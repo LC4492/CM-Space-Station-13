@@ -24,6 +24,7 @@
 	surgery_duration_multiplier = SURGERY_SURFACE_MULT_IDEAL //Ideal surface for surgery.
 	var/patient_exam = 0
 	var/obj/item/tank/anesthetic/anes_tank
+	var/id = null
 
 	var/obj/structure/machinery/computer/operating/computer = null
 
@@ -285,3 +286,40 @@
 		return FALSE
 
 	return TRUE
+
+/obj/structure/machinery/surgery_display
+	icon = 'icons/obj/structures/machinery/status_display.dmi'
+	icon_state = "Surgery_Off"
+	name = "Surgery display"
+	desc = "A monitor that displays the current occupation of this Operation Theatre."
+	anchored = TRUE
+	density = FALSE
+	use_power = FALSE
+	idle_power_usage = 10
+	var/id = null
+
+
+/obj/structure/machinery/surgery_display/update_icon()
+	if(/obj/structure/machinery/optable/do_buckle())
+		icon_state = "Surgery_O"
+	else if(/obj/structure/machinery/optable/unbuckle())
+		icon_state = "Surgery_Free"
+	else if(power_change())
+		icon_state = "Surgery_Off"
+	return
+
+/obj/structure/machinery/surgery_display/Theatre_1
+	name = "Operating Theatre 1"
+	id = "Op_Theatre 1"
+
+/obj/structure/machinery/surgery_display/Theatre_2
+	name = "Operating Theatre 2"
+	id = "Op_Theatre 2"
+
+/obj/structure/machinery/surgery_display/Theatre_3
+	name = "Operating Theatre 3"
+	id = "Op_Theatre 3"
+
+/obj/structure/machinery/surgery_display/Theatre_4
+	name = "Operating Theatre 4"
+	id = "Op_Theatre 4"
